@@ -57,7 +57,7 @@ Tap tree nodes to browse taxa or long-press to search:
 
 ::report{report="xInY" x="assembly_level=chromosome" y="assembly_span" rank="species" item xs=4}
 
-::report{report="histogram" x="genome_size" rank="family" cat="kingdom" stacked="true" ratio=2 item xs=8}
+::report{report="histogram" x="genome_size" rank="species" cat="kingdom" stacked="true" ratio=2 item xs=8}
 
 :::
 

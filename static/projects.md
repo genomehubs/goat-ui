@@ -1,8 +1,18 @@
 # Projects
 
 
-## GoaT Reports per Project 
+## EBP Reports 
 
-- [Earth Biogenome Project](/projects/EBP)
+- [EBP - Earth Biogenome Project](/projects/EBP)
 
-- [Darwin Tree of Life](/projects/DTOL)
+## EBP Reports per Project
+
+- [CBP - Catalan Biogenome Project](/projects/CBP)
+
+- [DTOL - Darwin Tree of Life](/projects/DTOL)
+
+- [ENDEMIXIT - Italian Endemics](/projects/ENDEMIXIT)
+
+- [ERGA - European Reference Genome Atlas](/projects/ERGA)
+
+

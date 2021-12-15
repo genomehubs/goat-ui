@@ -1,6 +1,6 @@
 # About :hub
 
-:hub (Genomes on a Tree) is built using GenomeHubs 2.0, to present metadata including genome sizes, C values, and chromosome numbers for all taxa across the tree of life.
+:hub (Genomes on a Tree) is built using GenomeHubs 2.0, to present metadata including genome sizes, C values, and chromosome numbers for all  taxa across the eukaryotic tree of life.
 
 ## Data summary
 
