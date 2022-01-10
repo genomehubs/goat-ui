@@ -55,7 +55,7 @@ Orange highlights represent clades with genomes already available. Tap tree node
 
 :::grid{container direction=row}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=dtol AND tax_depth(3)" y="assembly_span>0" treeStyle="rect" taxonomy="ncbi" includeEstimates="true" ratio=3 disableModal="true" item xs=8}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=dtol AND tax_depth(3)" y="assembly_span>0" treeStyle="rect" taxonomy="ncbi" includeEstimates="false" ratio=3 disableModal="true" item xs=8}
 
 :::
 
