@@ -1,13 +1,10 @@
 # Darwin Tree of Life (DToL)
 The Darwin Tree of Life project aims to sequence the genomes of all 70,000 species of eukaryotic organisms in Britain and Ireland. For more information, access their project page at https://www.darwintreeoflife.org.
 
-:::grid{container direction="row" spacing="1"}
-
-# Summary Data:
+:::grid{container direction="row" spacing="1" xs=3}
 
 ![](/static/images/DToL_Logo_with_text.png)
 
-:::grid{container direction="row" spacing="1"}
 :::
 
 ## DTOL Species Sequencing Status
