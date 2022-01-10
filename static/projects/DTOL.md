@@ -49,9 +49,11 @@ The Darwin Tree of Life wish list / long list includes over 75,000 species, as t
 
 :::
 
-:::grid{container direction=row}
+## Tree representing DTOL long list
 
-Tap tree nodes to browse taxa or long-press to search:
+Orange highlights represent clades with genomes already available. Tap tree nodes to browse taxa or long-press to search:
+
+:::grid{container direction=row}
 
 ::report{report="tree" x="tax_tree(Eukaryota) AND long_list=dtol AND tax_depth(3)" y="assembly_span>0" treeStyle="rect" taxonomy="ncbi" includeEstimates="true" ratio=3 disableModal="true" item xs=8}
 
