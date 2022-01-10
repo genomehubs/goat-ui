@@ -1,11 +1,11 @@
 # Projects
 
 
-## EBP Reports 
+## Earth Biogenome Project
 
 - [EBP - Earth Biogenome Project](/projects/EBP)
 
-## EBP Reports per Project
+## EBP Affiliated Project Networks
 
 - [CBP - Catalan Biogenome Project](/projects/CBP)
 
