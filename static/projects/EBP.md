@@ -3,20 +3,17 @@ The Earth BioGenome Project (EBP), a moonshot for biology, aims to sequence, cat
 
 :::grid{container direction="row" spacing="1"}
 
-::item[![GoaT](/static/images/EBG.png)]{xs=22}
+::item[![GoaT](/static/images/EBG.png)]{xs=6}
+
+:::grid{container direction="column" xs=6}
+
+## Progress by taxon rank of the total number of genome assemblies submitted under the EBP bioproject
+
+::report{report="xInY" x="assembly_span AND bioproject=PRJNA533106" rank="phylum,class,order,family,genus,species"}
 
 :::
 
-# Data summary
-
-Current number of EBP genomes by taxonomic rank:
-
-:::grid{container direction="row" spacing="1"}
-
-::report{report="xInY" x="assembly_span AND bioproject=PRJNA533106" rank="phylum,class,order,family,genus,species" item xs=12}
-
-:::
-Contiguity of EBP genomes. Distribution of contig and scaffold n50 metrics of EBP genomes by assembly level:
+## Contiguity of EBP genomes. Distribution of contig and scaffold n50 metrics of EBP genomes by assembly level:
 
 :::grid{container direction="row" spacing="1"}
 
@@ -24,23 +21,15 @@ Contiguity of EBP genomes. Distribution of contig and scaffold n50 metrics of EB
 
 :::
 
-# Other Summary Reports
+## Other Summary Reports
 
-:::grid{container direction="row" spacing="1"}
-
-http://localhost:8883/reporturl?report=histogram&x=max%28assembly_date%29%20AND%20bioproject%3DPRJNA533106&result=taxon&cat=assembly_level&stacked=true&cumulative=false&rank=family&includeEstimates=true
-
-::report{report="histogram" x="max(assembly_date) AND bioproject=PRJNA533106" result="taxon" cat="assembly_level" stacked="true" cumulative="false" include_estimates="true" include_descendents="true" rank="Family" item xs=8}
+:::grid{container direction="row" spacing="1" item xs=12}
 
 ::report{report="xPerRank" x="bioproject=PRJNA533106" item xs=4 }
 
-:::
+::report{report="histogram" x="max(assembly_date) AND bioproject=PRJNA533106" rank="species" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete" stacked="true" cumulative="false" item xs=4}
 
-:::grid{container direction="row" spacing="1"}
-
-::report{report="xInY" x="assembly_span>0 AND bioproject=PRJNA533106" rank="species" item xs=4}
-
-::report{report="histogram" x="max(assembly_date) AND bioproject=PRJNA533106" rank="species" cat="assembly_level" stacked="true" cumulative="false" ratio=2 item xs=8}
+::report{report="histogram" x="max(assembly_date) AND bioproject=PRJNA533106" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete" stacked="true" cumulative="false" includeEstimates="true" includeDescendents="true" rank="Family" item xs=4}
 
 :::
 

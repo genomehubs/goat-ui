@@ -19,7 +19,7 @@ Tap tree nodes to browse taxa or long-press to search:
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_span AND long_list=CBP" rank="phylum,class,order,family,genus,species" taxonomy="ncbi" item xs=7}
+::report{report="xInY" x="assembly_span AND long_list=CBP" rank="phylum,class,order,family,genus,species" taxonomy="ncbi" ratio=2 item xs=7}
 
 ::report{report="xPerRank" x="long_list=CBP" item xs=5 }
 
@@ -31,7 +31,6 @@ Tap tree nodes to browse taxa or long-press to search:
 ::report{report="xInY" x="assembly_span>0 AND long_list=CBP" y="long_list=CBP" rank="family" item xs=4}
 
 ::report{report="xInY" x="assembly_level=chromosome AND long_list=CBP" y="long_list=CBP" rank="species" item xs=4}
-
 
 :::
 
