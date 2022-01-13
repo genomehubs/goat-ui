@@ -20,9 +20,9 @@ Counts of species and families that are in the Sample Tracking System at Sanger:
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="histogram" x="genome_size AND sequencing_status" rank="species" taxonomy="ncbi" result="taxon" cat="sequencing_status=sample_collected,sample_acquired,in_progress,insdc_submitted,insdc_open,published" includeEstimates="true" includeDescendants="true" xOpts=",,2" item xs=6}
+::report{report="histogram" x="genome_size AND sequencing_status" rank="species" taxonomy="ncbi" result="taxon" cat="sequencing_status=sample_collected,sample_acquired,in_progress,insdc_submitted,insdc_open,published" includeEstimates="true" includeDescendants="true" xOpts=",,2" item xs=6 caption=""}
 
-::report{report="histogram" x="genome_size AND sequencing_status" rank="family" taxonomy="ncbi" result="taxon" cat="sequencing_status=sample_collected,sample_acquired,in_progress,insdc_submitted,insdc_open,published" includeEstimates="true" includeDescendants="true" xOpts=",,2" item xs=6}
+::report{report="histogram" x="genome_size AND sequencing_status" rank="family" taxonomy="ncbi" result="taxon" cat="sequencing_status=sample_collected,sample_acquired,in_progress,insdc_submitted,insdc_open,published" includeEstimates="true" includeDescendants="true" xOpts=",,2" item xs=6 caption=""}
 
 :::
 
