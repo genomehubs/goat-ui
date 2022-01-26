@@ -1,64 +1,75 @@
-# About :hub
+# Genomes on a Tree (:hub)
 
-:hub (Genomes on a Tree) is built using GenomeHubs 2.0, to present metadata including genome sizes, C values, and chromosome numbers for all taxa across the tree of life.
+:hub is built using GenomeHubs 2.0, to present genome-relevant metadata for **all Eukaryotic taxa** across the tree of life.
 
-:hub platform serves two main purposes:
+Metadata in GoaT include, genome assembly attributes, genome sizes, C values, and chromosome numbers from multiple sources.
 
-- Serve as a centralized source of genome-relevant metadata for the global community and;
+**GoaT platform main goals**:
+
+- Serve as a centralized source of genome-relevant metadata for the global community
 - Operate as the sequencing tracking system for the Earth Biogenome Project Network
 
 ## How to use GoaT
 
-The easiest way to start exploring goat is to select your favorite taxon and play with the icons displayed under GoaTs search box.
+1. Select your favorite taxon and play with the icons displayed under GoaTs search box
 
-You can use the "result columns" icon below the search box to select the metadata you would like to display for your search.
+2. Use the **result columns** icon below the search box to select the metadata you would like to display for your search
 
-The drop down terms in the "query builder" icon can be also used to refine your search terms in your query.
+3. Use the **query builder** icon and drop-down list to refine your query.
 
-## Example Steps
+For detailed information on **how to use GoaT**, go to our [help page](/help).
 
-- [1] In the search box above try typing and selecting: Chiroptera
 
-- [2] Click on the "result columns" icon
+# Explore Trees
 
-- [3] Deselect all boxes except "assembly"
+Goat can display search results on trees and new queries can be made exploring pre-existing trees. 
 
-- [4] In the "assembly"dropdown, select only assembly_span
-
-- [5] Click the "Update" icon
-
-# Explore taxa
-
+**Examples of tree display** (ring and rectangle) of the same search results. 
 Tap tree nodes to browse taxa or long-press to search:
 
-:::grid{container direction=row}
-::report{report="tree" x="tax_tree(Passeroidea) AND tax_depth(3) AND assembly_span" y="assembly_date>=2021" treeStyle="ring" taxonomy="ncbi" includeEstimates="false" ratio=1 disableModal="true" item xs=3}
-::report{report="tree" x="tax_tree(Eukaryota) AND tax_depth(3)" treeStyle="rect" taxonomy="ncbi" includeEstimates="true" ratio=3 disableModal="true" item xs=9}
+:::grid{container direction=row spacing="1"}
+::report{report="tree" x="tax_tree(Passeroidea) AND tax_depth(3) AND assembly_span" y="assembly_date>=2021" treeStyle="ring" taxonomy="ncbi" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" ratio=1 disableModal="true" caption="Birds (Passeroidea) with available genomes, highlighting assemblies generated after 2021" item xs=4}
 
+::report{report="tree" x="tax_tree(Passeroidea) AND tax_depth(3) AND assembly_span" y="assembly_date>=2021" treeStyle="rect" taxonomy="ncbi" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" collapseMonotypic ratio=2 disableModal="true" caption="Birds (Passeroidea) with available genomes, highlighting assemblies generated after 2021" item xs=8}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+# Tree of all Eukaryotic Phyla on GoaT
+Tap tree nodes to browse all attributes for a taxon or long-press to search and expand nodes:
+
+:::grid{container direction=row spacing="1"}
+::report{report="tree" x="tax_tree(Eukaryota) AND tax_rank(Phylum)" treeStyle="rect" taxonomy="ncbi" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" levels="species,genus,family" ratio=3 disableModal="true" caption="Tree of all INSDC Eukaryotic taxa" item xs=12}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 # Data summary
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_span" rank="phylum,class,order,family,genus,species" item xs=6}
+::report{report="xInY" x="assembly_span" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Taxa with assemblies out of all INSDC Eukaryotic taxa" item xs=6}
 
-::report{report="xPerRank" item xs=6 }
+::report{report="xPerRank" caption="Counts of all taxa with information on GoaT" item xs=6 }
 
+:::
+:::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="chromosome_number>0" rank="Family" item xs=4}
+::report{report="xInY" x="chromosome_number>0" rank="Family" includeEstimates excludeAncestral="chromosome_number" excludeMissing="chromosome_number" caption="Total number of families with direct values of chromosome number" item xs=4}
 
-::report{report="histogram" x="assembly_date" rank="species" cat="assembly_level" stacked="true" ratio=2 item xs=8}
+::report{report="histogram" x="assembly_date" rank="species" cat="assembly_level" stacked="true" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" ratio=2 caption="Progress of genome assemblies published on INSDC over time, by assembly level" item xs=8}
 
+:::
+:::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_level=chromosome" y="assembly_span" rank="species" item xs=4}
+::report{report="xInY" x="assembly_level=chromosome" y="assembly_span" rank="species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Contribution of chromosome-level assemblies to the total of species with available assemblies on INSDC" item xs=4}
 
-::report{report="histogram" x="genome_size" rank="species" cat="kingdom" stacked="true" ratio=2 item xs=8}
+::report{report="histogram" x="genome_size" rank="species" cat="kingdom" stacked="true" ratio=2 includeEstimates excludeAncestral="genome_size" excludeMissing="genome_size" caption="Frequency distribution of species genome sizes by kingdom" item xs=8}
 
 :::
-
-The values in this GenomeHub are shown alongside a color-coding system to indicate which are based on :span[direct]{.direct} measurements, which are inferred from :span[descendant]{.descendant} taxa and which are inferred from sibling taxa via a shared :span[ancestor]{.ancestor}. For this last category, tooltips provide details of the common ancestral rank to provide an indication of how reliable the estimate may be, e.g. :tooltip[:span[ancestor]{.ancestor}]{title="family" arrow placement="right"}.
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
