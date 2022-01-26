@@ -2,7 +2,7 @@
 
 :hub is built using GenomeHubs 2.0, to present genome-relevant metadata for **all Eukaryotic taxa** across the tree of life.
 
-Metadata in GoaT include, genome assembly attributes, genome sizes, C values, and chromosome numbers from [multiple sources](/sources).
+Metadata in GoaT include, genome assembly attributes, genome sizes, C values, and chromosome numbers from multiple sources.
 
 **GoaT platform main goals**:
 

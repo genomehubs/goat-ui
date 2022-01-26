@@ -14,7 +14,7 @@ Using five endangered Italian endemic species, Endemixit plans to produce five d
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
-## ENDEMIXIT Contribution to Eukaryotic Genome Sequencing
+## ENDEMIXIT Wish List
 
 :::grid{container direction="row" spacing="1" item xs=12}
 

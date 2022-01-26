@@ -21,7 +21,7 @@
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## CBP Contribution to Eukaryotic Genome Sequencing
+## CBP Wish List
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
