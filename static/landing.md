@@ -28,9 +28,9 @@ Goat can display search results on trees and new queries can be made exploring p
 Tap tree nodes to browse taxa or long-press to search:
 
 :::grid{container direction=row spacing="1"}
-::report{report="tree" x="tax_tree(Passeroidea) AND tax_depth(3) AND assembly_span" y="assembly_date>=2021" treeStyle="ring" taxonomy="ncbi" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" ratio=1 disableModal="true" caption="Birds (Passeroidea) with available genomes, highlighting assemblies generated after 2021" item xs=4}
+::report{report="tree" x="tax_tree(Passeriformes) AND tax_depth(3) AND assembly_span" y="assembly_date>=2021" treeStyle="ring" taxonomy="ncbi" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" ratio=1 disableModal="true" caption="Passerine birds (Passeriformes) with available genomes, highlighting assemblies generated after 2021" item xs=4}
 
-::report{report="tree" x="tax_tree(Passeroidea) AND tax_depth(3) AND assembly_span" y="assembly_date>=2021" treeStyle="rect" taxonomy="ncbi" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" collapseMonotypic ratio=2 disableModal="true" caption="Birds (Passeroidea) with available genomes, highlighting assemblies generated after 2021" item xs=8}
+::report{report="tree" x="tax_tree(Passeriformes) AND tax_depth(3) AND assembly_span" y="assembly_date>=2021" treeStyle="rect" taxonomy="ncbi" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" collapseMonotypic ratio=2 disableModal="true" caption="Passerine birds (Passeriformes) with available genomes, highlighting assemblies generated after 2021" item xs=8}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
