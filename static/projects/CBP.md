@@ -35,11 +35,9 @@
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_span>0 AND long_list=CBP" y="long_list=CBP" rank="species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Total of CBP target species with genome assemblies available on INSDC" item xs=4}
+::report{report="xInY" x="assembly_span>0 AND long_list=CBP" y="long_list=CBP" rank="species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Total of CBP target species with genome assemblies available on INSDC" item xs=6}
 
-::report{report="xInY" x="contig_n50>=1000000 AND scaffold_n50>=10000000 AND long_list=CBP" y="long_list=CBP" rank="species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Total of CBP target species with assemblies meeting EBP metrics" item xs=4}
-
-::report{report="xInY" x="assembly_level=chromosome AND long_list=CBP" y="long_list=CBP" rank="species" includeEstimates excludeAncestral="assembly_level" excludeMissing="assembly_level" caption="Total of CBP target species with chromosome-level assemblies" item xs=4}
+::report{report="xInY" x="assembly_level=chromosome AND long_list=CBP" y="long_list=CBP" rank="species" includeEstimates excludeAncestral="assembly_level" excludeMissing="assembly_level" caption="Total of CBP target species with chromosome-level assemblies" item xs=6}
 
 :::
 :::grid{container direction="row" spacing="1" class="padded"}
