@@ -19,7 +19,7 @@
 
 ::report{report="xInY" x="assembly_span AND bioproject=PRJNA533106" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="**EBP Umbrella** - EBP taxa with assemblies out of all Eukaryotic taxa in INSDC" item xs=4}
 
-::report{report="xPerRank" x="bioproject=PRJNA533106" caption="**Counts of taxa sequenced under the EBP Umbrella.** Contribution of Projects under EBP Umbrella Project Id PRJNA533106, corresponding to 17 out of the 49 affiliated projects in the EBP Network" item xs=4}
+::report{report="xPerRank" x="bioproject=PRJNA533106" includeEstimates=true caption="**Counts of taxa sequenced under the EBP Umbrella.** Contribution of Projects under EBP Umbrella Project Id PRJNA533106, corresponding to 17 out of the 49 affiliated projects in the EBP Network" item xs=4}
 
 :::
 Click on report to see and download individually.

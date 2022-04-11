@@ -48,7 +48,7 @@ Tap tree nodes to browse all attributes for a taxon or long-press to search and 
 
 ::report{report="xInY" x="assembly_span" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Taxa with assemblies out of all INSDC Eukaryotic taxa" item xs=6}
 
-::report{report="xPerRank" caption="Counts of all taxa with information on GoaT" item xs=6 }
+::report{report="xPerRank" includeEstimates=true caption="Counts of all taxa with information on GoaT" item xs=6 }
 
 :::
 :::grid{container direction="row" spacing="1" class="padded"}

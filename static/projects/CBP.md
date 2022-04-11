@@ -27,7 +27,7 @@
 
 ::report{report="xInY" x="assembly_span AND long_list=CBP" rank="phylum,class,order,family,genus,species" y="long_list=CBP" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Progress of Eukaryotic Genome Sequencing in the CBP target list by Taxon Rank**" taxonomy="ncbi" item xs=6}
 
-::report{report="xPerRank" x="long_list=CBP" caption="**Counts of taxa targeted by CBP**: All summary reports on GoaT are based on these counts" item xs=6 }
+::report{report="xPerRank" x="long_list=CBP" includeEstimates=true caption="**Counts of taxa targeted by CBP**: All summary reports on GoaT are based on these counts" item xs=6 }
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}
