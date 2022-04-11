@@ -20,7 +20,7 @@ Using five endangered Italian endemic species, Endemixit plans to produce five d
 
 ::report{report="xInY" x="assembly_span AND long_list=ENDEMIXIT" rank="phylum,class,order,family,genus,species" y="long_list=ENDEMIXIT" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome assemblies available for taxa in the ENDEMIXIT wish list**, at different taxonomic ranks" item xs=4}
 
-::report{report="xPerRank" x="long_list=ENDEMIXIT" caption="**Counts of taxa targeted by ENDEMIXIT**: All summary reports on GoaT are based on these counts" item xs=4}
+::report{report="xPerRank" x="long_list=ENDEMIXIT" includeEstimates=true caption="**Counts of taxa targeted by ENDEMIXIT**: All summary reports on GoaT are based on these counts" item xs=4}
 
 ::report{report="xInY" x="assembly_span>0 AND long_list=ENDEMIXIT" y="long_list=ENDEMIXIT" rank="species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Total of ENDEMIXIT target species with genome assemblies available on INSDC" item xs=4}
 
