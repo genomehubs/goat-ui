@@ -14,18 +14,19 @@
 
 # Summary Data
 
-## Tree representing ERGA Pilot target list
+## Tree representing ERGA Pilot target list highlighting species currently in progress
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=erga" y="assembly_span>0" treeStyle="rect" taxonomy="ncbi" levels="species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="Orange highlights represent clades with at least one sequenced descendant. Species with assemblies already available in INSDC are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=erga" y="in_progress=ERGA" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Tree of species in the ERGA Pilot long list.** Orange highlights represent clades with at least one descendant species in progress in the ERGA Pilot pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## The European Reference Genome Atlas Pilot Project
+## ERGA Pilot Progress Reports
+### Progress of Eukaryotic Genome Sequencing by Taxon Rank: 
 :::grid{container direction="row" spacing="1"}
 
 ::report{report="xInY" x="assembly_span AND bioproject=PRJEB47820" rank="phylum,class,order,family,genus,species" y="long_list=erga" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of ERGA-Pilot Targets:** Genome assemblies under Bioproject ID PRJEB47820, at different taxonomic ranks" item xs=6}
@@ -37,7 +38,7 @@
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## Sequencing Progress of ERGA-Pilot Species
+### Sequencing Status of ERGA Pilot Species
 
 :::grid{container direction="row" spacing="1"}
 
