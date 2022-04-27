@@ -1,6 +1,8 @@
 ::grid[![GoaT](/static/images/logo_ENDEMIXIT.png)]{item xs=4}
 
 # ENDEMIXIT
+**GoaT Search Term:** ENDEMIXIT
+
 Using five endangered Italian endemic species, Endemixit plans to produce five de novo genomes and re-sequence 20 individuals. Further information can be found at https://endemixit.com.
 
 # Summary Data
@@ -15,7 +17,7 @@ Using five endangered Italian endemic species, Endemixit plans to produce five d
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 ## ENDEMIXIT Progress Reports
-### Progress of Genome Sequencing by Taxon Rank:
+### Progress of Genome Sequencing by Taxon Rank
 
 :::grid{container direction="row" spacing="1" item xs=12}
 

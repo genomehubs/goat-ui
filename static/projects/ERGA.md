@@ -1,7 +1,8 @@
 
 ::grid[![GoaT](/static/images/ERGA_logo_rect.jpg)]{item xs=2}
 
-# European Reference Genome Atlas (ERGA)
+# European Reference Genome Atlas (ERGA-Pilot)
+**GoaT Search Term:** ERGA
 
 
 ::grid[**ERGA** is an effort to generate reference genomes representing European biodiversity. For more information access ERGA's official project page at https://www.erga-biodiversity.eu.]{item xs=8}
@@ -26,7 +27,7 @@
 :::
 
 ## ERGA Pilot Progress Reports
-### Progress of Eukaryotic Genome Sequencing by Taxon Rank: 
+### Progress of Eukaryotic Genome Sequencing by Taxon Rank
 :::grid{container direction="row" spacing="1"}
 
 ::report{report="xInY" x="assembly_span AND bioproject=PRJEB47820" rank="phylum,class,order,family,genus,species" y="long_list=erga" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of ERGA-Pilot Targets:** Genome assemblies under Bioproject ID PRJEB47820, at different taxonomic ranks" item xs=6}

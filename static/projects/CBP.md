@@ -1,6 +1,7 @@
 ::grid[![GoaT](/static/images/CBP.jpg)]{item xs=4}
 
 # Catalan Initiative for the Earth BioGenome Project (CBP)
+**GoaT Search Term:** CBP
 :::grid{container direction="row" class="padded"}
 
 ::grid[**The Catalan Initiative for the Earth BioGenome Project (CBP)** aims to produce a detailed catalogue of the genome of eukaryotic species in the Catalan territories. For more information access CBP's official project page at https://www.biogenoma.cat/en/home/.]{item xs=8}
@@ -21,7 +22,7 @@
 :::
 
 ## CBP Progress Reports
-### Progress of CBP Genome Sequencing by Taxon Rank: 
+### Progress of CBP Genome Sequencing by Taxon Rank
 
 :::grid{container direction="row" spacing="1" item xs=12}
 

@@ -2,7 +2,8 @@
 
 ::grid[![GoaT](/static/images/Squalomix-logo5.jpeg)]{item xs=10}
 
-# SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans 
+# SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans
+**GoaT Search Term:** SQUALOMIX
 
 
 ::grid[**SQUALOMIX** aims at unveiling the unique evolutionary trajectory of chondrichthyans (sharks, rays, and chimaeras) and is sustained by tight collaborations involving academic sequencing core facilities, marine stations, and public aquariums. By means of multimodal omics and molecular evolutionary approaches, it tackles biological questions in various fields including developmental biology and comparative physiology. For more information access SQUALOMIX's official project hub at https://github.com/Squalomix/info/]{item xs=8}
@@ -27,7 +28,7 @@
 :::
 
 ## Squalomix Progress Reports
-### Progress of Genome Sequencing by Taxon Rank: 
+### Progress of Genome Sequencing by Taxon Rank
 :::grid{container direction="row" spacing="1"}
 
 ::report{report="xInY" x="assembly_span AND bioproject=PRJNA707598" rank="phylum,class,order,family,genus,species" y="long_list=SQUALOMIX" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of SQUALOMIX Targets:** Genome assemblies under Bioproject ID PRJNA707598, at different taxonomic ranks" item xs=6}

@@ -1,7 +1,8 @@
 
 ::grid[![GoaT](/static/images/ebpn.jpeg)]{item xs=4}
 
-# Earth Biogenome Project Norge (EBPN)
+# Earth Biogenome Project Norway (EBP-Nor)
+**GoaT Search Term:** EBPN
 
 
 ::grid[**EBPN** (EBP-Nor) will explore the diversity of species found in and around Norway through sequencing and genomic analyses. Comparisons across groups of related organisms will be made to better understand the ecology and evolution of Norwegian species. For more information access https://www.mn.uio.no/cees/english/research/groups/ebp-nor/.]{item xs=8}
@@ -26,7 +27,7 @@
 :::
 
 ## EBP-Nor Progress Reports
-### Progress of Genome Sequencing by Taxon Rank: 
+### Progress of Genome Sequencing by Taxon Rank
 :::grid{container direction="row" spacing="1"}
 
 ::report{report="xInY" x="assembly_span AND bioproject=XXTBDXX" rank="phylum,class,order,family,genus,species" y="long_list=EBPN" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of EBP-Nor Targets:** Genome assemblies under Bioproject ID XXTBDXX, at different taxonomic ranks" item xs=6}

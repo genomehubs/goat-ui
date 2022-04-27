@@ -1,5 +1,55 @@
-Euro-Fish
+::grid[![GoaT](/static/images/euro-fish_logo.png)]{item xs=8}
 
-PRJNA768423
+# The Euro-Fish Project
+**GoaT Search Term:** EUROFISH 
 
-The Euro-Fish initiative aims to create a genomic survey of all species of freshwater fishes of Europe in order to understand and avert the loss of biodiversity. Currently, there are believed to be about 600 native species of freshwater fishes in Europe. The European sub-continent is rich in its diversity of natural habitats. But, due to the long period of human settlement and the high density of human populations, the European landscapes have been altered significantly by water pollution due to eutrophication from fertilizers, agriculture, urbanization of large areas, and by dams. Fishes, that are crucial for almost all food chains in all freshwater ecosystems, are more affected and threatened by human activity than other groups of organisms such as mammals and birds. 88% of EU fish stocks are overexploited and severely depleted. For 76% of all European freshwater fish it is not even known what their population dynamics are. In order to better understand and protect Europe’s biodiversity, Euro-Fish plans to assay the genomic resources contained in the native fishes of Europe. This will help not only with better management of fish stocks, but also more generally in the implementation of better protection plans for ecosystems. This is of particular interest since freshwater fish, due to their tight interdependence to their surroundings, are a particularly suitable group in which one can study how climate change affected their distributions and adaptations to changing environmental conditions. The MPI-CBG and the CSBD are contributing to the EURO-Fish initiative together with the University of Konstanz, Germany, the Leibniz Institute of Freshwater Ecology & Inland Fisheries Berlin, and the Zoological Research Museum Alexander Koenig, Berlin. The Max Planck Society is funding this ambitious genome sequencing project.
+::grid[**Euro-Fish** aims to create a genomic survey of all species of freshwater fishes of Europe in order to understand and avert the loss of biodiversity. The MPI-CBG and the CSBD are contributing to the EURO-Fish initiative together with the University of Konstanz, Germany, the Leibniz Institute of Freshwater Ecology & Inland Fisheries Berlin, and the Zoological Research Museum Alexander Koenig, Berlin. The Max Planck Society is funding this ambitious genome sequencing project. For more information access the Euro-Fish's MPI-CBG project page at https://www.mpi-cbg.de/research/our-research/institutional-research-consortia/the-euro-fish-project]{item xs=8}
+
+::grid[ ]{item xs=6}
+
+
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# Summary Data
+
+## Tree representing the priority list of Euro-Fish, highlighting species with available assemblies
+
+:::grid{container direction="row" spacing="1" item xs=12}
+
+::report{report="tree" x="tax_tree(Eukaryota) AND other_priority=EUROFISH" y="assembly_span>0 AND bioproject=PRJNA768423" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2.8 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing the priority list of Euro-Fish.** Orange highlights represent clades with at least one genome already available. Species with available assemblies are highlighted in green. Bars correspond to estimates (grey) or direct (green) assembly span values for each species. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+:::
+
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+## Progress Reports for the Euro-Fish Project
+### Progress of Genome Sequencing by Taxon Rank
+:::grid{container direction="row" spacing="1"}
+
+::report{report="xInY" x="assembly_span AND bioproject=PRJNA768423" rank="class,order,family,genus,species" y="long_list=EUROFISH" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome sequencing of Euro-Fish priority targets:** Genome assemblies under Bioproject ID PRJNA768423, at different taxonomic ranks" item xs=6}
+
+::report{report="xPerRank" x="long_list=EUROFISH" includeEstimates=true caption="**Counts of taxa prioritized by the Euro-Fish project**: All summary reports on GoaT are based on these counts" item xs=6}
+
+:::
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+### Sequencing Status and Metrics of Euro-Fish Priority Species
+
+:::grid{container direction="row" spacing="1"}
+
+::report{report="histogram" x="long_list=EUROFISH" rank="species" taxonomy="ncbi" result="taxon" cat="sequencing_status=sample_collected,sample_acquired,in_progress" excludeAncestral="long_list" excludeMissing="long_list" xOpts=",,1,,Sequencing Status" caption="Current sequencing status of Euro-Fish priority targets" item xs=6}
+
+::report{report="scatter" x="contig_n50 AND bioproject=PRJNA768423" y="scaffold_n50 AND bioproject=PRJNA768423" rank="species" cat="assembly_level" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" zScale="sqrt" xOpts="100,1000000000,8" yOpts="1000,1000000000,7" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of Euro-Fish assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
+
+:::
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+
+
+[back to projects](/projects)
