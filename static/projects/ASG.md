@@ -1,0 +1,53 @@
+::grid[![GoaT](/static/images/ASG_logo_transparent.png)]{item xs=3}
+
+# Aquatic Symbiosis Genomics Project (ASG)
+**GoaT Search Term:** ASG
+
+::grid[**The Aquatic Symbiosis Genomics Project**, jointly funded by the Wellcome Sanger Institute and the Gordon and Betty Moore Foundation, seeks to provide the genomic foundations needed by scientists to answer key questions about the ecology and evolution of symbiosis in marine and freshwater species, where at least one partner is a microbe. For more information, access ASG's project page at https://www.aquaticsymbiosisgenomics.org.]{item xs=8}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# Summary Data
+
+## Tree representing ASG target list highlighting species currently in progress (green)
+
+:::grid{container direction="row" spacing="1" item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ASG AND tax_rank(species)" y="in_progress=ASG" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" ratio=2 includeEstimates collapseMonotypic disableModal item yOpts="10000,100000000000" caption="**Tree of species in the ASG long list.** Orange highlights represent clades with at least one descendant species in progress in the ASG pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." xs=12}
+:::
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+## Sequencing Progress of ASG Target Taxa 
+
+:::grid{container direction="row" spacing="1" item xs=12}
+
+::report{report="xInY" x="bioproject=PRJEB43743" taxonomy="ncbi" rank="phylum,class,order,family,genus,species" y="long_list=ASG" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" item xs=6 caption="**ASG Contribution to Genome Assemblies Available in INSDC**  - Sequencing progress of ASG target taxa under ASG umbrella (Bioproject ID PRJEB43743)  at different taxonomic ranks."}
+
+::report{report="xPerRank" x="long_list=ASG" includeEstimates=true caption="**Counts of taxa targeted by ASG**: All summary reports on GoaT are based on these counts" item xs=6}
+:::
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+
+## Sequencing Status of ASG Targets
+
+* **sample_collected** only includes species collected by the [NHM](https://data.nhm.ac.uk/), those entered in [COPO](https://copo-project.org) and in the Wellcome Sanger Institute internal Sample Tracking System (STS). In the future it will include species reported by all ASG partners as collected.
+* **sample_acquired** correcpond to species with samples on site at the Wellcome Sanger Institute
+* **in_progress** includes sequencing, assembly and curation
+
+:::grid{container direction="row" spacing="1" item xs=12}
+
+::report{report="xInY" x="sample_collected=ASG" y="long_list=ASG" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="**sample_collected** - Total of ASG target species collected" item xs=4}
+
+::report{report="xInY" x="sample_acquired=ASG" y="long_list=ASG" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="**sample_acquired** - Total of ASG target species ready for sequencing at Sanger" item xs=4}
+
+::report{report="xInY" x="in_progress=ASG" y="long_list=ASG" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="**in_progress** - Total of ASG target species in progress at Sanger" item xs=4}
+
+:::
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+[back to projects](/projects)
+

@@ -3,40 +3,42 @@
 
 ## Earth Biogenome Project
 
-- [EBP - Earth Biogenome Project](/projects/EBP)
+- [EBP - Earth Biogenome Project (bioproject PRJNA533106)](/projects/EBP)
 
 ## EBP Affiliated Project Networks
 
 - ARG - AusARG - Australian Amphibian and Reptile Genomics Initiative Collaboration
 
-- ASG - Aquatic Symbiosis Genomics Project
+- [ASG - Aquatic Symbiosis Genomics Project (PRJEB43743)](/projects/ASG)
 
-- [CBP - Catalan Biogenome Project](/projects/CBP)
+- [B10K - Bird 10,000 Genomes Project (PRJNA545868)](/projects/B10K)
 
-- CFGP - Cartilaginous Fish Genome Project
+- [CBP - Catalan Biogenome Project (PRJEB49670)](/projects/CBP)
 
-- [DTOL - Darwin Tree of Life](/projects/DTOL)
+- [CFGP - Cartilaginous Fish Genome Project](/projects/CFGP)
 
-- EBPN - EBP Norway
+- [DTOL - Darwin Tree of Life (PRJEB40665)](/projects/DTOL)
 
-- [ENDEMIXIT - Italian Endemics](/projects/ENDEMIXIT)
+- [EBPN - Earth Biogenome Project Norway (EBP-Nor)](/projects/EBPN)
 
-- [ERGA - European Reference Genome Atlas](/projects/ERGA)
+- [ENDEMIXIT - Italian Endemics (PRJNA712951)](/projects/ENDEMIXIT)
 
-- EUROFISH
+- [ERGA - European Reference Genome Atlas (Pilot project - PRJEB47820)](/projects/ERGA)
 
-- GAGA - Global Ant Genome Alliance
+- [EUROFISH - The Euro-Fish Project at the MPI CBG(PRJNA393850)](/projects/EUROFISH)
+
+- [GAGA - Global Ant Genome Alliance](/projects/GAGA)
 
 - GAP - Genomics for Australian Plants
 
-- METAINVERT - Soil Invertebrate Genome Initiative
+- [METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)](/projects/METAINVERT)
 
 - OMG - Oz Mammals Genomics
 
-- SQUALOMIX
+- [SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans (PRJNA707598)](/projects/SQUALOMIX)
 
 - TSI - Threatened Species Initiative
 
-- VGP  - Vertebrate Genomes Project + Genome 10K
+- [VGP  - Vertebrate Genomes Project  (PRJNA489243)](/projects/VGP)
 
 

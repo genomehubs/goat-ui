@@ -1,6 +1,7 @@
 ::grid[![GoaT](/static/images/EBPlogo.jpeg)]{item xs=2}
 
 # Earth Biogenome Project (EBP)
+**GoaT Search Term:** EBP
 
 :::grid{container direction="row" class="padded"}
 
@@ -11,7 +12,7 @@
 
 ## EBP Contribution to Eukaryotic Genome Sequencing
 
-### Progress of Eukaryotic Genome Sequencing by Taxon Rank: all assemblies in INSDC and those submitted under the EBP umbrella (BioProject PRJNA533106):
+### Progress of Eukaryotic Genome Sequencing by Taxon Rank: all assemblies in INSDC and those submitted under the EBP umbrella (BioProject PRJNA533106)
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
@@ -27,7 +28,7 @@ Click on report to see and download individually.
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-### Contribution of EBP to the Progress in Whole Genome Sequencing of Eukaryotic Taxa:
+### Contribution of EBP to the Progress in Whole Genome Sequencing of Eukaryotic Taxa
 
 **Progress of EBP in 2022**
 :::grid{container direction="row" spacing="1" item xs=12}
@@ -58,7 +59,7 @@ Click on report to see and download individually.
 
 
 
-### Contribution of EBP to Genome Assemblies Meeting EBP-Standard Metrics (contig n50 >= 1MB; scaffold n50 >= 10MB):
+### Contribution of EBP to Genome Assemblies Meeting EBP-Standard Metrics (contig n50 >= 1MB; scaffold n50 >= 10MB)
 
 :::grid{container direction="row" spacing="1"}
 
