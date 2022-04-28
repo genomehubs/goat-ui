@@ -15,7 +15,7 @@
 
 - [CBP - Catalan Biogenome Project (PRJEB49670)](/projects/CBP)
 
-- CFGP - Cartilaginous Fish Genome Project
+- [CFGP - Cartilaginous Fish Genome Project](/projects/CFGP)
 
 - [DTOL - Darwin Tree of Life (PRJEB40665)](/projects/DTOL)
 
@@ -27,7 +27,7 @@
 
 - [EUROFISH - The Euro-Fish Project at the MPI CBG(PRJNA393850)](/projects/EUROFISH)
 
-- GAGA - Global Ant Genome Alliance
+- [GAGA - Global Ant Genome Alliance](/projects/GAGA)
 
 - GAP - Genomics for Australian Plants
 
