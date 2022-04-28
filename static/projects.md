@@ -31,7 +31,7 @@
 
 - GAP - Genomics for Australian Plants
 
-- METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)
+- [METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)](/projects/METAINVERT)
 
 - OMG - Oz Mammals Genomics
 

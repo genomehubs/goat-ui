@@ -38,7 +38,7 @@ Tap tree nodes to browse taxa or long-press to search:
 Tap tree nodes to browse all attributes for a taxon or long-press to search and expand nodes:
 
 :::grid{container direction=row spacing="1"}
-::report{report="tree" x="tax_tree(Eukaryota) AND tax_rank(Phylum)" treeStyle="rect" taxonomy="ncbi" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" levels="species,genus,family" ratio=3 disableModal="true" caption="Tree of all INSDC Eukaryotic taxa" item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND tax_rank(Phylum)" treeStyle="rect" taxonomy="ncbi" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" levels="subspecies,species,genus,family,order,class,phylum" ratio=3 disableModal="true" caption="Tree of all INSDC Eukaryotic taxa" item xs=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
