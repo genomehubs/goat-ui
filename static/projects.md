@@ -7,7 +7,7 @@
 
 ## EBP Affiliated Project Networks
 
-- ARG - AusARG - Australian Amphibian and Reptile Genomics Initiative Collaboration
+- [ARG - Australian Amphibian and Reptile Genomics Initiative Collaboration (AusARG)](/projects/ARG)
 
 - [ASG - Aquatic Symbiosis Genomics Project (PRJEB43743)](/projects/ASG)
 
@@ -29,15 +29,15 @@
 
 - [GAGA - Global Ant Genome Alliance](/projects/GAGA)
 
-- GAP - Genomics for Australian Plants
+- [GAP - Genomics for Australian Plants](/projects/GAP)
 
 - [METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)](/projects/METAINVERT)
 
-- OMG - Oz Mammals Genomics
+- [OMG - Oz Mammals Genomics](/projects/OMG)
 
 - [SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans (PRJNA707598)](/projects/SQUALOMIX)
 
-- TSI - Threatened Species Initiative
+- [TSI - Threatened Species Initiative](/projects/TSI)
 
 - [VGP  - Vertebrate Genomes Project  (PRJNA489243)](/projects/VGP)
 

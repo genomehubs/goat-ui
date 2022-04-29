@@ -1,7 +1,6 @@
 ::grid[![GoaT](/static/images/EBPlogo.jpeg)]{item xs=2}
 
 # Earth Biogenome Project (EBP)
-**GoaT Search Term:** EBP
 
 :::grid{container direction="row" class="padded"}
 
@@ -11,6 +10,15 @@
 :::
 
 ## EBP Contribution to Eukaryotic Genome Sequencing
+
+## Tree representing the eukaryotic orders with at least one species sequenced by the EBP network
+
+:::grid{container direction="row" spacing="1" item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND tax_rank(order) AND bioproject=PRJNA533106" y="assembly_span>0 AND bioproject=PRJNA533106" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" ratio=2 includeEstimates collapseMonotypic disableModal item yOpts="10000,100000000000" caption="**Orders with at least one species sequenced by the Earth Biogenome Project**. Orange highlights represent clades with at least one assembly published under the EBP umbrella BioProject ID (PRJNA533106). Bars correspond to estimates (orange) or direct (green) assembly span values for each taxon. Tap tree nodes to see taxon records or long-press to expand each branch." xs=12}
+:::
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 ### Progress of Eukaryotic Genome Sequencing by Taxon Rank: all assemblies in INSDC and those submitted under the EBP umbrella (BioProject PRJNA533106)
 
