@@ -25,7 +25,7 @@
 
 - [ERGA - European Reference Genome Atlas (Pilot project - PRJEB47820)](/projects/ERGA)
 
-- [EUROFISH - The Euro-Fish Project at the MPI CBG(PRJNA393850)](/projects/EUROFISH)
+- [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
 
 - [GAGA - Global Ant Genome Alliance](/projects/GAGA)
 

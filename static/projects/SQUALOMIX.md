@@ -20,7 +20,7 @@
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=SQUALOMIX" y="assembly_span>0 AND bioproject=PRJNA707598" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=3 disableModal collapseMonotypic yOpts="1000000,100000000000" cat="in_progress=squalomix" excludeAncestral="in_progress" caption="Tree representing Squalomix long list. Orange highlights represent clades with at least one genome already available. Dark blue dots represent clades with at least one descendant species in progress in the SQUALOMIX sequencing pipeline. Species with available assemblies are highlighted in green. Bars correspond to estimates (grey) or direct (green) assembly span values for each species. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=SQUALOMIX" y="assembly_span>0 AND bioproject=PRJNA707598" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=3 disableModal collapseMonotypic yOpts="1000000,100000000000" cat="in_progress[1]=squalomix" excludeAncestral="in_progress" caption="Tree representing Squalomix long list. Orange highlights represent clades with at least one genome already available. Dark blue dots represent clades with at least one descendant species in progress in the SQUALOMIX sequencing pipeline. Species with available assemblies are highlighted in green. Bars correspond to estimates (grey) or direct (green) assembly span values for each species. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 
