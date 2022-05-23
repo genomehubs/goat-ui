@@ -54,7 +54,7 @@ GoaT reports from search results can be edited following three main steps:
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
-## List of Atributes on GoaT
+## List of Atributes for Taxon Index on GoaT
 Attributes can be used as search terms alongside taxa on the search box
 
 Ex: assembly_span AND tax_name(chiroptera)
@@ -98,9 +98,12 @@ Select **result columns** to display (**mandatory step!**)
 
 ### genome_size
 - genome_size
+- genome_size_kmer
+- genome_size_draft
+- c_value
 - c_value_method
 - c_value_cell_type
-- c_value
+
 
 ### uk_legislation
 - marhabreg-2017
@@ -110,7 +113,7 @@ Select **result columns** to display (**mandatory step!**)
 - waca_1981
 - protection_of_badgers_act_1992
 
-### status_lists
+### sequencing_status
 - sequencing_status
 - sample_collected
 - sample_acquired
@@ -119,6 +122,18 @@ Select **result columns** to display (**mandatory step!**)
 - insdc_open
 - published
 - sample_collected_by
+- sequencing_status_b10k
+- sequencing_status_cbp
+- sequencing_status_cfgp
+- sequencing_status_dtol
+- sequencing_status_ebpn
+- sequencing_status_endemixit
+- sequencing_status_erga
+- sequencing_status_eurofish
+- sequencing_status_gaga
+- sequencing_status_metainvert
+- sequencing_status_squalomix
+- sequencing_status_vgp
 
 ### regional_lists
 - country_list
@@ -142,6 +157,7 @@ Select **result columns** to display (**mandatory step!**)
 ### names
 - tol_id
 - common_name
-- xref
 - synonym
 
+## Safari Users
+We have identified cache issues affecting Mac Safari users that prevents the loading of latest updates to the landing and project pages. We have reported this bug to Apple. 
