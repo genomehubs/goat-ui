@@ -9,7 +9,8 @@ Metadata in GoaT include, genome assembly attributes, genome sizes, C values, an
 - Serve as a centralized source of genome-relevant metadata for the global community
 - Operate as the sequencing tracking system for the Earth Biogenome Project Network
 
-## How to use GoaT
+## How to use GoaT Search
+GoaT is a powerful data aggregator, optimized to allow complex queries. The user interface (UI) allows visualization of query results in tabular format and reports. Resulting links are equivalent to those created by using GoaT's [API](https://goat.genomehubs.org/api-docs/) endpoints. Simple searches can be done on GoaT as follows:
 
 1. Select your favorite taxon and play with the icons displayed under GoaTs search box
 
