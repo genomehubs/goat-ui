@@ -1,6 +1,6 @@
 # Genomes on a Tree (:hub)
 
-:hub is built using GenomeHubs 2.0, to present genome-relevant metadata for **all Eukaryotic taxa** across the tree of life.
+:hub is built using GenomeHubs 2, to present genome-relevant metadata for **all Eukaryotic taxa** across the tree of life.
 
 Metadata in GoaT include, genome assembly attributes, genome sizes, C values, and chromosome numbers from multiple sources.
 
@@ -10,9 +10,10 @@ Metadata in GoaT include, genome assembly attributes, genome sizes, C values, an
 - Operate as the sequencing tracking system for the Earth Biogenome Project Network
 
 ## How to use GoaT Search
+
 GoaT is a powerful data aggregator, optimized to allow complex queries. The user interface (UI) allows visualization of query results in tabular format and reports. Resulting links are equivalent to those created by using GoaT's [API](https://goat.genomehubs.org/api-docs/) endpoints. Simple searches can be done on GoaT as follows:
 
-1. Select your favorite taxon and play with the icons displayed under GoaTs search box
+1. Select your favorite taxon and play with the icons displayed under GoaT's search box
 
 2. Use the **result columns** icon below the search box to select the metadata you would like to display for your search
 
@@ -20,12 +21,11 @@ GoaT is a powerful data aggregator, optimized to allow complex queries. The user
 
 For detailed information on **how to use GoaT**, go to our [help page](/help).
 
-
 # Explore Trees
 
-Goat can display search results on trees and new queries can be made exploring pre-existing trees. 
+GoaT can display search results on trees and new queries can be made exploring pre-existing trees.
 
-**Examples of tree display** (ring and rectangle) of the same search results. 
+**Examples of tree display** (ring and rectangle) of the same search results.
 Tap tree nodes to browse taxa or long-press to search:
 
 :::grid{container direction=row spacing="1"}
@@ -35,16 +35,18 @@ Tap tree nodes to browse taxa or long-press to search:
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
+
 # Tree of all Eukaryotic Phyla on GoaT
+
 Tap tree nodes to browse all attributes for a taxon or long-press to search and expand nodes:
 
 :::grid{container direction=row spacing="1"}
 
 ::report{report="tree" x="tax_tree(Eukaryota) AND tax_rank(Phylum)" treeStyle="rect" taxonomy="ncbi" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" levels="subspecies,species,genus,family,order,class,phylum" ratio=3 disableModal="true" caption="Tree of all INSDC Eukaryotic taxa" item xs=12}
 
-
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
+
 # Data summary
 
 :::grid{container direction="row" spacing="1"}
