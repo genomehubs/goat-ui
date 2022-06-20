@@ -4,10 +4,11 @@
 **GoaT Search Term:** METAINVERT
 
 
-::grid[**MetaInvert** is part of part of the Central-European **Soil Invertebrate Genome Initiative (SIGI)** at Senckenberg and the LOEWE Centre for Translational Biodiversity Genomics (TBG). MetaInvert establishes a database of genomes for several hundred soil invertebrate species: springtails, oribatid mites, nematodes, potworms, myriapods, and several other groups. The project serves to improve species identification through shotgun metagenomics, to reveal evolutionary relationships, special adaptations, and host-microbiome associations. For more information access MetaInvert's official project page at https://tbg.senckenberg.de/tbg-project-miklos-balint-and-team/.]{item xs=12}
+::grid[**MetaInvert** is part of the Central-European **Soil Invertebrate Genome Initiative (SIGI)** at Senckenberg and the LOEWE Centre for Translational Biodiversity Genomics (TBG). MetaInvert establishes a database of genomes for several hundred soil invertebrate species: springtails, oribatid mites, nematodes, potworms, myriapods, and several other groups. The project serves to improve species identification through shotgun metagenomics, to reveal evolutionary relationships, special adaptations, and host-microbiome associations. For more information access MetaInvert's official project page at https://tbg.senckenberg.de/tbg-project-miklos-balint-and-team/.]{item xs=12}
+
+**Bioproject ID** PRJNA758215
 
 ::grid[ ]{item xs=4}
-
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
