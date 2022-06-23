@@ -1,4 +1,6 @@
-::grid[![GoaT](/static/images/Metainvert_banner.png)]{item xs=8}
+::grid[![GoaT](/static/images/Metainvert_logo.png)]{item xs=5}
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 # Metagenomic Monitoring of Soil Communities (MetaInvert - SIGI)
 **GoaT Search Term:** METAINVERT
