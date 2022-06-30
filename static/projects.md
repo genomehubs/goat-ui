@@ -27,7 +27,7 @@
 
 - [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
 
-- [GAGA - Global Ant Genome Alliance](/projects/GAGA)
+- [GAGA - Global Ant Genomics Alliance](/projects/GAGA)
 
 - [GAP - Genomics for Australian Plants](/projects/GAP)
 
