@@ -42,9 +42,9 @@
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="sample_collected=ARG" y="long_list=ARG" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="Total of ARG target species collected" item xs=6}
+::report{report="xInY" x="sample_collected=ARG" y="long_list=ARG" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="Total of ARG target species collected" item xs=4}
 
-::report{report="xInY" x="in_progress=ARG" y="long_list=ARG" rank="species" includeEstimates=true excludeAncestral="in_progress" excludeMissing="in_progress" caption="Total of ARG target species with genome sequencing currently in progress" item xs=6}
+::report{report="xInY" x="in_progress=ARG" y="long_list=ARG" rank="species" includeEstimates=true excludeAncestral="in_progress" excludeMissing="in_progress" caption="Total of ARG target species with genome sequencing currently in progress" item xs=4}
 
 :::
 :::grid{container direction="row" spacing="1" class="padded"}
