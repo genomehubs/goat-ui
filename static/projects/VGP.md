@@ -18,7 +18,7 @@
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=VGP" y="assembly_span AND bioproject=PRJNA489243" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2.8 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing declared target list of VGP, including outgroups.** Orange highlights represent clades with at least one genome already available. Species with available assemblies are highlighted in green. Bars correspond to estimates (grey) or direct (green) assembly span values for each species. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=VGP" y="assembly_span AND bioproject=PRJNA489243" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2.8 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing the declared target list of VGP, including outgroups.** Orange highlights represent clades with at least one genome already available. Species with available assemblies are highlighted in green. Bars correspond to estimates (grey) or direct (green) assembly span values for each species. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}

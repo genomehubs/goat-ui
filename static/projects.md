@@ -14,6 +14,8 @@
 
 - [B10K - Bird 10,000 Genomes Project (PRJNA545868)](/projects/B10K)
 
+- [CANBP - Canada Biogenome Project (CBP - PRJNA813333)](/projects/CANBP)
+
 - [CBP - Catalan Biogenome Project (PRJEB49670)](/projects/CBP)
 
 - [CFGP - Cartilaginous Fish Genome Project](/projects/CFGP)
