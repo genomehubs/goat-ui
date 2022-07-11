@@ -6,12 +6,15 @@
 - [EBP - Earth Biogenome Project (bioproject PRJNA533106)](/projects/EBP)
 
 ## EBP Affiliated Project Networks
+- [AG100PEST - Ag100Pest Initiative (PRJNA555319)](/projects/AG100PEST)
 
 - [ARG - Australian Amphibian and Reptile Genomics Initiative Collaboration (AusARG)](/projects/ARG)
 
 - [ASG - Aquatic Symbiosis Genomics Project (PRJEB43743)](/projects/ASG)
 
 - [B10K - Bird 10,000 Genomes Project (PRJNA545868)](/projects/B10K)
+
+- [CANBP - Canada Biogenome Project (CBP - PRJNA813333)](/projects/CANBP)
 
 - [CBP - Catalan Biogenome Project (PRJEB49670)](/projects/CBP)
 
@@ -27,7 +30,7 @@
 
 - [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
 
-- [GAGA - Global Ant Genome Alliance](/projects/GAGA)
+- [GAGA - Global Ant Genomics Alliance](/projects/GAGA)
 
 - [GAP - Genomics for Australian Plants](/projects/GAP)
 
