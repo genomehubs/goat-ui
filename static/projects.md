@@ -6,6 +6,7 @@
 - [EBP - Earth Biogenome Project (bioproject PRJNA533106)](/projects/EBP)
 
 ## EBP Affiliated Project Networks
+- [AG100PEST - Ag100Pest Initiative (PRJNA555319)](/projects/AG100PEST)
 
 - [ARG - Australian Amphibian and Reptile Genomics Initiative Collaboration (AusARG)](/projects/ARG)
 
