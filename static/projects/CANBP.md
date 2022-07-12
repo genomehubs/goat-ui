@@ -54,7 +54,7 @@
 :::
 
 
-:::grid{container direction="row" toggle title="CanBP progress: Cumulative number of species per status" spacing="1"}
+:::grid{container direction="row" toggle title="CanBP progress: cumulative number of species per status" spacing="1"}
 
 ::report{report="xInY" x="sample_collected=CANBP" y="long_list=CANBP" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="Total of CanBP target species collected" item xs=4}
 
