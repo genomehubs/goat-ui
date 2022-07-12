@@ -42,7 +42,9 @@
 
 - [TSI - Threatened Species Initiative](/projects/TSI)
 
-- [VGP  - Vertebrate Genomes Project  (PRJNA489243)](/projects/VGP)
+- [VGP  - Vertebrate Genomes Project (PRJNA489243)](/projects/VGP)
+
+- [ZOONOMIA - 200 Mammals Project (PRJNA312960)](/projects/ZOONOMIA)
 
 
 
