@@ -36,6 +36,8 @@
 
 - [GAP - Genomics for Australian Plants](/projects/GAP)
 
+- [ILEBP - Illinois EBP Pilot (PRJNA844590)](/projects/ILEBP)
+
 - [METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)](/projects/METAINVERT)
 
 - [OMG - Oz Mammals Genomics](/projects/OMG)
