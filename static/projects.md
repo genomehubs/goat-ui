@@ -20,6 +20,8 @@
 
 - [CBP - Catalan Biogenome Project (PRJEB49670)](/projects/CBP)
 
+- [CCGP - California Conservation Genomics Project (CCGP - PRJNA720569)](/projects/CCGP)
+
 - [CFGP - Cartilaginous Fish Genome Project](/projects/CFGP)
 
 - [DTOL - Darwin Tree of Life (PRJEB40665)](/projects/DTOL)
