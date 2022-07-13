@@ -6,6 +6,8 @@
 - [EBP - Earth Biogenome Project (bioproject PRJNA533106)](/projects/EBP)
 
 ## EBP Affiliated Project Networks
+- [AFRICABP - African BioGenome Project (AfricaBP, 	PRJNA811786)](/projects/AFRICABP)
+
 - [AG100PEST - Ag100Pest Initiative (PRJNA555319)](/projects/AG100PEST)
 
 - [ARG - Australian Amphibian and Reptile Genomics Initiative Collaboration (AusARG)](/projects/ARG)
@@ -37,6 +39,8 @@
 - [METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)](/projects/METAINVERT)
 
 - [OMG - Oz Mammals Genomics](/projects/OMG)
+
+- [PGP - Polar Genomes Project](/projects/PGP)
 
 - [SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans (PRJNA707598)](/projects/SQUALOMIX)
 
