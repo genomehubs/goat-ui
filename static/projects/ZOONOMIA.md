@@ -11,16 +11,18 @@
 
 **Bioproject ID** PRJNA312960
 
+**Main Contact**: wordpress@zoonomiaproject.org
+
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 # Summary Data
 
-## Tree representing Zoonomia target list, highlighting species with available assemblies
+## Tree representing species for which Zoonomia has generated assemblies
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ZOONOMIA AND tax_rank(species)" y="assembly_span AND bioproject=PRJNA312960,PRJNA12590" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing the Zoonomia target list.** Orange highlights represent clades with at least one genome already available under the Bioproject ID PRJNA312960 (plus PRJNA12590 for Echinops telfairi). Species with available assemblies are highlighted in green. Bars correspond to estimates (grey) or direct (green) assembly span values for each species. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ZOONOMIA AND tax_rank(species)" y="assembly_span AND bioproject=PRJNA312960,PRJNA12590" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing species for which Zoonomia has generated assemblies.** Orange highlights represent clades with at least one genome already available under the Bioproject ID PRJNA312960 (plus PRJNA12590 for Echinops telfairi). Species with available assemblies are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 
@@ -54,7 +56,7 @@
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="histogram" x="bioproject=PRJNA312960" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA312960,,1,," caption="Number of species in each mammalian order sequenced by Zoonomia" item xs=6}
+::report{report="histogram" x="bioproject=PRJNA312960" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA312960,,1,," caption="Number of species in each mammalian order (from ncbi taxonomy) sequenced by Zoonomia" item xs=6}
 
 
 ::report{report="histogram" x="sequencing_status_zoonomia" rank="species" taxonomy="ncbi" result="taxon" cat="sequencing_status_zoonomia=sample_collected,sample_acquired,in_progress,insdc_open" excludeAncestral="long_list" excludeMissing="long_list" xOpts=",,1,,Sequencing Status" caption="Current sequencing status of Zoonomia targets" item xs=6}
