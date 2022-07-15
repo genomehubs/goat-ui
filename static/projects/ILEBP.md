@@ -11,6 +11,8 @@
 
 **Bioproject ID** PRJNA844590
 
+**Main Contact**: [Christopher Dietrich](https://experts.illinois.edu/en/persons/christopher-h-dietrich),  University of Illinois at Urbana Champaign, USA
+
 ::grid[ ]{item xs=4}
 
 
