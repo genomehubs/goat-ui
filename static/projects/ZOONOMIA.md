@@ -45,7 +45,7 @@
 
 ::report{report="xInY" x="assembly_span AND bioproject=PRJNA312960,PRJNA12590" rank="class,order,family,genus,species" y="long_list=ZOONOMIA" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of Zoonomia Targets:** Genome assemblies under Bioproject ID PRJNA312960 (plus PRJNA12590 for Echinops telfairi), at different taxonomic ranks" item xs=6}
 
-::report{report="xPerRank" x="long_list=ZOONOMIA" rank="class,order,family,genus,species" includeEstimates=true caption="**Counts of taxa targeted by theZoonomia Project**: All summary reports on GoaT are based on these counts" item xs=6}
+::report{report="xPerRank" x="long_list=ZOONOMIA" rank="class,order,family,genus,species" includeEstimates=true caption="**Counts of taxa targeted by the Zoonomia Project**: All summary reports on GoaT are based on these counts" item xs=6}
 
 :::
 
