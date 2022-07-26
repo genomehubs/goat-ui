@@ -7,7 +7,7 @@
 **GoaT Search Term:** ILEBP
 
 
-::grid[**The Illinois EBP Pilot Project** will sequence the genomes of agriculturally relevant insects for which little or no genomic data are available. Sequencing these focal taxa will demonstrate project scalability, communicate scientific discovery, and inspire potential economic and societal benefits. For more information access https://mediaspace.illinois.edu/media/t/1_f7cpkins.]{item xs=8}
+::grid[**The Illinois EBP Pilot Project** will sequence the genomes of agriculturally relevant insects for which little or no genomic data are available. Sequencing these focal taxa will demonstrate project scalability, communicate scientific discovery, and inspire potential economic and societal benefits. Currently, assemblies for all targets of Illinois EBP Pilot project have been produced and submited to insdc. Data will become publically available soon.  For more information access https://mediaspace.illinois.edu/media/t/1_f7cpkins.]{item xs=8}
 
 **Bioproject ID** PRJNA844590
 
@@ -25,7 +25,7 @@
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ILEBP AND tax_rank(species)" y="sequencing_status_ilebp=in_progress" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=5 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing the target list of Illinois EBP Pilot Project.** Orange highlights represent clades with at least one genome already underway to be submitted under the Bioproject ID PRJNA844590. Species with assemblies in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ILEBP AND tax_rank(species)" y="sequencing_status_ilebp=in_progress" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=5 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing the target list of Illinois EBP Pilot Project.** Orange highlights represent clades with at least one genome already submitted under the Bioproject ID PRJNA844590, which will be made publically available with associated manuscripts in the near future. These species, are listed in GoaT as sequencing status = 'in_progress' and are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 

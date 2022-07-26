@@ -78,3 +78,6 @@ Tap tree nodes to browse all attributes for a taxon or long-press to search and 
 :::
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
+
+## Safari Users
+We have identified cache issues affecting Mac Safari users that prevents the loading of latest updates to the landing and project pages. We have reported this bug to Apple. 
