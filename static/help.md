@@ -168,6 +168,8 @@ Select **result columns** to display (**mandatory step!**)
 :::
 
 ## Use Cases for EBP Projects
+Sequencing genomes at scale requires careful coordination to prevent duplication of efforts. Metadata stored in GoaT can be used in different steps in the planning and progressing of sequencing projects. Here we describe Use Cases that can be adopted from planning to completion by any sequencing initiative in the EBP Network. We mostly use the Darwin Tree of Life (DTOL) to illustrate different scenarios, but any project can retrieve the equivalent information using their respective acronym or Bioproject ID, listed on GoaT [projects](/projects) tab, instead of "DTOL" in the examples below.
+
 ### Planning
 
 :::grid{container direction="row" toggle title="Case 1. Which species on a target list have already been sequenced to the desired standards?" spacing="1"}
@@ -271,6 +273,33 @@ An example of sequencing status query can be accessed [here](https://goat.genome
 ::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJEB40665" y="scaffold_n50" cat="assembly_type[]+=alternate-pseudohaplotype,haploid,haploid (principal pseudohaplotype of diploid)" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of DToL assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
 
 ::report{report="xInY" x="bioproject=PRJEB40665" taxonomy="ncbi" rank="phylum,class,order,family,genus,species" y="long_list=dtol" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" item xs=6 caption="**DToL Contribution to Genome Assemblies Available in INSDC**  - Sequencing progress of DToL target taxa under DToL umbrella (Bioproject ID PRJEB40665)  at different taxonomic ranks."}
+:::
+
+### Data Exploration
+
+The versatility with which combinations of  metadata can be queried in GoaT makes it a powerful resource to explore and discover biologically meaningful patterns across the tree of life. The possibility of generating basic graphical reports and trees directly from a query using the GoaT UI, also brings the advantage to allow pre-visualization of metadata trends. Users can then download the data to produce more sophisticated reports using their preferred data visualisation software. Examples of basic data exploration are illustrated on the Cases 11 and 12 as follows:
+
+
+:::grid{container direction="row" toggle title="Case 11. Range of assembly span in plastid versus mitochondrial assemblies of plants" spacing="1"}
+
+::grid[In plants, the [range of assembly span](https://goat.genomehubs.org/search?query=tax_tree%2835493%5BStreptophyta%5D%29%20and%20mitochondrion_assembly_span%20AND%20tax_rank%28species%29&result=taxon&includeEstimates=false&summaryValues=count&taxonomy=ncbi&offset=0&fields=mitochondrion_assembly_span%2Cmitochondrion_gc_percent%2Cplastid_assembly_span%2Cplastid_gc_percent&names=&ranks=&excludeAncestral%5B0%5D=gc_percent&excludeAncestral%5B1%5D=mitochondrion_assembly_span&report=scatter&rank=species&y=plastid_assembly_span&xOpts=30000%2C3000000%2C20&yOpts=30000%2C3000000%2C20&zScale=linear#tax_tree(35493[Streptophyta])%20and%20mitochondrion_assembly_span%20AND%20tax_rank(species)) is conservative for plastid, versus extremely broad for mitochondrial genomes. On the other hand, [GC content variation](https://goat.genomehubs.org/search?query=tax_tree%2835493%5BStreptophyta%5D%29%20and%20mitochondrion_gc_percent%20AND%20tax_rank%28species%29&result=taxon&includeEstimates=false&summaryValues=count&taxonomy=ncbi&offset=0&fields=mitochondrion_gc_percent%2Cplastid_gc_percent&names=&ranks=&excludeAncestral%5B0%5D=mitochondrion_gc_percent&excludeAncestral%5B1%5D=gc_percent&report=scatter&rank=species&y=plastid_gc_percent&xOpts=25%2C50%2C11&yOpts=25%2C50%2C11#tax_tree(35493[Streptophyta])%20and%20mitochondrion_gc_percent%20AND%20tax_rank(species)) is not substantial between plastid and mitochondrial plant assemblies, but consistently higher in mitochondrial (above 40%) versus plastid assemblies (below 40%).]{item xs=12}
+
+::report{report="scatter" x="tax_tree(Streptophyta) AND mitochondrion_assembly_span" y="plastid_assembly_span" result="taxon" rank="species" includeEstimates="false" excludeAncestral="mitochondrion_assembly_span" excludeMissing="mitochondrion_assembly_span" xOpts="30000,3000000,12" yOpts="30000,1500000,15" scatterThreshold="10000" item caption="Distribution of mitochondria versus plastid assembly span among Streptophyta" xs=6}
+
+
+::report{report="scatter" x="tax_tree(Streptophyta) AND mitochondrion_gc_percent" y="plastid_gc_percent" result="taxon" rank="species" includeEstimates="false" excludeAncestral="mitochondrion_gc_percent" excludeMissing="mitochondrion_gc_percent" xOpts="25,50,11" yOpts="25,50,11" scatterThreshold="10000" item caption="Distribution of mitochondria versus plastid GR percent among Streptophyta" xs=6}
+
+:::
+
+:::grid{container direction="row" toggle title="Case 12. Is there a correlation between the length of assemblies and gene content?" spacing="1"}
+
+::grid[GoaT can be used to readily assess and visualise genome-relevant trends in the tree of life, such as investigate i f there is a correlation of assembly span and gene content across all assembly datasets, but also restrict the search to only chromosome-level assemblies, which is a subset of more complete datasets.]{item xs=12}
+
+
+::report{report="scatter" x="assembly_span" y="gene_count" result="taxon" rank="species" cat="kingdom" xOpts=",,,log10" yOpts=",,,log10" scatterThreshold="10000" item caption="Correlation between assembly span and gene count across all INSDC assemblies" xs=6}
+
+::report{report="scatter" x="assembly_span AND assembly_level=chromosome" y="gene_count" result="taxon" rank="species" cat="kingdom" xOpts=",,,log10" yOpts=",,,log10" scatterThreshold="10000" item caption="Correlation between assembly span and gene count across chromosome-level assemblies" xs=6}
+
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}
