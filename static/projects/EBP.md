@@ -79,9 +79,45 @@ Click on report to see and download individually.
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+### Other Reports
+
+:::grid{container direction="row" toggle title="EBP Progress by Taxon Groups (NCBI taxonomy)" spacing="1"}
+
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(eukaryota)" rank="species" taxonomy="ncbi" result="taxon" cat="kingdom[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of eukaryotic species sequenced by EBP by kingdom" item xs=6}
+
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(eukaryota)" rank="species" taxonomy="ncbi" result="taxon" cat="phylum[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of eukaryotic species sequenced by EBP by phylum" item xs=6}
+
+::grid[]{item xs=12}
+
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(chordata)" rank="species" taxonomy="ncbi" result="taxon" cat="class[13]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of chordate species sequenced by EBP by class" item xs=6}
+
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(Arthropoda,!insecta)" rank="species" taxonomy="ncbi" result="taxon" cat="class[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of non-insect arthropod species sequenced by EBP by class" item xs=6}
+
+::grid[]{item xs=12}
+
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(insecta)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of insect species sequenced by EBP by order" item xs=6}
+
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(streptophyta)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of eukaryotic species sequenced by EBP by phylum" item xs=6}
+
+::grid[]{item xs=12}
+
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(fungi)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of fungi species sequenced by EBP by order" item xs=6}
+
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(eukaryota,!opisthokonta,!streptophyta)" rank="species" taxonomy="ncbi" result="taxon" cat="family[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of species from selected eukaryotic taxa sequenced by EBP by family. GoaT search excluded Opisthokonta and Streptophyta, and currently correspond to species within Sar, Discoba, and Chlorophyta clades." item xs=6}
+
+::grid[Click on reports to see and download individualy; and long-press on bins to retrieve search results]{item xs=12}
+:::
+
+:::grid{container direction="row" toggle title="Summary reports for EBP affiliates on GoaT" spacing="1"}
+
+::grid[reports will be added soon]{item xs=12}
+
+:::
+
 **Note:** Not all EBP Affiliated Projects are accounted for under the EBP Umbrella BioProject Id PRJNA533106. Numbers and reports on this page include only those under BioProject Id PRJNA533106.
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
+
 
 [back to projects](/projects)
