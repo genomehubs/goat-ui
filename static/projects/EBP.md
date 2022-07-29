@@ -97,7 +97,7 @@ Click on report to see and download individually.
 
 ::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(insecta)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of insect species sequenced by EBP by order" item xs=6}
 
-::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(streptophyta)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of eukaryotic species sequenced by EBP by phylum" item xs=6}
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(streptophyta)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of streptophyta plant species sequenced by EBP by order" item xs=6}
 
 ::grid[]{item xs=12}
 
