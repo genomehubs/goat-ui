@@ -110,7 +110,13 @@ Click on report to see and download individually.
 
 :::grid{container direction="row" toggle title="Summary reports for EBP affiliates on GoaT" spacing="1"}
 
-::grid[reports will be added soon]{item xs=12}
+::grid[**Disclaimer:** the reports below have been generated based on the number of species declared as targets (long_list) by each EBP affiliate. Note that if a species is present in multiple target lists and has received at least one value for sequencing status or assembly level, that value will be transposed to other projects. For sequencing status, the most advanced stage among all projects will be used to retrieve the counts for each project. For more accurate reports per project, prease visit the respective [project-dedicated page](/projects) on GoaT.]{item xs=12}
+
+::grid[Click on reports to see and download individualy. Long-press on bins to retrieve search results and details for each project]{item xs=12}
+
+::report{report="scatter" x="tax_tree(2759) AND long_list" y="sequencing_status" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" xOpts=",,55" yOpts="sample_collected,sample_acquired,in_progress,insdc_open;;" includeEstimates="false" scatterThreshold="10" item caption="Distribution of sequencing status for target species across EBP affiliated projects. Note that for species present in multiple long_lists the most advanced stage among all projects will be used to retrieve the counts for each project" xs=12}
+
+::report{report="scatter" x="tax_tree(2759) AND long_list" y="assembly_level AND bioproject=prjna533106" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" xOpts=",,55" yOpts="contig,scaffold,chromosome,complete genome;;" includeEstimates="false" scatterThreshold="10" item caption="Distribution of sequenced target species across EBP affiliates by assembly level. Note that for each initiative, if a species has an available assembly it will be counted regardless of  project of origin" xs=12}
 
 :::
 
