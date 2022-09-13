@@ -16,7 +16,7 @@ The Darwin Tree of Life long list (all targets) includes all 75,000 eukaryotic s
 ## Tree representing DToL target list highlighting phyla with available assemblies (orange)
 
 :::grid{container direction="row" spacing="1" item xs=12}
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=DTOL AND tax_rank(Phylum)" y="assembly_span AND bioproject=PRJEB40665" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" ratio=2 includeEstimates collapseMonotypic disableModal item yOpts="10000,100000000000" caption="Phyla in the DToL long list. Orange highlights represent clades with at least one genome already published by DToL under the BioProject ID PRJEB40665. Tap tree nodes to browse taxa or long-press to search." xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=DTOL AND tax_rank(Phylum)" y="assembly_span AND bioproject=PRJEB40665" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" ratio=2 includeEstimates collapseMonotypic disableModal item yOpts="10000,100000000000" caption="**Phyla in the DToL long list.** Orange highlights represent clades with at least one genome already published by DToL under the BioProject ID PRJEB40665. Red highlights represent taxa without assemblies on INSDC; target taxa with assemblies available under other bioproject IDs are shown in grey. Bars correspond to assembly span estimates for each family. Tap tree nodes to browse taxa or long-press to search." xs=12}
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}
@@ -41,8 +41,7 @@ The Darwin Tree of Life long list (all targets) includes all 75,000 eukaryotic s
 
 ::report{report="histogram" x="bioproject=PRJEB40665" rank="species" taxonomy="ncbi" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" xOpts=",,1,, " caption="Assembly level for DToL genomes" item xs=6}
 
-::report{report="scatter" x="contig_n50 AND bioproject=PRJEB40665" y="scaffold_n50 AND bioproject=PRJEB40665" rank="species" cat="assembly_level" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" zScale="sqrt" xOpts="100,1000000000,8" yOpts="1000,1000000000,7" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of DToL assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
-
+::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJEB40665" y="scaffold_n50 AND bioproject_accession=PRJEB40665" cat="assembly_type" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of DToL assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
 
 :::
 :::grid{container direction="row" spacing="1" class="padded"}
