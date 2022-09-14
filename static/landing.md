@@ -61,7 +61,7 @@ Tap tree nodes to browse all attributes for a taxon or long-press to search and 
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="chromosome_number>0" rank="Family" includeEstimates excludeAncestral="chromosome_number" excludeMissing="chromosome_number" caption="Total number of families with direct values of chromosome number" item xs=4}
+::report{report="xInY" x="chromosome_number" rank="Family" includeEstimates excludeAncestral="chromosome_number" excludeMissing="chromosome_number" caption="Total number of families with direct values of chromosome number" item xs=4}
 
 ::report{report="histogram" x="assembly_date" rank="species" cat="assembly_level" stacked="true" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" ratio=2 caption="Progress of genome assemblies published on INSDC over time, by assembly level" item xs=8}
 
