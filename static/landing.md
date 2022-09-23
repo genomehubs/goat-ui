@@ -71,13 +71,6 @@ Tap tree nodes to browse all attributes for a taxon or long-press to search and 
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_level=chromosome" y="assembly_span" rank="species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Contribution of chromosome-level assemblies to the total of species with available assemblies on INSDC" item xs=4}
+::report{report="xInY" x="assembly_level=chromosome" y="assembly_span" includeEstimates = "false" rank="species" excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Contribution of chromosome-level assemblies to the total of species with available assemblies on INSDC" item xs=4}
 
 ::report{report="histogram" x="genome_size" rank="species" cat="kingdom" stacked="true" ratio=2 includeEstimates excludeAncestral="genome_size" excludeMissing="genome_size" caption="Frequency distribution of species genome sizes by kingdom" item xs=8}
-
-:::
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-## Safari Users
-We have identified cache issues affecting Mac Safari users that prevents the loading of latest updates to the landing and project pages. We have reported this bug to Apple. 

@@ -306,5 +306,4 @@ The versatility with which combinations of  metadata can be queried in GoaT make
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
-## Safari Users
-We have identified cache issues affecting Mac Safari users that prevents the loading of latest updates to the landing and project pages. We have reported this bug to Apple. 
+
