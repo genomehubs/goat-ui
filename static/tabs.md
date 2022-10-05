@@ -3,3 +3,4 @@
 - help
 - api
 - projects
+- submissions
