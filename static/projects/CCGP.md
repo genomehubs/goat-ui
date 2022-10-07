@@ -47,7 +47,7 @@
 
 ::report{report="histogram" x="long_list=CCGP AND sequencing_status_ccgp" rank="species" taxonomy="ncbi" result="taxon" cat="sequencing_status_ccgp=sample_collected,sample_acquired,in_progress,insdc_open" excludeAncestral="long_list" excludeMissing="long_list" xOpts=",,1,,Sequencing Status" caption="Current sequencing status of CCGP targets" item xs=6}
 
-::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJNA720569" y="scaffold_n50" cat="assembly_type" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of CCGP assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
+::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJNA720569" y="scaffold_n50" cat="assembly_type=haploid@primary-haploid" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of CCGP assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
 
 :::
 :::grid{container direction="row" spacing="1" class="padded"}
