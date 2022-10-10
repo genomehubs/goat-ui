@@ -41,7 +41,7 @@ The Darwin Tree of Life long list (all targets) includes all 75,000 eukaryotic s
 
 ::report{report="histogram" x="bioproject=PRJEB40665" rank="species" taxonomy="ncbi" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" xOpts=",,1,, " caption="Assembly level for DToL genomes" item xs=6}
 
-::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJEB40665" y="scaffold_n50 AND bioproject_accession=PRJEB40665" cat="assembly_type" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of DToL assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
+::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJEB40665" y="scaffold_n50 AND bioproject_accession=PRJEB40665" cat="assembly_type=haploid@primary-haploid" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of DToL assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
 
 :::
 :::grid{container direction="row" spacing="1" class="padded"}
