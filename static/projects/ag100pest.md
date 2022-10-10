@@ -53,7 +53,7 @@ Locust swarm. Image source: [CSIRO](http://www.scienceimage.csiro.au/image/7007)
 
 ::report{report="histogram" x="long_list=AG100PEST AND sequencing_status_ag100pest" rank="species" taxonomy="ncbi" result="taxon" cat="sequencing_status_ag100pest=sample_collected@collected,sample_acquired@acquired,in_progress@in_progress,insdc_open@insdc" excludeAncestral="long_list" excludeMissing="long_list" xOpts=";;1;;Sequencing Status" caption="Current sequencing status of Ag100Pest targets" item xs=6}
 
-::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJNA555319" y="scaffold_n50" cat="assembly_type" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of Ag100Pest assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
+::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJNA555319" y="scaffold_n50" cat="assembly_type=haploid@primary-haploid" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of Ag100Pest assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
 
 :::
 :::grid{container direction="row" spacing="1" class="padded"}
