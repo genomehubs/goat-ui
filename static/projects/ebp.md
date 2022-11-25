@@ -120,8 +120,23 @@ Click on report to see and download individually.
 
 ::report{report="scatter" x="tax_tree(2759) AND long_list" y="sequencing_status" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" ratio=2.5 xOpts=",,55" yOpts="sample_collected,sample_acquired,in_progress,insdc_open;;" includeEstimates="false" scatterThreshold="10" item caption="Distribution of sequencing status for target species across EBP affiliated projects. Note that for species present in multiple long_lists the most advanced stage among all projects will be used to retrieve the counts for each project" xs=12}
 
+:::grid{container direction="row" spacing="1" item xs=12}
+
+::report{report="histogram" x="tax_tree(2759) AND long_list AND bioproject=PRJNA533106 AND insdc_open=EBP" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Assemblies available on INSDC for target species across EBP-affiliated projects. Note that umbrella projects will inherit counts from their sub-projects and that overlapping targets sequenced by at least one EBP affiliate will appear as complete in all projects targeting that taxon" item xs=6}
+
+::report{report="histogram" x="tax_tree(2759) AND long_list AND sequencing_status=in_progress" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Number of target species across EBP affiliated projects with genome sequencing in progress. Note that species in multiple lists will be counted as in progress for all projects if sequencing has been initiated by at least one of the projects" item xs=6}
+
+
+
+
 ::report{report="scatter" x="tax_tree(2759) AND long_list" y="assembly_level AND bioproject=prjna533106" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" ratio=3 xOpts=",,55" yOpts="contig,scaffold,chromosome,complete genome;;" includeEstimates="false" scatterThreshold="10" item caption="Distribution of sequenced target species across EBP affiliates by assembly level. Note that for each initiative, if a species has an available assembly it will be counted regardless of  project of origin" xs=12}
 
+
+:::grid{container direction="row" spacing="1" item xs=12}
+
+::report{report="histogram" x="tax_tree(2759) AND long_list AND bioproject=PRJNA533106 AND assembly_level=chromosome" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Chromosome-level assemblies available on INSDC for target species across EBP-affiliated projects. Note that this particular assembly level migtht have originated from a different project with target list overlaps" item xs=6}
+
+::report{report="histogram" x="tax_tree(2759) AND long_list AND bioproject=PRJNA533106 AND assembly_level=scaffold" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Scaffold-level assemblies available on INSDC for target species across EBP-affiliated projects. Note that this particular assembly level migtht have originated from a different project with target overlaps." item xs=6}
 :::
 
 **Note:** Not all EBP Affiliated Projects are accounted for under the EBP Umbrella BioProject Id PRJNA533106. Numbers and reports on this page include only those under BioProject Id PRJNA533106.
