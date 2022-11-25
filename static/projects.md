@@ -42,6 +42,8 @@
 
 - [ILEBP - Illinois EBP Pilot (PRJNA844590)](/projects/ILEBP)
 
+- [LOEWE-TBG - LOEWE Centre for Translational Biodiversity Genomics (PRJNA706923)](/projects/LOEWE-TBG)
+
 - [METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)](/projects/METAINVERT)
 
 - [OMG - Oz Mammals Genomics](/projects/OMG)
