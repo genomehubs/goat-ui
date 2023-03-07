@@ -57,7 +57,7 @@ GoaT reports from search results can be edited following three main steps:
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 ## List of Atributes for Taxon Index on GoaT
-Attributes can be used as search terms alongside taxa on the search box
+Attributes can be used as search terms alongside taxa in the search box
 
 Ex: assembly_span AND tax_name(chiroptera)
 
