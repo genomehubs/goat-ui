@@ -14,11 +14,11 @@
 
 # Summary Data
 
-## Tree representing ARG target list highlighting species currently in progress
+## Declared targets of ARG highlighting species currently in progress
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ARG" y="in_progress=ARG" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=3 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Tree of species in the ARG long list.** Orange highlights represent clades with at least one descendant species in progress in the ARG pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ARG" y="in_progress=ARG" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=3 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Tree of taxa in the declared target list of ARG.** Orange highlights represent clades with at least one descendant species in progress in the ARG pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 

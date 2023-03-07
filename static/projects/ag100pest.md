@@ -3,10 +3,6 @@
 ::grid[![GoaT](/static/images/USDA.png)]{item xs=3}
 :::
 
-::grid[![GoaT](/static/images/CSIRO_ScienceImage_7007_Plague_locusts_on_the_move.jpeg)]{item xs=4} 
-Locust swarm. Image source: [CSIRO](http://www.scienceimage.csiro.au/image/7007)
-
-
 
 # Ag100Pest Initiative (Ag100Pest)
 
@@ -22,12 +18,12 @@ Locust swarm. Image source: [CSIRO](http://www.scienceimage.csiro.au/image/7007)
 
 # Summary Data
 
-## Tree representing the declared target list of Ag100Pest, highlighting species with available assemblies (green)
+## Declared targets of Ag100Pest, highlighting species with available assemblies (green)
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=AG100PEST" y="assembly_span AND bioproject=PRJNA555319" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=1.5 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing the declared target list of Ag100Pest.** Orange highlights represent clades with at least one genome already available under the Ag100Pest Bioproject Id PRJNA555319." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=AG100PEST" y="assembly_span AND bioproject=PRJNA555319" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=1.5 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree of taxa in the declared target list of Ag100Pest.** Orange highlights represent clades with at least one genome available under the Ag100Pest Bioproject Id PRJNA555319. Bar = assembly span." item xs=12}
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}
