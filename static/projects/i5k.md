@@ -28,7 +28,7 @@ The **i5K initiative** has a broad and inclusive mandate. Their goals are to:
 :::grid{container direction="row" spacing="1" item xs=12}
 
 
-::report{report="tree" x="tax_tree(Eukaryota) AND bioproject=PRJNA163993" y="assembly_span AND bioproject=PRJNA163993" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=1.5 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree of taxa in the declared target list of i5k.** Orange highlights represent clades with at least one genome available under the i5k Bioproject Id PRJNA163993. Bar = assembly span." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND bioproject=PRJNA163993" y="assembly_span AND bioproject=PRJNA163993" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=1.5 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Genome Sequencing of i5k Targets:** Orange highlights represent clades with at least one genome available under the i5k Bioproject ID PRJNA163993. Bars = assembly span." item xs=12}
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}

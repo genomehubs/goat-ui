@@ -25,7 +25,7 @@
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=africabp" y="assembly_span AND bioproject=PRJNA811786" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=4 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Tree of taxa in the declared target list of AfricaBP.** Orange highlights represent clades with at least one genome available under the AfricaBP Bioproject Id PRJNA811786. Bar = assembly span. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=africabp" y="assembly_span AND bioproject=PRJNA811786" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=4 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Taxa in the declared target list of AfricaBP.** Orange highlights represent clades with at least one genome available under the AfricaBP Bioproject Id PRJNA811786. Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 

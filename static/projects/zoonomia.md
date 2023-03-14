@@ -18,11 +18,11 @@
 :::
 # Summary Data
 
-## Tree representing species for which Zoonomia has generated assemblies
+## Tree representing species for which Zoonomia has generated assemblies (grees)
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ZOONOMIA AND tax_rank(species)" y="assembly_span AND bioproject=PRJNA312960,PRJNA12590" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing species for which Zoonomia has generated assemblies.** Orange highlights represent clades with at least one genome already available under the Bioproject ID PRJNA312960 (plus PRJNA12590 for Echinops telfairi). Species with available assemblies are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ZOONOMIA AND tax_rank(species)" y="assembly_span AND bioproject=PRJNA312960,PRJNA12590" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing species for which Zoonomia has generated assemblies.** Orange highlights represent clades with at least one genome already available under the Bioproject ID PRJNA312960 (plus PRJNA12590 for Echinops telfairi). Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 

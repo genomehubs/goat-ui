@@ -18,11 +18,11 @@
 
 # Summary Data
 
-## Tree representing the declared targets of Polar Genomes Project highlighting species currently in progress
+## Tree representing the declared targets of Polar Genomes Project highlighting species currently in progress (green)
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=PGP" y="in_progress=PGP" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=4.8 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Tree of species in the Polar Genomes Project target list.** Orange highlights represent clades with at least one descendant species in progress in the Polar Genomes Project pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=PGP" y="in_progress=PGP" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=4.8 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Taxa in the declared target list of the Polar Genomes Project.** Orange highlights represent clades with at least one descendant species in progress in the Polar Genomes Project pipeline. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 
