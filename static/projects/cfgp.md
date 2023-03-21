@@ -16,7 +16,7 @@
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=CFGP" y="in_progress=CFGP" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=3 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Tree of species in the CFGP long list.** Orange highlights represent clades with at least one descendant species in progress in the CFGP pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=CFGP" y="in_progress=CFGP" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=3 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Taxa in the declared target list of CFGP.** Orange highlights represent clades with at least one descendant species in progress in the CFGP pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 

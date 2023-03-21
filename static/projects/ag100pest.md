@@ -23,7 +23,7 @@
 :::grid{container direction="row" spacing="1" item xs=12}
 
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=AG100PEST" y="assembly_span AND bioproject=PRJNA555319" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=1.5 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree of taxa in the declared target list of Ag100Pest.** Orange highlights represent clades with at least one genome available under the Ag100Pest Bioproject Id PRJNA555319. Bar = assembly span." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=AG100PEST" y="assembly_span AND bioproject=PRJNA555319" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=1.5 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Taxa in the declared target list of Ag100Pest.** Orange highlights represent clades with at least one genome available under the Ag100Pest Bioproject Id PRJNA555319. Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." item xs=12}
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}
