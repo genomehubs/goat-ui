@@ -1,0 +1,1 @@
+::report{report="arc" x="long_list=dtol AND ebp_metric_date AND bioproject!=PRJEB40665" y="long_list=DTOL" rank="species" includeEstimates="true" result="taxon" taxonomy="ncbi" caption="**Already Sequenced**"}
