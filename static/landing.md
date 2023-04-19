@@ -21,6 +21,8 @@ GoaT is a powerful data aggregator, optimized to allow complex queries. The user
 
 For detailed information on **how to use GoaT**, go to our [help page](/help).
 
+**Access here** the [GoaT Announcement Article](https://wellcomeopenresearch.org/articles/8-24)
+
 # Explore Trees
 
 GoaT can display search results on trees and new queries can be made exploring pre-existing trees.

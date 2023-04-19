@@ -18,3 +18,12 @@ Use GoaT's [search](/search) to access direct and estimate values for any Eukary
 Use GoaT's [project-dedicated pages](/projects) to see and download sequencing status and reports of Earth Biogenome Project Affiliated Projects.
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
+
+## Publications
+- [GoaT Announcement Article](https://wellcomeopenresearch.org/articles/8-24)
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+## Access Genomes on a Tree Annual Progress Reports
+
+GoaT Report | [2022](https://docs.google.com/document/d/1sUhMCZQUuQ8vYhTqrsbKEpB4lpZfpPPr5jDYFuIWPe8/edit#heading=h.j5pprs5ge9pk) 
