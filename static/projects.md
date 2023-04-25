@@ -32,9 +32,11 @@
 
 - [ENDEMIXIT - Italian Endemics (PRJNA712951)](/projects/ENDEMIXIT)
 
+- [ERGA-BGE - ERGA Biodiversity Genomics Europe project](/projects/ERGA-BGE)
+
 - [ERGA-PIL - European Reference Genome Atlas Pilot project (PRJEB47820)](/projects/ERGA-PIL)
 
-- [ERGA - European Reference Genome Atlas Pilot project (PRJEB47820)](/projects/ERGA)
+- [ERGA - European Reference Genome Atlas Umbrella (PRJEB43510)](/projects/ERGA)
 
 - [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
 
