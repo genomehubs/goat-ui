@@ -14,6 +14,8 @@
 
 - [ASG - Aquatic Symbiosis Genomics Project (PRJEB43743)](/projects/ASG)
 
+- [BAT1K - 1,000 Bat Genomes (PRJNA489245)](/projects/BAT1K)
+
 - [B10K - Bird 10,000 Genomes Project (PRJNA545868)](/projects/B10K)
 
 - [CANBP - Canada Biogenome Project (CBP - PRJNA813333)](/projects/CANBP)
@@ -69,8 +71,6 @@
 - 5,000 Insect Genomes (i5K)
 
 - 10,000 Plant Genomes (10KP)
-
-- Bat1K
 
 - Beenome100
 
