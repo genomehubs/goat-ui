@@ -43,6 +43,7 @@ Click on report to see and download individually.
 * **sample_collected:** status updated daily from [NHM](https://data.nhm.ac.uk/), [COPO](https://copo-project.org) and from the Wellcome Sanger Institute internal Sample Tracking System (STS). Includes monthly updates retrieved from other DToL partners and taxon working groups
 * **sample_acquired:** species with samples on site at the Wellcome Sanger Institute
 * **in_progress:** includes sequencing, assembly and curation
+* **insdc_open** assembly is publicly available on INSDC
 
 :::grid{container direction="row" spacing="1" item xs=12}
 

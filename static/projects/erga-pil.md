@@ -7,6 +7,8 @@
 
 ::grid[**ERGA** is an effort to generate reference genomes representing European biodiversity. To demonstrate the feasibility of continent-wide collaboration, ERGA has launched a Pilot Project; established, funded, and driven entirely by its members. For more information access ERGA-PIL official project page at https://www.erga-biodiversity.eu/pilot-project.]{item xs=8}
 
+**Bioproject ID** PRJEB47820
+
 **Main Contact**: pilot(at)erga-biodiversity.eu
 
 ::grid[ ]{item xs=4}
