@@ -6,6 +6,9 @@
 - [EBP - Earth Biogenome Project (bioproject PRJNA533106)](/projects/EBP)
 
 ## EBP Affiliated Project Networks
+
+- [1,000 Fungal Genomes (1KFG)](/projects/1KFG)
+
 - [AFRICABP - African BioGenome Project (AfricaBP, 	PRJNA811786)](/projects/AFRICABP)
 
 - [AG100PEST - Ag100Pest Initiative (PRJNA555319)](/projects/AG100PEST)
@@ -25,6 +28,8 @@
 - [CCGP - California Conservation Genomics Project (CCGP - PRJNA720569)](/projects/CCGP)
 
 - [CFGP - Cartilaginous Fish Genome Project](/projects/CFGP)
+
+- DNA Zoo (in progress)
 
 - [DTOL - Darwin Tree of Life (PRJEB40665)](/projects/DTOL)
 
@@ -46,17 +51,25 @@
 
 - [GIGA - Global Invertebrate Genome Alliance (PRJNA649812)](/projects/GIGA)
 
-- [i5K - i5k Initiative (PRJNA163993)](/projects/i5K)
+- [i5K - 5,000 Insect Genomes (PRJNA163993)](/projects/i5K)
 
 - [ILEBP - Illinois EBP Pilot (PRJNA844590)](/projects/ILEBP)
+
+- [LMGP - Lilioid Monocots Core Group Genome Project (PRJNA948806)](/projects/LMGP)
 
 - [LOEWE-TBG - LOEWE Centre for Translational Biodiversity Genomics (PRJNA706923)](/projects/LOEWE-TBG)
 
 - [METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)](/projects/METAINVERT)
 
+- [OGG - Open Green Genomes](/projects/OGG)
+
 - [OMG - Oz Mammals Genomics](/projects/OMG)
 
 - [PGP - Polar Genomes Project](/projects/PGP)
+
+- PhyloAlps (in progress)
+
+- [PRGP - Primate Genomes Project](/projects/PRGP)
 
 - [SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans (PRJNA707598)](/projects/SQUALOMIX)
 
@@ -67,10 +80,6 @@
 - [ZOONOMIA - 200 Mammals Project (PRJNA312960)](/projects/ZOONOMIA)
 
 - 1,000 Chilean Genomes
-
-- 1,000 Fungal Genomes (1KFG)
-
-- 5,000 Insect Genomes (i5K)
 
 - 10,000 Plant Genomes (10KP)
 
@@ -84,8 +93,6 @@
 
 - Diversity Initiative for the Southern California Ocean (DISCO)
 
-- DNA Zoo
-
 - Dresden HQ Genomes Project
 
 - EBP Colombia
@@ -93,14 +100,6 @@
 - Epizoic Diatom Genomes Project
 
 - Fish 10,000 Genomes (Fish 10K)
-
-- Lilioid Monocots Core Group Genome Project
-
-- Open Green Genomes
-
-- PhyloAlps
-
-- Primate Genome Project
 
 - Taiwan BioGenome Project
 
