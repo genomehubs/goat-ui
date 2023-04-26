@@ -42,7 +42,7 @@ Click on report to see and download individually.
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
-::report{report="xInY" x="bioproject=1KFG" taxonomy="ncbi" rank="order,family,genus,species" y="long_list=1KFG" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" item xs=6 caption="**1KFG Contribution to Genome Assemblies Available in INSDC**  - Sequencing progress of 1KFG target taxa under 1KFG umbrella (Bioproject placeholder 1KFG)  at different taxonomic ranks."}
+::report{report="xInY" x="bioproject=1KFG" taxonomy="ncbi" rank="phylum,class,order,family,genus,species" y="long_list=1KFG" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" item xs=6 caption="**1KFG Contribution to Genome Assemblies Available in INSDC**  - Sequencing progress of 1KFG target taxa under 1KFG umbrella (Bioproject placeholder 1KFG)  at different taxonomic ranks."}
 
 ::report{report="xPerRank" x="long_list=1KFG" includeEstimates=true caption="**Counts of taxa targeted by 1KFG**: All summary reports on GoaT are based on these counts" item xs=6}
 :::

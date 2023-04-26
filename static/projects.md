@@ -29,6 +29,8 @@
 
 - [CFGP - Cartilaginous Fish Genome Project](/projects/CFGP)
 
+- DNA Zoo (in progress)
+
 - [DTOL - Darwin Tree of Life (PRJEB40665)](/projects/DTOL)
 
 - [EBPN - Earth Biogenome Project Norway (EBP-Nor)](/projects/EBPN)
@@ -59,9 +61,15 @@
 
 - [METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)](/projects/METAINVERT)
 
+- [OGG - Open Green Genomes](/projects/OGG)
+
 - [OMG - Oz Mammals Genomics](/projects/OMG)
 
 - [PGP - Polar Genomes Project](/projects/PGP)
+
+- PhyloAlps (in progress)
+
+- [PRGP - Primate Genomes Project](/projects/PRGP)
 
 - [SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans (PRJNA707598)](/projects/SQUALOMIX)
 
@@ -85,8 +93,6 @@
 
 - Diversity Initiative for the Southern California Ocean (DISCO)
 
-- DNA Zoo
-
 - Dresden HQ Genomes Project
 
 - EBP Colombia
@@ -94,12 +100,6 @@
 - Epizoic Diatom Genomes Project
 
 - Fish 10,000 Genomes (Fish 10K)
-
-- Open Green Genomes
-
-- PhyloAlps
-
-- Primate Genome Project
 
 - Taiwan BioGenome Project
 
