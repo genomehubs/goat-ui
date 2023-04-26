@@ -6,6 +6,9 @@
 - [EBP - Earth Biogenome Project (bioproject PRJNA533106)](/projects/EBP)
 
 ## EBP Affiliated Project Networks
+
+- [1,000 Fungal Genomes (1KFG)](/projects/1KFG)
+
 - [AFRICABP - African BioGenome Project (AfricaBP, 	PRJNA811786)](/projects/AFRICABP)
 
 - [AG100PEST - Ag100Pest Initiative (PRJNA555319)](/projects/AG100PEST)
@@ -46,9 +49,11 @@
 
 - [GIGA - Global Invertebrate Genome Alliance (PRJNA649812)](/projects/GIGA)
 
-- [i5K - i5k Initiative (PRJNA163993)](/projects/i5K)
+- [i5K - 5,000 Insect Genomes (PRJNA163993)](/projects/i5K)
 
 - [ILEBP - Illinois EBP Pilot (PRJNA844590)](/projects/ILEBP)
+
+- [LMGP - Lilioid Monocots Core Group Genome Project (PRJNA948806)](/projects/LMGP)
 
 - [LOEWE-TBG - LOEWE Centre for Translational Biodiversity Genomics (PRJNA706923)](/projects/LOEWE-TBG)
 
@@ -67,10 +72,6 @@
 - [ZOONOMIA - 200 Mammals Project (PRJNA312960)](/projects/ZOONOMIA)
 
 - 1,000 Chilean Genomes
-
-- 1,000 Fungal Genomes (1KFG)
-
-- 5,000 Insect Genomes (i5K)
 
 - 10,000 Plant Genomes (10KP)
 
@@ -93,8 +94,6 @@
 - Epizoic Diatom Genomes Project
 
 - Fish 10,000 Genomes (Fish 10K)
-
-- Lilioid Monocots Core Group Genome Project
 
 - Open Green Genomes
 
