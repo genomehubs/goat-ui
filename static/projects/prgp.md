@@ -29,7 +29,7 @@ PRJNA911016（[NCBI)](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA785018)
 ## Tree representing PRGP target list highlighting species with available assemblies (green)
 
 :::grid{container direction="row" spacing="1" item xs=12}
-::report{report="tree" x="long_list=PRGP AND tax_rank(species)" y="assembly_span AND bioproject=PRGP" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order" ratio=2 includeEstimates collapseMonotypic disableModal item yOpts="1000000,10000000000," caption="**Species in the declared target list of PRGP.** Orange highlights represent clades with at least one genome available under the BioProject ID aggregator (PRGP). Bars = assembly span." xs=12}
+::report{report="tree" x="long_list=PRGP AND tax_rank(species)" y="assembly_span AND bioproject=PRGP" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order" ratio=1.8 includeEstimates collapseMonotypic disableModal item yOpts="1000000,10000000000," caption="**Species in the declared target list of PRGP.** Orange highlights represent clades with at least one genome available under the BioProject ID aggregator (PRGP). Bars = assembly span." xs=12}
 :::
 Tap tree nodes to browse taxa or long-press to search.
 
