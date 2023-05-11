@@ -1,5 +1,5 @@
 # Projects
-
+This section hosts dedicated pages for EBP and EBP-affiliated projects. Each project page contains information about the project, including its GoaT search term and BioProject ID alongside reports of planning, progress and completion of genome assemblies. 
 
 ## Earth Biogenome Project
 
