@@ -10,15 +10,19 @@ jobs:
   package-goat-ui:
     runs-on: ubuntu-latest
     steps:
+      - id: genomehubs
+        uses: pozetroninc/github-action-get-latest-release@master
+        with:
+          repository: genomehubs/genomehubs
       - uses: actions/checkout@v3
         with:
-          ref: ${{github.ref}}
+          ref: ${{ github.ref }}
       - uses: actions/setup-node@v3
         with:
           node-version: "16"
       - run: npm install -g pkg
       - run: |
-          git clone -b 2.6.16 https://github.com/genomehubs/genomehubs
+          git clone -b ${{ steps.genomehubs.outputs.release }} https://github.com/genomehubs/genomehubs
           mv static/* genomehubs/src/genomehubs-ui/src/client/static/
       - run: cd genomehubs && ./package-ui.sh
       - uses: actions/upload-artifact@v3
@@ -31,11 +35,7 @@ jobs:
     needs: package-goat-ui
     steps:
       - run: |
-          git clone -b 2.6.16 https://github.com/genomehubs/genomehubs
-      # - name: Checkout
-      #   uses: actions/checkout@v3
-      #   with:
-      #     ref: ${{github.ref}}
+          git clone -b ${{ steps.genomehubs.outputs.release }} https://github.com/genomehubs/genomehubs
       - uses: actions/download-artifact@v3
         with:
           name: goat-ui
