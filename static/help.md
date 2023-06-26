@@ -56,116 +56,23 @@ GoaT reports from search results can be edited following three main steps:
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
-## List of Atributes for Taxon Index on GoaT
-Attributes can be used as search terms alongside taxa in the search box
+## List of Atributes for Taxon and Assembly Indexes on GoaT
+Attributes can be used as search terms in the search box and queried on respective types and summary functions.
 
-Ex: assembly_span AND tax_name(chiroptera)
-
-Select **result columns** to display (**mandatory step!**)
-
-:::grid{container direction="row" toggle title="List of Taxon Attributes on GoaT" spacing="1" class="padded" item xs=10}
+Ex: 
+- assembly_span AND insdc_open=ERGA AND tax_rank(family) [see query results](https://goat.genomehubs.org/search?query=assembly_span%20AND%20insdc_open%3DERGA%20AND%20tax_rank%28family%29&result=taxon&includeEstimates=true&summaryValues=count&taxonomy=ncbi#assembly_span%20AND%20insdc_open%3DERGA%20AND%20tax_rank(family))
+- contig_n50>=1000000 AND tax_tree(chiroptera) [see query result](https://goat.genomehubs.org/search?taxonomy=ncbi&query=contig_n50%3E%3D1000000%20AND%20tax_tree%28chiroptera%29&result=assembly&includeEstimates=true&summaryValues=count#contig_n50%3E%3D1000000%20AND%20tax_tree(chiroptera))
 
 
 
-
-::grid[**assembly**]{item xs=12 .paragraph}
-
-- assembly_level
-- assembly_span
-- bioproject
-- biosample
-- contig_n50
-- assembly_date
-- scaffold_n50
-- gene_count
-- sample_sex
-- ebp_metric_date
-- busco_completeness
-- busco_lineage
-- gc_percent
-- n_percent
-- nohit
-- target
-
-::grid[**mitochondrion_assembly**]{item xs=12 .paragraph}
-- mitochondrion_assembly_span
-- mitochondrion_gc_percent
-
-::grid[**plastid_assembly**]{item xs=12 .paragraph}
-- plastid_assembly_span
-- plastid_gc_percent
-
-::grid[**karyotype**]{item xs=12 .paragraph}
-
-- chromosome_number
-- haploid_number
-- sex_determination
-- ploidy
-
-::grid[**genome_size**]{item xs=12 .paragraph}
-- genome_size
-- genome_size_kmer
-- genome_size_draft
-- c_value
-- c_value_method
-- c_value_cell_type
-
-::grid[**uk_legislation**]{item xs=12 .paragraph}
-- marhabreg-2017
-- habreg_2017
-- echabs92
-- isb_wildlife_act_1976
-- waca_1981
-- protection_of_badgers_act_1992
-
-::grid[**sequencing_status**]{item xs=12 .paragraph}
-- sequencing_status
-- sample_collected
-- sample_acquired
-- in_progress
-- insdc_submitted
-- insdc_open
-- published
-- sample_collected_by
-- sequencing_status_b10k
-- sequencing_status_cbp
-- sequencing_status_cfgp
-- sequencing_status_dtol
-- sequencing_status_ebpn
-- sequencing_status_endemixit
-- sequencing_status_erga
-- sequencing_status_eurofish
-- sequencing_status_gaga
-- sequencing_status_metainvert
-- sequencing_status_squalomix
-- sequencing_status_vgp
-
-::grid[**regional_lists**]{item xs=12 .paragraph}
-- country_list
-
-::grid[**target_lists**]{item xs=12 .paragraph}
-- other_priority
-- family_representative
-- long_list
-
-
-::grid[**ranks**]{item xs=12 .paragraph}
-- subspecies
-- species
-- genus
-- family
-- order
-- class
-- phylum
-- kingdom
-- superkingdom
-
-::grid[**names**]{item xs=12 .paragraph}
-- tol_id
-- common_name
-- synonym
-
+:::grid{container direction="row" toggle title="List of Taxon Attributes on GoaT" spacing="1" class="padded" item xs=12}
+::report{report="types" result="taxon" item xs=12}
 :::
+
+:::grid{container direction="row" toggle title="List of Assembly Attributes on GoaT" spacing="1" class="padded" item xs=12}
+::report{report="types" result="assembly" item xs=12}
+:::
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
