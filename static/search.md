@@ -26,5 +26,5 @@ Or try the steps from [our tutorials](/help)
 
 Use the templates below to explore some of the search options available in :hub
 
-::include{pageId=template/buscoLineagesByAssembly.md}
-::include{pageId=template/scatterPlot.md xs=8}
+::include{pageId=templates/buscoLineagesByAssembly.md}
+::include{pageId=templates/scatterPlot.md xs=8}
