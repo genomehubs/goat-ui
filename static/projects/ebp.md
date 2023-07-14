@@ -120,16 +120,16 @@ Click on report to see and download individually.
 
 ::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(eukaryota,!opisthokonta,!streptophyta)" rank="species" taxonomy="ncbi" result="taxon" cat="family[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of species from selected eukaryotic taxa sequenced by EBP by family. GoaT search excluded Opisthokonta and Streptophyta, and currently correspond to species within Sar, Discoba, and Chlorophyta clades." item xs=6}
 
-::grid[Click on reports to see and download individualy; and long-press on bins to retrieve search results]{item xs=12 .paragraph}
+::grid[Click on reports to see and download individually; and long-press on bins to retrieve search results]{item xs=12 .paragraph}
 :::
 
 :::grid{container direction="row" toggle title="Summary reports for EBP affiliates on GoaT" spacing="1"}
 
 ::grid[**Disclaimer:** the reports below have been generated based on the number of species declared as targets (long_list) by each EBP affiliate. Note that if a species is present in multiple target lists and has received at least one value for sequencing status or assembly level, that value will be transposed to other projects. For sequencing status, the most advanced stage among all projects will be used to retrieve the counts for each project. For more accurate reports per project, prease visit the respective [project-dedicated page](/projects) on GoaT.]{item xs=12 .paragraph}
 
-::grid[Click on reports to see and download individualy. Long-press on bins to retrieve search results and details for each project]{item xs=12 .paragraph}
+::grid[Click on reports to see and download individually. Long-press on bins to retrieve search results and details for each project]{item xs=12 .paragraph}
 
-::report{report="scatter" x="tax_tree(2759) AND long_list" y="sequencing_status" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" ratio=2.5 xOpts=",,55" yOpts="sample_collected,sample_acquired,in_progress,insdc_open;;" includeEstimates="false" scatterThreshold="10" item caption="Distribution of sequencing status for target species across EBP affiliated projects. Note that for species present in multiple long_lists the most advanced stage among all projects will be used to retrieve the counts for each project" xs=12}
+::report{report="scatter" x="tax_tree(2759) AND long_list" y="sequencing_status" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" ratio=2 xOpts=",,55" yOpts="sample_collected,sample_acquired,in_progress,insdc_open;;" includeEstimates="false" scatterThreshold="10" item caption="Distribution of sequencing status for target species across EBP affiliated projects. Note that for species present in multiple long_lists the most advanced stage among all projects will be used to retrieve the counts for each project" xs=12}
 
 :::grid{container direction="row" spacing="1" item xs=12}
 
@@ -137,10 +137,10 @@ Click on report to see and download individually.
 
 ::report{report="histogram" x="tax_tree(2759) AND long_list AND sequencing_status=in_progress" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Number of target species across EBP affiliated projects with genome sequencing in progress. Note that species in multiple lists will be counted as in progress for all projects if sequencing has been initiated by at least one of the projects" item xs=6}
 
+:::grid{container direction="row" spacing="1" item xs=12}
 
 
-
-::report{report="scatter" x="tax_tree(2759) AND long_list" y="assembly_level AND bioproject=prjna533106" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" ratio=3 xOpts=",,55" yOpts="contig,scaffold,chromosome,complete genome;;" includeEstimates="false" scatterThreshold="10" item caption="Distribution of sequenced target species across EBP affiliates by assembly level. Note that for each initiative, if a species has an available assembly it will be counted regardless of  project of origin" xs=12}
+::report{report="scatter" x="tax_tree(2759) AND long_list" y="assembly_level AND bioproject=prjna533106" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" ratio=2 xOpts=",,55" yOpts="contig,scaffold,chromosome,complete genome;;" includeEstimates="false" scatterThreshold="10" item caption="Distribution of sequenced target species across EBP affiliates by assembly level. Note that for each initiative, if a species has an available assembly it will be counted regardless of  project of origin" xs=12}
 
 
 :::grid{container direction="row" spacing="1" item xs=12}
