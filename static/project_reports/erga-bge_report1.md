@@ -1,0 +1,1 @@
+::report{report="arc" x="long_list=ERGA-BGE AND ebp_metric_date AND bioproject!=PRJEB61747" y="long_list=ERGA-BGE" rank="species" includeEstimates="true" result="taxon" taxonomy="ncbi" caption="**Already Sequenced**"}
