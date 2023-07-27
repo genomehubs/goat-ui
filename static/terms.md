@@ -1,3 +1,7 @@
+<!--
+Unused content
+-->
+
 Search taxa and assemblies by typing in the search box above or try one of the example searches below.
 
 - tax_name(Chiroptera)::taxonomy=ncbi&result=taxon
