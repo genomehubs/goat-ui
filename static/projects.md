@@ -37,7 +37,9 @@ This section hosts dedicated pages for EBP and EBP-affiliated projects. Each pro
 
 - [ENDEMIXIT - Italian Endemics (PRJNA712951)](/projects/ENDEMIXIT)
 
-- [ERGA-BGE - ERGA Biodiversity Genomics Europe project](/projects/ERGA-BGE)
+- [ERGA-BGE - ERGA Biodiversity Genomics Europe project (PRJEB61747)](/projects/ERGA-BGE)
+
+- [ERGA-CH - ERGA Switzerland (PRJEB49197)](/projects/ERGA-CH)
 
 - [ERGA-PIL - European Reference Genome Atlas Pilot project (PRJEB47820)](/projects/ERGA-PIL)
 
