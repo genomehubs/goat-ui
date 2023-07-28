@@ -1,5 +1,6 @@
 # Projects
-This section hosts dedicated pages for EBP and EBP-affiliated projects. Each project page contains information about the project, including its GoaT search term and BioProject ID alongside reports of planning, progress and completion of genome assemblies. 
+
+GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbiogenome.org) (EBP) and EBP-affiliated projects. Each project page contains information about the project, including its GoaT search term and BioProject ID together with reports of highlighting the planning, progress and completion of genome assemblies.
 
 ## Earth Biogenome Project
 
@@ -9,7 +10,7 @@ This section hosts dedicated pages for EBP and EBP-affiliated projects. Each pro
 
 - [1,000 Fungal Genomes (1KFG)](/projects/1KFG)
 
-- [AFRICABP - African BioGenome Project (AfricaBP, 	PRJNA811786)](/projects/AFRICABP)
+- [AFRICABP - African BioGenome Project (AfricaBP, PRJNA811786)](/projects/AFRICABP)
 
 - [AG100PEST - Ag100Pest Initiative (PRJNA555319)](/projects/AG100PEST)
 
@@ -77,7 +78,7 @@ This section hosts dedicated pages for EBP and EBP-affiliated projects. Each pro
 
 - [TSI - Threatened Species Initiative](/projects/TSI)
 
-- [VGP  - Vertebrate Genomes Project (PRJNA489243)](/projects/VGP)
+- [VGP - Vertebrate Genomes Project (PRJNA489243)](/projects/VGP)
 
 - [ZOONOMIA - 200 Mammals Project (PRJNA312960)](/projects/ZOONOMIA)
 
@@ -108,6 +109,3 @@ This section hosts dedicated pages for EBP and EBP-affiliated projects. Each pro
 - University of California Consortium
 
 - Ungulates Genome Project
-
-
-
