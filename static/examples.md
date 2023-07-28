@@ -8,6 +8,6 @@ To get started, type your [favourite taxon](/search?query=tax_name%289925%5BCapr
 
 - Use the **result columns** icon below the search box to choose which attributes to display in the results table.
 - Use the **query builder** icon and drop-down lists to refine your query.
-- Toggle the options to **include descendants** or **include estimates**.
+- Toggle the options to **include descendants** (include descendant taxa) or **include estimates** (include estimated values) in the search results.
 
 To see some examples of the more advanced search options available, try out one of our [search templates](/templates) or take a look at the reports on the [project pages](/projects) and further down this page. [read more...](/help)
