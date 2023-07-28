@@ -37,6 +37,10 @@ const Head = ({ siteName, basename }) => {
       <meta name="application-name" content="GoaT" />
       <meta name="msapplication-TileColor" content="#2d89ef" />
       <meta name="theme-color" content="#31323f" />
+      <meta
+        name="google-site-verification"
+        content="nZofAvSkfdHYP3Dm54oAMxv6xvN-5UfzogR0Neq8TqM"
+      />
     </Helmet>
   );
 };
