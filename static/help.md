@@ -87,11 +87,11 @@ Sequencing genomes at the scale of the EBP requires careful coordination between
 
 ::grid[GoaT facilitates identification of underrepresented taxa and can therefore be an important tool for early stages of the preparation of grant proposals and target list generation. As more initiatives emerge, similar gap analysis will be increasingly relevant to achieve comprehensive coverage at different taxonomic levels across the wider EBP. Within the Arthropoda, for example, GoaT can be used to visualise underrepresented [classes](https://goat.genomehubs.org/search?query=tax_tree%28arthropoda%29%20AND%20tax_rank%28class%29%20AND%20assembly_span&result=taxon&includeEstimates=true&summaryValues=count&taxonomy=ncbi&offset=0&size=10&report=tree&y=assembly_span&treeStyle=ring&treeThreshold=2000&yOpts=1000000%2C10000000000&pointSize=25) and [families](https://goat.genomehubs.org/search?query=tax_tree%28arthropoda%29%20AND%20tax_rank%28family%29%20AND%20assembly_span&result=taxon&includeEstimates=true&summaryValues=count&taxonomy=ncbi&offset=0&size=10&report=tree&y=assembly_span&treeStyle=ring&treeThreshold=-1&yOpts=1000000%2C10000000000&pointSize=25) in the set of available genome assemblies:]{item xs=12 .paragraph}
 
-::grid{container direction="row" spacing="1" item xs=12}
+::grid{container direction="row" spacing="1"}
 
 ::report{report="tree" x="tax_tree(Arthropoda) AND tax_rank(class) AND assembly_span>0" y="assembly_span" treeStyle="ring" treeThreshold=20000 taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum,kingdom" ratio=2 includeEstimates="true" excludeAncestral="bioproject" excludeMissing="long_list" collapseMonotypic disableModal item yOpts="10000,100000000000" caption="Distribution of sequencing effort in arthropod classes. Taxa with publicly available genome assemblies for any descendant taxon have an orange highlight and those without have a red highlight. Mouseover to display taxon names." xs=12}
 
-::grid{container direction="row" spacing="1" item xs=12}
+::grid{container direction="row" spacing="1"}
 
 ::report{report="tree" x="tax_tree(Insecta) AND tax_rank(family) AND assembly_span>0" y="assembly_span" treeStyle="ring" treeThreshold=20000 taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum,kingdom" ratio=2 includeEstimates="true" excludeAncestral="bioproject" excludeMissing="long_list" collapseMonotypic disableModal item yOpts="10000,100000000000" caption="Distribution of sequencing effort in arthropod families. Taxa with publicly available genome assemblies for any descendant taxon have an orange highlight and those without have a red highlight. Mouseover to display taxon names." xs=12}
 
@@ -108,7 +108,7 @@ Sequencing genomes at the scale of the EBP requires careful coordination between
 
 ::grid[**B.** Exploratory [search](https://goat.genomehubs.org/search?result=taxon&fields=assembly_level%2Cassembly_span%2Cbioproject%2Cchromosome_number%2Chaploid_number%2Csex_determination%2Cploidy%2Cgenome_size&includeEstimates=true&summaryValues=count&ranks=phylum%2Ckingdom%2Csuperkingdom&taxonomy=ncbi&size=10&offset=0&names=&query=chromosome_number%20AND%20tax_tree%28Allium%29%20AND%20tax_rank%28species%29&excludeMissing%5B0%5D=ploidy&excludeAncestral%5B0%5D=ploidy&sortBy=chromosome_number&sortOrder=desc&report=scatter&y=genome_size%20AND%20ploidy&rank=species&plotRatio=auto&pointSize=20&xField=chromosome_number&scatterThreshold=10000) of Allium species with ploidy varying from 2n to 8n. Taxa with the lowest values for chromosome number and genome size could be selected as genus representatives.]{item xs=12 .paragraph}
 
-::grid{container direction="row" spacing="1" item xs=12}
+::grid{container direction="row" spacing="1"}
 
 ::report{report="scatter" x="chromosome_number AND tax_tree(Allium)" xField="chromosome_number" y="genome_size AND ploidy" rank="species" includeEstimates="true" plotRatio="auto" scatterThreshold="10000" pointSize="20" result="taxon" taxonomy="ncbi" xs=12}
 
