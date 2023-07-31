@@ -1,7 +1,3 @@
-<!--
-Explanation of the GenomeHubs color key for direct and estimated values
---->
-
 The values in :hub are shown alongside a color-coding, bar-filling system as follows:
 
 - :aggregation[]{method="direct"} direct (full)
