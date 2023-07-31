@@ -1,45 +1,31 @@
 # Help
 
-::include{pageId=help/searchTips.md xs=12 .inline}
+:::grid{container direction="row" toggle expand title="Getting started" spacing="1"}
 
-These options modify the search query and affect the number of results returned.
+::include{pageId=help/searchTips.md xs=12 .unpadded}
+
+::grid[These options modify the search query and affect the number of results returned.]{item xs=12 .unpaddedParagraph}
+
+::include{pageId=help/stepbystep.md xs=12 .unpaddedParagraph}
+
+::include{pageId=help/colorkey.md xs=12 .paragraph}
+
+:::
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## Step by step
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
-1. In the search box above try typing and selecting: Chiroptera
-2. Click on the **result columns** icon
-3. Deselect all boxes except **assembly**
-4. In the **assembly** dropdown, select only **assembly_span**
-5. Click the **Update** button
-6. Turn the **include descendants** switch on
+## User manual
+
+For a detailed description of key features of the GoaT user interface, please refer to the [Illustrated User Guide](https://docs.google.com/document/d/10ayIwVQ7kwEvStsBiG8dzE9xJDt53u8e0TF806CC344/edit?usp=sharing).
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## Illustrated GoaT Search Tutorial
-
-[Illustrated User Guide](https://docs.google.com/document/d/10ayIwVQ7kwEvStsBiG8dzE9xJDt53u8e0TF806CC344/edit?usp=sharing)
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-## Color-coding System
-
-The values in this GenomeHub are shown alongside a color-coding, bar-filling system as follows:
-
-- :aggregation[]{method="direct"} direct (full)
-- :aggregation[]{method="descendant"} descendant (near full)
-- :aggregation[]{method="ancestor"} ancestral (quarter full)
-
-The color- and filling- bar system indicates which results are based on :span[direct]{.direct} measurements (full bars), which are inferred from :span[descendant]{.descendant} taxa (indicated by bars with an intermediate fill level), and which are inferred from sibling taxa via a shared :span[ancestor]{.ancestor} (indicated by mostly empty bars). For this last category, tooltips provide details of the common ancestral rank to provide an indication of how reliable the estimate may be, e.g. :tooltip[:span[ancestor]{.ancestor}]{title="family" arrow placement="right"}.
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-## GoaT Reports
+<!-- ## GoaT Reports
 
 GoaT reports from search results can be edited following three main steps:
 
@@ -50,31 +36,23 @@ GoaT reports from search results can be edited following three main steps:
 - Practice using this [example report from landing page](https://goat.genomehubs.org/report?report=xInY&x=assembly_level%3Dchromosome&y=assembly_span&rank=species&includeEstimates=true&excludeAncestral%5B0%5D=assembly_span&excludeMissing%5B0%5D=assembly_span&caption=Contribution%20of%20chromosome-level%20assemblies%20to%20the%20total%20of%20species%20with%20available%20assemblies%20on%20INSDC&taxonomy=ncbi&result=taxon) or choose a report to practice [here](https://goat.genomehubs.org).
 
 :::grid{container direction="row" spacing="1" class="padded"}
-:::
+::: -->
 
-## List of Atributes for Taxon and Assembly Indexes on GoaT
+## Search attributes
 
-Attributes can be used as search terms in the search box and queried on respective types and summary functions.
-
-Ex:
-
-- assembly_span AND insdc_open=ERGA AND tax_rank(family) [see query results](<https://goat.genomehubs.org/search?query=assembly_span%20AND%20insdc_open%3DERGA%20AND%20tax_rank%28family%29&result=taxon&includeEstimates=true&summaryValues=count&taxonomy=ncbi#assembly_span%20AND%20insdc_open%3DERGA%20AND%20tax_rank(family)>)
-- contig_n50>=1000000 AND tax_tree(chiroptera) [see query result](<https://goat.genomehubs.org/search?taxonomy=ncbi&query=contig_n50%3E%3D1000000%20AND%20tax_tree%28chiroptera%29&result=assembly&includeEstimates=true&summaryValues=count#contig_n50%3E%3D1000000%20AND%20tax_tree(chiroptera)>)
-
-:::grid{container direction="row" toggle title="List of Taxon Attributes on GoaT" spacing="1" class="padded" item xs=12}
-::report{report="types" result="taxon" item xs=12}
-:::
-
-:::grid{container direction="row" toggle title="List of Assembly Attributes on GoaT" spacing="1" class="padded" item xs=12}
-::report{report="types" result="assembly" item xs=12}
-:::
+::include{pageId=help/attributevalues.md xs=12 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## Use Cases for EBP Projects
 
-Sequencing genomes at the scale of the EBP requires careful coordination between affiliated projects to prevent duplication of effort and to ensure resources are used efficiently. Metadata stored in GoaT can be used throughout a sequencing project to help meet these requirements. Here we describe a set of use cases from planning to completion that can be applied to any sequencing initiative in the EBP Network and more broadly to any genome sequencing project. We primarily use the Darwin Tree of Life (DToL) as an example project, but the equivalent information can be retrieved for any EBP-affiliated project on GoaT using the relevant acronym, listed on [projects](/projects) tab, in place of "DTOL" in the examples below. For a expanded version of use cases, check our [GoaT paper](https://wellcomeopenresearch.org/articles/8-24).
+Sequencing genomes at the scale of the EBP requires careful coordination between affiliated projects to prevent duplication of effort and to ensure resources are used efficiently. Metadata stored in GoaT can be used throughout a sequencing project to help meet these requirements. Here we describe a set of use cases from planning to completion that can be applied to any sequencing initiative in the EBP Network and more broadly to any genome sequencing project. We primarily use the Darwin Tree of Life (DToL) as an example project, but the equivalent information can be retrieved for any EBP-affiliated project on GoaT using the relevant acronym, listed on [projects](/projects) tab, in place of "DTOL" in the examples below. This section is based on the use cases presented in:
+
+::include{pageId=citation.md xs=12 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 ### Project Planning
 
