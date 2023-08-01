@@ -47,16 +47,15 @@ const Citation = ({ basename, searchTerm, resultCount }) => {
     >
       <Grid item>
         <blockquote style={{ margin: 0 }}>
-          <a>When using these data, please cite </a>
+          When using these data, please cite{" "}
           <NavLink
             href="https://doi.org/10.12688/wellcomeopenres.18658.1"
             title="external:"
             className={styles.link}
           >
             Genomes on a Tree
-          </NavLink>
-          <a> and the original data </a>
-          {sourcesLink}
+          </NavLink>{" "}
+          and the original data {sourcesLink}
         </blockquote>
       </Grid>
     </Grid>

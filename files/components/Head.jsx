@@ -1,9 +1,12 @@
+import { pagesUrl, webpackHash } from "../selectors/pages.js";
+
 import { Helmet } from "react-helmet";
 import React from "react";
 import { compose } from "recompose";
 import withSiteName from "../hocs/withSiteName";
 
 const Head = ({ siteName, basename }) => {
+  let imagePath = `${pagesUrl}/${webpackHash}/images`.replaceAll("//", "/");
   return (
     <Helmet>
       <meta charset="utf8" />
@@ -38,8 +41,29 @@ const Head = ({ siteName, basename }) => {
       <meta name="msapplication-TileColor" content="#2d89ef" />
       <meta name="theme-color" content="#31323f" />
       <meta
+        name="description"
+        content="A versatile, scalable search engine for genomic and sequencing project metadata across the eukaryotic tree of life"
+      />
+      <meta
         name="google-site-verification"
         content="nZofAvSkfdHYP3Dm54oAMxv6xvN-5UfzogR0Neq8TqM"
+      />
+      <meta property="og:title" content="Genomes on a Tree (GoaT)" />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:description"
+        content="A versatile, scalable search engine for genomic and sequencing project metadata across the eukaryotic tree of life"
+      />
+      <meta property="og:image" content={`${imageUrl}/goat-og-image.png`} />
+      <meta property="twitter:title" content="Genomes on a Tree (GoaT)" />
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+        property="twitter:description"
+        content="A versatile, scalable search engine for genomic and sequencing project metadata across the eukaryotic tree of life"
+      />
+      <meta
+        property="twitter:image"
+        content={`${imageUrl}/goat-og-image.png`}
       />
     </Helmet>
   );
