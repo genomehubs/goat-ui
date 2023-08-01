@@ -53,7 +53,7 @@ const Head = ({ siteName, basename }) => {
       />
       <meta
         property="og:image"
-        content={"https://goat-dev.genomehubs.org/goat-og-image.png"}
+        content={"https://goat.genomehubs.org/goat-og-image.png"}
       />
       <meta property="twitter:title" content="Genomes on a Tree (GoaT)" />
       <meta property="twitter:card" content="summary_large_image" />
@@ -63,7 +63,7 @@ const Head = ({ siteName, basename }) => {
       />
       <meta
         property="twitter:image"
-        content={"https://goat-dev.genomehubs.org/goat-og-image.png"}
+        content={"https://goat.genomehubs.org/goat-og-image.png"}
       />
     </Helmet>
   );
