@@ -6,7 +6,7 @@ import { compose } from "recompose";
 import withSiteName from "../hocs/withSiteName";
 
 const Head = ({ siteName, basename }) => {
-  let imagePath = `${pagesUrl}/${webpackHash}/images`.replaceAll("//", "/");
+  let imageUrl = `${pagesUrl}/${webpackHash}/images`.replaceAll("//", "/");
   return (
     <Helmet>
       <meta charset="utf8" />
