@@ -1,12 +1,9 @@
-import { pagesUrl, webpackHash } from "../selectors/pages.js";
-
 import { Helmet } from "react-helmet";
 import React from "react";
 import { compose } from "recompose";
 import withSiteName from "../hocs/withSiteName";
 
 const Head = ({ siteName, basename }) => {
-  let imageUrl = `${pagesUrl}/${webpackHash}/images`.replaceAll("//", "/");
   return (
     <Helmet>
       <meta charset="utf8" />
@@ -54,7 +51,7 @@ const Head = ({ siteName, basename }) => {
         property="og:description"
         content="A versatile, scalable search engine for genomic and sequencing project metadata across the eukaryotic tree of life"
       />
-      <meta property="og:image" content={`${imageUrl}/goat-og-image.png`} />
+      <meta property="og:image" content={basename + "/goat-og-image.png"} />
       <meta property="twitter:title" content="Genomes on a Tree (GoaT)" />
       <meta property="twitter:card" content="summary_large_image" />
       <meta
@@ -63,7 +60,7 @@ const Head = ({ siteName, basename }) => {
       />
       <meta
         property="twitter:image"
-        content={`${imageUrl}/goat-og-image.png`}
+        content={basename + "/goat-og-image.png"}
       />
     </Helmet>
   );
