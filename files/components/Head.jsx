@@ -51,7 +51,10 @@ const Head = ({ siteName, basename }) => {
         property="og:description"
         content="A versatile, scalable search engine for genomic and sequencing project metadata across the eukaryotic tree of life"
       />
-      <meta property="og:image" content={basename + "/goat-og-image.png"} />
+      <meta
+        property="og:image"
+        content={"https://goat-dev.genomehubs.org/goat-og-image.png"}
+      />
       <meta property="twitter:title" content="Genomes on a Tree (GoaT)" />
       <meta property="twitter:card" content="summary_large_image" />
       <meta
@@ -60,7 +63,7 @@ const Head = ({ siteName, basename }) => {
       />
       <meta
         property="twitter:image"
-        content={basename + "/goat-og-image.png"}
+        content={"https://goat-dev.genomehubs.org/goat-og-image.png"}
       />
     </Helmet>
   );
