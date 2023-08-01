@@ -8,7 +8,7 @@ const Head = ({ siteName, basename }) => {
     <Helmet>
       <meta charset="utf8" />
       <title>{siteName}</title>
-
+      {/* 
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -64,7 +64,7 @@ const Head = ({ siteName, basename }) => {
       <meta
         property="twitter:image"
         content={"https://goat.genomehubs.org/goat-og-image.png"}
-      />
+      /> */}
     </Helmet>
   );
 };
