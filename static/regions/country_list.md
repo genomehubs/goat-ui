@@ -1,7 +1,16 @@
-# Country
+:::grid{container direction="row" spacing="1" class="padded"}
 
-:::select{id="country_list" helperText="2-letter country code" current="{{country_list}}" enumValues="country_list" url="/regions/country_list?country_list="}
+::flag{countryCode="{{country_list}}" size=140 item xs=2}
+
+::include{pageId=/regions/country_picker.md xs=10 .negativePadded}
+
+Summary of progress towards the goal of sequencing all described species known to occur in :translated{type="country_list" text="{{country_list}}"}. The list of known species is based on the intersection of the list of [GBIF occurrences](https://www.gbif.org/occurrence/download/0127528-230530130749713) and the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) so does not represent a definitive species list for :translated{type="country_list" text="{{country_list}}"}, but provides a consistent basis for assessment of progress across countries.
+
 :::
+
+## Progress towards sequencing the biodiversity of :translated{type="country_list" text="{{country_list}}"}
+
+### Summary of proportions of taxa with assemblies and total numbers of known taxa
 
 :::grid{container direction="row" spacing="1" class="padded"}
 
@@ -32,11 +41,13 @@ xs: 6
 
 :::
 
+### Tree representing the eukaryotic orders present in :translated{type="country_list" text="{{country_list}}"} highlighting taxa with publicly available genome assemblies
+
 :::grid{container direction="row" spacing="1" class="padded"}
 
 ```report
 report: tree
-x: tax_rank(phylum) AND country_list={{country_list}}
+x: tax_rank(order) AND country_list={{country_list}}
 y: assembly-level>=chromosome
 includeEstimates: true
 collapseMonotypic: true
@@ -48,12 +59,14 @@ taxonomy: ncbi
 levels: subspecies,species,genus,family,order,class,phylum
 ratio: 3
 disableModal: true
-caption: "Tree of all eukaryotic phyla with country_list={{country_list}}, highlighting those with at least one chromosomal assembly"
+caption: "Tree of all eukaryotic orders with country_list={{country_list}}, highlighting those with at least one chromosomal assembly"
 item: true
 xs: 12
 ```
 
 :::
+
+### Progress in eukaryotic genome sequencing through time
 
 :::grid{container direction="row" spacing="1" class="padded"}
 
@@ -90,6 +103,8 @@ xs: 6
 ```
 
 :::
+
+### Contribution of the Earth BioGenome Project and other projects to sequencing taxa known to occur in :translated{type="country_list" text="{{country_list}}"}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 
