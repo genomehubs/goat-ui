@@ -20,7 +20,7 @@ x: assembly_level
 y: "country_list={{country_list}}"
 rank: phylum,class,order,family,genus,species
 includeEstimates: true
-caption: Taxa with assemblies out of all taxa with country_list={{country_list}}"
+caption: "Taxa with assemblies out of all taxa with country_list={{country_list}}"
 pointSize: 15
 result: taxon
 taxonomy: ncbi
@@ -34,7 +34,7 @@ xs: 6
 report: xPerRank
 x: country_list={{country_list}}
 includeEstimates: true
-caption: Counts of all taxa with country_list={{country_list}} in GoaT"
+caption: "Counts of all taxa with country_list={{country_list}} in GoaT"
 item: true
 xs: 6
 ```
@@ -136,6 +136,32 @@ result: taxon
 taxonomy: ncbi
 item: true
 xs: 8
+```
+
+:::
+
+### Distribution of genome size and known range for species known to occur in :translated{type="country_list" text="{{country_list}}"}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+
+```report
+report: scatter
+x: genome_size AND tax_tree(2759[Eukaryota]) AND country_list={{country_list}} AND length(country_list) < 11
+y: length(country_list)
+rank: species
+cat: kingdom=Fungi,Metazoa,Viridiplantae
+includeEstimates: true
+xOpts: 10000000,100000000000,9
+yOpts: 1,11,11,,Number of countries in species range
+plotRatio: auto
+scatterThreshold: 1000
+pointSize: 15
+result: taxon
+taxonomy: ncbi
+caption: "Range of genome sizes for species recorded in {{country_list}} and fewer than 10 other countries"
+item: true
+xs: 12
+ratio: 1.5
 ```
 
 :::
