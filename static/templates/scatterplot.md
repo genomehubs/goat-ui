@@ -20,5 +20,16 @@ valueD_label: Taxon
 valueD_description: |
   Taxon to restrict results to
 url: |
-  /search?query={valueA}%20AND%20tax_tree%28{valueD}%29%20AND%20tax_rank%28species%29&result=taxon&includeEstimates=false&summaryValues=count&taxonomy=ncbi&offset=0&fields={valueC}%2C{valueB}%2C{valueA}&names=&ranks=&report=scatter&xField={valueA}&y={valueB}&rank=species&cat={valueC}&highlightArea=y%3Dx&pointSize=15#{valueA}%20AND%20tax_tree({valueD})%20AND%20tax_rank(species)
+  path: /search
+  query: "{valueA} AND tax_tree({valueD}) AND tax_rank(species)"
+  result: taxon
+  includeEstimates: false
+  taxonomy: ncbi
+  fields: "{valueC},{valueB},{valueA}"
+  report: scatter
+  y: "{valueB}"
+  rank: species
+  cat: "{valueC}"
+  highlightArea: y=x
+  pointSize=15
 ```

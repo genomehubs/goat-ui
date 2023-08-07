@@ -8,7 +8,7 @@ Select a country to display a summary of genome sequencing progress:
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-> The list of known species for each contry is based on the intersection of the list of [GBIF occurrences](https://www.gbif.org/occurrence/download/0127528-230530130749713) and the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) so does not represent a definitive species list.
+> The list of known species for each country is based on the intersection of the list of [GBIF occurrences](https://www.gbif.org/occurrence/download/0127528-230530130749713) and the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) so does not represent a definitive species list.
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
