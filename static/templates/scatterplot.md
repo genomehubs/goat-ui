@@ -19,7 +19,7 @@ valueD_example: Chiroptera
 valueD_label: Taxon
 valueD_description: |
   Taxon to restrict results to
-url: |
+url:
   path: /search
   query: "{valueA} AND tax_tree({valueD}) AND tax_rank(species)"
   result: taxon
@@ -31,5 +31,5 @@ url: |
   rank: species
   cat: "{valueC}"
   highlightArea: y=x
-  pointSize=15
+  pointSize: 15
 ```

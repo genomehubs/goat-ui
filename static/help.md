@@ -39,6 +39,24 @@ GoaT reports from search results can be edited following three main steps:
 
 ::include{pageId=help/attributevalues.md xs=12 .inline}
 
+:::grid{container direction="row" toggle title="Taxon attributes" spacing="1"}
+
+::report{report="types" result="taxon" item xs=12 .paragraph}
+
+:::
+
+:::grid{container direction="row" toggle title="Assembly attributes" spacing="1"}
+
+::report{report="types" result="assembly" item xs=12 .paragraph}
+
+:::
+
+:::grid{container direction="row" toggle title="Sample attributes" spacing="1"}
+
+::report{report="types" result="sample" item xs=12 .paragraph}
+
+:::
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
