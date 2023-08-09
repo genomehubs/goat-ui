@@ -1,0 +1,1 @@
+::report{report="arc" x="long_list={{ACRONYM}} AND ebp_metric_date AND bioproject!={{BIOPROJECT}}" y="long_list={{ACRONYM}}" rank="species" includeEstimates="true" result="taxon" taxonomy="ncbi" caption="**Already Sequenced**"}
