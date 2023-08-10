@@ -3,6 +3,6 @@
 - help
 - api
 - projects
-- (regions)
+- regions
 - (templates)
 - submissions

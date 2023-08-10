@@ -2,7 +2,7 @@
 
 Select a country to display a summary of genome sequencing progress:
 
-:::select{id="country_list" helperText="2-letter country code" current="{{country_list}}" enumValues="country_list" url="/regions/country_list?country_list="}
+:::select{id="countryCode" helperText="2-letter country code" current="{{countryCode}}" enumValues="country_list" url="/regions/country?countryCode="}
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}
@@ -13,21 +13,21 @@ Select a country to display a summary of genome sequencing progress:
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## Number of species sequenced by country
+## Number of species with chromosomal assemblies by country
+
+List of countries ranked by the number of species known to occur that have a publicly available chromosomal genome assembly
 
 ```report
-report: histogram
-x: tax_tree(2759[Eukaryota]) AND country_list
+report: table
+x: country_list AND assembly_level AND country_list AND sequencing_status>=insdc_open AND tax_tree(2759[Eukaryota]) AND assembly_level >= chromosome
+xField: country_list
 rank: species
-cat: assembly_level=contig,scaffold,chromosome,complete genome
 includeEstimates: true
-xOpts: ",,10"
-stacked: true
-pointSize: 15
+xOpts: ;;300
 result: taxon
 taxonomy: ncbi
-caption: "Number of species known to occur and with publicly available genome assemblies for the 10 countries with the most species sequenced"
-ratio: 1.5
+caption: ""
+disableModal: true
 item: true
 xs: 12
 ```
