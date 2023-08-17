@@ -3,7 +3,7 @@
 <!-- :::grid{container direction="row" spacing="1" class="padded"}
 ::: -->
 
-- target species of {{ACRONYM}}
+- target species of {{project}}
 - present in any other declared target list (long_list)
 
 <!-- ::grid{direction="row" spacing="2" class="padded"} -->

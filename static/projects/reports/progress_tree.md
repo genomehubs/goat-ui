@@ -1,0 +1,18 @@
+### Tree representing {{project}} target list highlighting species currently in progress
+
+```report
+report: tree
+x: "tax_tree(Eukaryota) AND long_list={{project}}"
+y: "in_progress={{project}}"
+treeStyle: rect
+taxonomy: ncbi
+levels: "subspecies,species,genus,family,order,class,phylum"
+includeEstimates: true
+ratio: 3.5
+collapseMonotypic: true
+disableModal: true
+yOpts: "1000000,100000000000"
+caption: "**Tree of species in the {{project}} long list.** Orange highlights represent clades with at least one descendant species in progress in the {{project}} pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search."
+item: true
+xs: 12
+```
