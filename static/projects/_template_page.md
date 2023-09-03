@@ -49,7 +49,7 @@
 :::grid{container direction="row" spacing="1" class="padded"}
 :::}}
 
-::include{pageId=/projects/reports/duplication.md project={{project}} bioproject={{project}} .inline}
+::include{pageId=/projects/reports/duplication.md project={{project}} bioproject={{bioproject}} .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -61,7 +61,7 @@
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project={{project}} bioproject={{project}} .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project={{project}} bioproject={{bioproject}} .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
