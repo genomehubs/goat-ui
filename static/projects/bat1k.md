@@ -65,6 +65,26 @@ Click on report to see and download individually.
 ::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJNA489245" y="scaffold_n50 AND bioproject_accession=PRJNA489245" cat="assembly_level=contig,scaffold,chromosome" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity by assembly level" pointSize=10 xs=6}
 
 EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb
+:::
+
+## Bat1K Progress Reports
+
+::include{pageId=/projects/reports/progress_by_rank.md project=BAT1K bioproject=PRJNA489245 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_arcs.md project=BAT1K .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/duplication.md project=BAT1K bioproject=PRJNA489245 .inline}
+
+::include{pageId=/projects/reports/progress_tree.md project=BAT1K .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 
 :::grid{container direction="row" spacing="1" class="padded"}

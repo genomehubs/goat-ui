@@ -12,8 +12,6 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 ## EBP Affiliated Project Networks
 
-- [1,000 Fungal Genomes (1KFG)](/projects/1KFG)
-
 - [AFRICABP - African BioGenome Project (AfricaBP, PRJNA811786)](/projects/AFRICABP)
 
 - [AG100PEST - Ag100Pest Initiative (PRJNA555319)](/projects/AG100PEST)
@@ -86,6 +84,8 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 - [VGP - Vertebrate Genomes Project (PRJNA489243)](/projects/VGP)
 
+- [YGG - Yggdrasil (PRJNA955268)](/projects/YGG)
+
 - [ZOONOMIA - 200 Mammals Project (PRJNA312960)](/projects/ZOONOMIA)
 
 - 1,000 Chilean Genomes
@@ -115,3 +115,7 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 - University of California Consortium
 
 - Ungulates Genome Project
+
+## Other Projects
+
+- [1,000 Fungal Genomes (1KFG)](/projects/1KFG)

@@ -1,5 +1,5 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/)]{item xs=3}
+::grid[![GoaT](/static/images/capra3.png)]{item xs=3}
 :::
 
 # {{PROJECT}}
