@@ -1,7 +1,6 @@
 
 ::grid[![GoaT](/static/images/africabp2.jpeg)]{item xs=4}
 
-
 # African Biogenome Project (AfricaBP)
 **GoaT Search Term:** AFRICABP
 
@@ -13,51 +12,58 @@
 **Main Contact**: African BioGenome Project Chairs - info@africanbiogenome.org
 
 
-::grid[ ]{item xs=4}
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
+
+# Summary Data
+
+## AfricaBP Long List
+
+AfricaBP long_list correspond to the subset of african species declared as targets by the project. To retrieve the list use the search terms:
+
+- long_list = AFRICABP
+- tax_rank(species)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-# Summary Data
-
-## Declared targets of AfricaBP, highlighting species with available assemblies (green)
-
-:::grid{container direction="row" spacing="1" item xs=12}
-
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=africabp" y="assembly_span AND bioproject=PRJNA811786" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=4 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Taxa in the declared target list of AfricaBP.** Orange highlights represent clades with at least one genome available under the AfricaBP Bioproject Id PRJNA811786. Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." item xs=12}
-:::
-
+::include{pageId=/projects/reports/target_tree.md project=AFRICABP bioproject=PRJNA811786 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## AfricaBP Progress Reports
-### Progress of Genome Sequencing by Taxon Rank
-:::grid{container direction="row" spacing="1"}
-
-::report{report="xInY" x="assembly_span AND bioproject=PRJNA811786" rank="phylum,class,order,family,genus,species" y="long_list=AFRICABP" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of AfricaBP Targets:** Genome assemblies under Bioproject ID PRJNA811786, at different taxonomic ranks" item xs=6}
-
-::report{report="xPerRank" x="long_list=AFRICABP" includeEstimates=true caption="**Counts of taxa declared as priority targets by AfricaBP**: All summary reports on GoaT are based on these counts" item xs=6}
-
-:::
+::include{pageId=/projects/reports/progress_by_rank.md project=AFRICABP bioproject=PRJNA811786 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+::include{pageId=/projects/reports/progress_arcs.md project=AFRICABP .inline}
 
-:::grid{container direction="row" toggle title="Coming Soon - Sequencing Status of AfricaBP Species" spacing="1"}
-
-::report{report="xInY" x="sample_collected=AFRICABP" y="long_list=AFRICABP" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="Total of AfricaBP target species collected" item xs=4}
-
-::report{report="xInY" x="sample_acquired=AFRICABP" y="long_list=AFRICABP" rank="species" includeEstimates=true excludeAncestral="sample_acquired" excludeMissing="sample_acquired" caption="Total of AfricaBP target species already received by assigned sequencing centers" item xs=4}
-
-::report{report="xInY" x="in_progress=AFRICABP" y="long_list=AFRICABP" rank="species" includeEstimates=true excludeAncestral="in_progress" excludeMissing="in_progress" caption="Total of AfricaBP target species with genome sequencing currently in progress" item xs=4}
-
-:::
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+{{::include{pageId=/projects/reports/progress_histo.md project=AFRICABP bioproject=PRJNA811786 .inline}
 
+:::grid{container direction="row" spacing="1" class="padded"}
+:::}}
+
+::include{pageId=/projects/reports/duplication.md project=AFRICABP bioproject=PRJNA811786 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# AfricaBP Custom Reports
+
+::include{pageId=/projects/reports/progress_tree.md project=AFRICABP .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/contiguity_scatters.md project=AFRICABP bioproject=PRJNA811786 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 [back to projects](/projects)
