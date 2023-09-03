@@ -78,6 +78,8 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 - [PRGP - Primate Genomes Project](/projects/PRGP)
 
+- [PSYCHE - Project Psyche](/projects/PSYCHE)
+
 - [SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans (PRJNA707598)](/projects/SQUALOMIX)
 
 - [TSI - Threatened Species Initiative](/projects/TSI)
