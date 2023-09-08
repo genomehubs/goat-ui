@@ -7,50 +7,92 @@
 ::grid[**VGP** aims to producing high-quality, accurate, annotated reference genomes for all [71,657](http://vgpdb.snu.ac.kr/splist/) living and named vertebrate species. Phase I of the project will generate over 260 near-gapless, chromosome-level and phased genome assemblies representing all extant vertebrate orders. For more information access the VGP's project page at https://vertebrategenomesproject.org]{item xs=8}
 
 **Bioproject ID** PRJNA489243
-::grid[ ]{item xs=6}
+
+**Main Contact**: Erich Jarvis, Rockefeller University, New York City via [VGP contact page](https://vertebrategenomesproject.org/contact-1)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Summary Data
 
-## Tree representing the declared target list of VGP, highlighting (orange) families with at least one representative with an assembly released by the project
 
-:::grid{container direction="row" spacing="1" item xs=12}
+## VGP Long List
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=VGP AND tax_rank(Family)" y="assembly_span AND bioproject=PRJNA489243" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Families in the declared target list of VGP, including outgroups.** Orange highlights represent clades with at least one genome available under the VGP Bioproject ID PRJNA489243. Bars = assembly span estimates. Tap tree nodes to browse taxa or long-press to search." item xs=12}
-:::
+VGP long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
+
+- long_list=VGP
+- tax_rank(species)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## Progress Reports for the Phase I of the VGP Project
+::include{pageId=/projects/reports/target_tree_family.md project=VGP bioproject=PRJNA489243 .inline}
 
-### Progress of Genome Sequencing by Taxon Rank
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+## VGP Progress Reports
+
+::include{pageId=/projects/reports/progress_by_rank.md project=VGP bioproject=PRJNA489243 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_arcs.md project=VGP .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_histo.md project=VGP bioproject=PRJNA489243 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/duplication.md project=VGP bioproject=PRJNA489243 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# VGP Custom Reports
+
+::include{pageId=/projects/reports/progress_tree_family.md project=VGP .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/contiguity_scatters.md project=VGP bioproject=PRJNA489243 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_span AND bioproject=PRJNA489243" rank="class,order,family,genus,species" y="long_list=VGP" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome sequencing of VGP targets:** Genome assemblies under Bioproject ID PRJNA489243, at different taxonomic ranks" item xs=4}
-
-::report{report="xPerRank" x="long_list=VGP" includeEstimates=true caption="**Counts of taxa declared as targets by the VGP project**: All summary reports on GoaT are based on these counts" item xs=4}
-
-::report{report="xPerRank" x="other_priority=VGP" includeEstimates=true caption="**Counts of taxa prioritized by the VGP project (Phase I)**: All Phase I reports on GoaT are based on these counts" item xs=4}
-
-:::
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-### Sequencing Status and Assembly Metrics of VGP Species
-
-:::grid{container direction="row" spacing="1"}
-
-::report{report="histogram" x="long_list=VGP AND sequencing_status_vgp" rank="species" taxonomy="ncbi" result="taxon" cat="sequencing_status_vgp=sample_collected,sample_acquired,in_progress,insdc_open" excludeAncestral="long_list" excludeMissing="long_list" xOpts=",,1,,Sequencing Status" caption="Current sequencing status of VGP targets" item xs=6}
-
-::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJNA489243" y="scaffold_n50" cat="assembly_type=haploid@primary-haploid" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of VGP assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
-
-:::
-:::grid{container direction="row" spacing="1" class="padded"}
+```report
+report: histogram
+result: assembly
+x: "qv_score AND bioproject=PRJNA489243"
+cat: assembly_type
+includeEstimates: false
+xOpts: "20,80,30,,QV Scores"
+stacked: True
+caption: "Distribution of QV scores across VGP assemblies"
+item: true
+xs: 6
+```
+```report
+report: histogram
+result: assembly
+x: "qv_score AND bioproject=PRJNA489243"
+cat: assembly_level
+includeEstimates: false
+xOpts: "20,80,30,,QV Scores"
+stacked: True
+caption: "Distribution of QV scores across VGP assemblies"
+item: true
+xs: 6
+```
 :::
 
 [back to projects](/projects)
+
+

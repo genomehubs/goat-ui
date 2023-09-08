@@ -40,10 +40,10 @@ Bat1k long list on GoaT correspond to all declared targets. To retrieve the list
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-{{::include{pageId=/projects/reports/progress_histo.md project=BAT1K bioproject=PRJNA489245 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=BAT1K bioproject=PRJNA489245 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
-:::}}
+:::
 
 ::include{pageId=/projects/reports/duplication.md project=BAT1K bioproject=PRJNA489245 .inline}
 

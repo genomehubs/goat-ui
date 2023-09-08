@@ -10,50 +10,61 @@
 
 **Bioproject ID:** PRJNA707598
 
-::grid[ ]{item xs=6}
-
+**Main Contact**: [Shigehiro Kuraku](skuraku@nig.ac.jp), National Institute of Genetics, in Mishima, Japan
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Summary Data
 
-## Tree representing Squalomix target list highlighting species with available assemblies (green)
+## SQUALOMIX Long List
 
-:::grid{container direction="row" spacing="1" item xs=12}
+SQUALOMIX long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=SQUALOMIX" y="assembly_span AND bioproject=PRJNA707598" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2.8 disableModal collapseMonotypic yOpts="1000000,100000000000" cat="in_progress[1]=squalomix" excludeAncestral="in_progress" caption="**Taxa in the declared target list of Squalomix.** Orange highlights represent clades with at least one genome  available under the Bioproject ID PRJNA707598. Circles represent clades with at least one descendant species in progress in the SQUALOMIX sequencing pipeline.Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." item xs=12}
-:::
-
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-## Squalomix Progress Reports
-### Progress of Genome Sequencing by Taxon Rank
-:::grid{container direction="row" spacing="1"}
-
-::report{report="xInY" x="assembly_span AND bioproject=PRJNA707598" rank="phylum,class,order,family,genus,species" y="long_list=SQUALOMIX" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of SQUALOMIX Targets:** Genome assemblies under Bioproject ID PRJNA707598, at different taxonomic ranks" item xs=6}
-
-::report{report="xPerRank" x="long_list=SQUALOMIX" includeEstimates=true caption="**Counts of taxa targeted by SQUALOMIX**: All summary reports on GoaT are based on these counts" item xs=6}
-
-:::
+- long_list=SQUALOMIX
+- tax_rank(species)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-### Sequencing Status of Squalomix Target Species
+::include{pageId=/projects/reports/target_tree.md project=SQUALOMIX bioproject=PRJNA707598 .inline}
 
-:::grid{container direction="row" spacing="1"}
-
-::report{report="xInY" x="sample_collected=SQUALOMIX" y="long_list=SQUALOMIX" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="Total of SQUALOMIX target species collected" item xs=6}
-
-::report{report="xInY" x="in_progress=SQUALOMIX" y="long_list=SQUALOMIX" rank="species" includeEstimates=true excludeAncestral="in_progress" excludeMissing="in_progress" caption="Total of SQUALOMIX  target species with genome sequencing currently in progress" item xs=6}
-
-:::
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+## SQUALOMIX Progress Reports
 
+::include{pageId=/projects/reports/progress_by_rank.md project=SQUALOMIX bioproject=PRJNA707598 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_arcs.md project=SQUALOMIX .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_histo.md project=SQUALOMIX bioproject=PRJNA707598 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/duplication.md project=SQUALOMIX bioproject=PRJNA707598 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# SQUALOMIX Custom Reports
+
+::include{pageId=/projects/reports/progress_tree.md project=SQUALOMIX .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/contiguity_scatters.md project=SQUALOMIX bioproject=PRJNA707598 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 [back to projects](/projects)
+

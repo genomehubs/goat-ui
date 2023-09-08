@@ -10,59 +10,60 @@
 
 **Bioproject ID** PRJNA758215
 
-::grid[ ]{item xs=4}
+**Main Contact**: [Miklos Bálint](miklos.balint@senckenberg.de)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Summary Data
 
-## Tree representing the declared target list of MetaInvert, highlighting species with available assemblies (green)
+## METAINVERT Long List
 
-:::grid{container direction="row" spacing="1" item xs=12}
+METAINVERT long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=METAINVERT" y="assembly_span AND bioproject=PRJNA758215" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=1.5 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing the declared target list of MetaInvert.** Orange highlights represent clades with at least one genome available under the MetaInvert Bioproject Id PRJNA758215. Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." item xs=12}
-:::
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-
-## MetaInvert Progress Reports
-### Progress of Eukaryotic Genome Sequencing by Taxon Rank
-:::grid{container direction="row" spacing="1"}
-
-::report{report="xInY" x="assembly_span AND bioproject=PRJNA758215" rank="phylum,class,order,family,genus,species" y="long_list=METAINVERT" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of MetaInvert Targets:** Genome assemblies under Bioproject ID PRJNA758215, at different taxonomic ranks" item xs=6}
-
-::report{report="xPerRank" x="long_list=METAINVERT" includeEstimates=true caption="**Counts of taxa targeted by MetaInvert**: All summary reports on GoaT are based on these counts" item xs=6}
-
-:::
+- long_list=METAINVERT
+- tax_rank(species)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-### Sequencing Status of MetaInvert Species 
-
-
-:::grid{container direction="row" spacing="1"}
-
-::report{report="xInY" x="sample_collected=METAINVERT" y="long_list=METAINVERT" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="Total of MetaInvert target species collected" item xs=6}
-
-::report{report="xInY" x="in_progress=METAINVERT" y="long_list=METAINVERT" rank="species" includeEstimates=true excludeAncestral="in_progress" excludeMissing="in_progress" caption="Total of MetaInvert target species with genome sequencing currently in progress" item xs=6}
-
-:::
-
-
-### Tree representing MetaInvert target list highlighting species currently in progress
-
-:::grid{container direction="row" spacing="1" item xs=12}
-
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=METAINVERT" y="in_progress=METAINVERT" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Tree of species in the MetaInvert long list.** Orange highlights represent clades with at least one descendant species in progress in the MetaInvert pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
-:::
+::include{pageId=/projects/reports/target_tree.md project=METAINVERT bioproject=PRJNA758215 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+## METAINVERT Progress Reports
 
+::include{pageId=/projects/reports/progress_by_rank.md project=METAINVERT bioproject=PRJNA758215 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_arcs.md project=METAINVERT .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_histo.md project=METAINVERT bioproject=PRJNA758215 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/duplication.md project=METAINVERT bioproject=PRJNA758215 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# METAINVERT Custom Reports
+
+::include{pageId=/projects/reports/progress_tree.md project=METAINVERT .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/contiguity_scatters.md project=METAINVERT bioproject=PRJNA758215 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 [back to projects](/projects)

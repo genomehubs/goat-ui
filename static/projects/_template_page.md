@@ -2,7 +2,7 @@
 ::grid[![GoaT](/static/images/capra3.png)]{item xs=3}
 :::
 
-# {{PROJECT}}
+# {{project}} (ACRO)
 
 **GoaT Search Term:** {{project}}
 
@@ -44,17 +44,17 @@
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-{{::include{pageId=/projects/reports/progress_histo.md project={{project}} bioproject={{bioproject}} .inline}
+::include{pageId=/projects/reports/progress_histo.md project={{project}} bioproject={{bioproject}} .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
-:::}}
+:::
 
 ::include{pageId=/projects/reports/duplication.md project={{project}} bioproject={{bioproject}} .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-# {{PROJECT Custom Reports}}
+# {{PROJECT}} Custom Reports
 
 ::include{pageId=/projects/reports/progress_tree.md project={{project}} .inline}
 

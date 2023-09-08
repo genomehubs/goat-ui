@@ -9,13 +9,69 @@
 **Bioproject ID** PRJNA649812
 ::grid[ ]{item xs=6}
 
+**Main Contact**: [Joe Lopez](joslo@nova.edu) or [GIGA Governing Board](http://www.gigacos.org/index.php/contact/)
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Summary Data
 
+## GIGA Long List
+
+GIGA long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
+
+- long_list=GIGA
+- tax_rank(species)
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/target_tree.md project=GIGA bioproject=PRJNA649812 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+## GIGA Progress Reports
+
+::include{pageId=/projects/reports/progress_by_rank.md project=GIGA bioproject=PRJNA649812 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_arcs.md project=GIGA .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_histo.md project=GIGA bioproject=PRJNA649812 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/duplication.md project=GIGA bioproject=PRJNA649812 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# GIGA Custom Reports
+
+{{::include{pageId=/projects/reports/progress_tree.md project=GIGA .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::}}
+
+::include{pageId=/projects/reports/contiguity_scatters.md project=GIGA bioproject=PRJNA649812 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+:::grid{container direction="row" spacing="1"}
+::grid[![GoaT](/static/images/capra3.png)]{item xs=23} 
+::grid[The data displayed below originated from a manual compilation. GIGA assemblies will be linked to the umbrella Bioproject ID PRJNA649812. Please [contact GIGA](joslo@nova.edu) if you wish to submit genomes under GIGA umbrella.]{item xs=6}
+:::
+
+
 ## Tree representing species sequenced under GIGA umbrella (green)
-The data displayed in this tree originated from a manual compilation. GIGA assemblies will be linked to the umbrella Bioproject ID PRJNA649812. Please [contact GIGA](/http://www.gigacos.org/) if you wish to submit genomes under GIGA umbrella.
 
 :::grid{container direction="row" spacing="1" item xs=12}
 

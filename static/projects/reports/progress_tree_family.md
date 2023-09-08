@@ -2,7 +2,7 @@
 
 ```report
 report: tree
-x: "tax_tree(Eukaryota) AND long_list={{project}}"
+x: "tax_tree(Eukaryota) AND tax_rank(family) AND long_list={{project}}"
 y: "in_progress={{project}}"
 treeStyle: rect
 taxonomy: ncbi

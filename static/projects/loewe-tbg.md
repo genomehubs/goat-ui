@@ -7,67 +7,66 @@
 
 **GoaT Search Term:** LOEWE-TBG
 
-
 ::grid[**The LOEWE Centre for Translational Biodiversity Genomics** focuses on the genetic basis of biological diversity to make it accessible for basic and applied research. At LOEWE-TBG we sequence and study genomic variation across the tree of life to comprehend the origin and functional adaptations of diversity from genes to ecosystems. The data addresses societal knowledge demands in applied fields, such as the genomic basis of biologically active substances , and the sustainable use and management of biological resources. For more information access LOEWE-TBG official page at https://tbg.senckenberg.de]{item xs=12}
 
 **Bioproject ID** PRJNA706923
 
-::grid[ ]{item xs=4}
+**Main Contact**: tbg-info@senckenberg.de
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-# Summary Data 
+# Summary Data
+
+## LOEWE-TBG Long List
+
+LOEWE-TBG long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
+
+- long_list=LOEWE-TBG
+- tax_rank(species)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
-## Tree representing the declared target list of LOEWE-TBG, highlighting species with available assemblies (green)
 
-:::grid{container direction="row" spacing="1" item xs=12}
-
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=LOEWE-TBG AND tax_rank(species)" y="assembly_span AND bioproject=PRJNA706923" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2.3 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Taxa in the declared target list of LOEWE-TBG.** Orange highlights represent clades with at least one genome available under the LOEWE-TBG Bioproject Id PRJNA706923. Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." item xs=12}
-:::
+::include{pageId=/projects/reports/target_tree.md project=LOEWE-TBG bioproject=PRJNA706923 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
-
 
 ## LOEWE-TBG Progress Reports
-### Progress of Eukaryotic Genome Sequencing by Taxon Rank
-:::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_span AND bioproject=PRJNA706923" rank="phylum,class,order,family,genus,species" y="long_list=LOEWE-TBG" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of LOEWE-TBG Targets:** Genome assemblies under Bioproject ID PRJNA706923, at different taxonomic ranks" item xs=6}
-
-::report{report="xPerRank" x="long_list=LOEWE-TBG" includeEstimates=true caption="**Counts of taxa targeted by LOEWE-TBG**: All summary reports on GoaT are based on these counts" item xs=6}
-
-:::
+::include{pageId=/projects/reports/progress_by_rank.md project=LOEWE-TBG bioproject=PRJNA706923 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-### Sequencing Status of LOEWE-TBG Species 
-
-
-:::grid{container direction="row" spacing="1"}
-
-::report{report="xInY" x="sample_collected=LOEWE-TBG" y="long_list=LOEWE-TBG" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="Total of LOEWE-TBG target species collected" item xs=6}
-
-::report{report="xInY" x="in_progress=LOEWE-TBG" y="long_list=LOEWE-TBG" rank="species" includeEstimates=true excludeAncestral="in_progress" excludeMissing="in_progress" caption="Total of LOEWE-TBG target species with genome sequencing currently in progress" item xs=6}
-
-:::
-
-
-### Tree representing LOEWE-TBG target list highlighting species currently in progress
-
-:::grid{container direction="row" spacing="1" item xs=12}
-
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=LOEWE-TBG" y="in_progress=LOEWE-TBG" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Tree of species in the LOEWE-TBG long list.** Orange highlights represent clades with at least one descendant species in progress in the LOEWE-TBG pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
-:::
+::include{pageId=/projects/reports/progress_arcs.md project=LOEWE-TBG .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+::include{pageId=/projects/reports/progress_histo.md project=LOEWE-TBG bioproject=PRJNA706923 .inline}
 
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/duplication.md project=LOEWE-TBG bioproject=PRJNA706923 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# LOEWE-TBG Custom Reports
+
+::include{pageId=/projects/reports/progress_tree.md project=LOEWE-TBG .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/contiguity_scatters.md project=LOEWE-TBG bioproject=PRJNA706923 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 [back to projects](/projects)
+
 

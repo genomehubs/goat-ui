@@ -1,58 +1,68 @@
 
 ::grid[![GoaT](/static/images/ebpn.jpeg)]{item xs=4}
 
-# Earth Biogenome Project Norway (EBP-Nor)
+# Earth Biogenome Project Norway (EBP-Norway)
 **GoaT Search Term:** EBPN
 
+::grid[**EBPN** (EBP-Nor) will explore the diversity of species found in and around Norway through sequencing and genomic analyses. Comparisons across groups of related organisms will be made to better understand the ecology and evolution of Norwegian species. For more information access https://www.ebpnor.org/english/.]{item xs=8}
 
-::grid[**EBPN** (EBP-Nor) will explore the diversity of species found in and around Norway through sequencing and genomic analyses. Comparisons across groups of related organisms will be made to better understand the ecology and evolution of Norwegian species. For more information access https://www.mn.uio.no/cees/english/research/groups/ebp-nor/.]{item xs=8}
+**Bioproject ID** PRJEB65317
 
-::grid[ ]{item xs=4}
-
+**Main Contact**: [Kjetill Sigurd Jakobsen](https://www.mn.uio.no/cees/english/people/chair/kjetillj/) or via ebpnor-post@ibv.uio.no
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Summary Data
 
-## Tree representing EBP-Nor target list highlighting species currently in progress
+## EBPN Long List
 
-:::grid{container direction="row" spacing="1" item xs=12}
+EBPN long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ebpn" y="in_progress=EBPN" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Taxa in the declared target list of EBP-Nor.** Orange highlights represent clades with at least one descendant in progress in the EBP-Nor pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search." item xs=12}
-:::
-
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-## EBP-Nor Progress Reports
-### Progress of Genome Sequencing by Taxon Rank
-:::grid{container direction="row" spacing="1"}
-
-::report{report="xInY" x="assembly_span AND bioproject=XXTBDXX" rank="phylum,class,order,family,genus,species" y="long_list=EBPN" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of EBP-Nor Targets:** Genome assemblies under Bioproject ID XXTBDXX, at different taxonomic ranks" item xs=6}
-
-::report{report="xPerRank" x="long_list=ebpn" includeEstimates=true caption="**Counts of taxa targeted by EBP-Nor**: All summary reports on GoaT are based on these counts" item xs=6}
-
-:::
+- long_list=EBPN
+- tax_rank(species)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-### Sequencing Status of EBP-Nor Species
+::include{pageId=/projects/reports/target_tree.md project=EBPN bioproject=PRJEB65317 .inline}
 
-:::grid{container direction="row" spacing="1" item xs=12}
-
-::report{report="xInY" x="sample_collected=EBPN" y="long_list=EBPN" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="Total of EBP-Nor target species collected" item xs=4}
-
-::report{report="xInY" x="sample_acquired=EBPN" y="long_list=EBPN" rank="species" includeEstimates=true excludeAncestral="sample_acquired" excludeMissing="sample_acquired" caption="Total of EBP-Nor target species already received by assigned sequencing centers" item xs=4}
-
-::report{report="xInY" x="in_progress=EBPN" y="long_list=EBPN" rank="species" includeEstimates=true excludeAncestral="in_progress" excludeMissing="in_progress" caption="Total of EBP-Nor target species with genome sequencing currently in progress" item xs=4}
-
-:::
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+## EBPN Progress Reports
 
+::include{pageId=/projects/reports/progress_by_rank.md project=EBPN bioproject=PRJEB65317 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_arcs.md project=EBPN .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_histo.md project=EBPN bioproject=PRJEB65317 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/duplication.md project=EBPN bioproject=PRJEB65317 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# EBPN Custom Reports
+
+::include{pageId=/projects/reports/progress_tree.md project=EBPN .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/contiguity_scatters.md project=EBPN bioproject=PRJEB65317 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 [back to projects](/projects)
+
