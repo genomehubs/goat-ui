@@ -1,7 +1,6 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/capra3.png)]{item xs=3} 
-:::
-YGG logo coming soon 
+::grid[![GoaT](/static/images/YGG.png)]{item xs=3} 
+::: 
 
 
 # Yggdrasil
