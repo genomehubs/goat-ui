@@ -1,59 +1,68 @@
 ::grid[![GoaT](/static/images/CBP.jpg)]{item xs=4}
 
 # Catalan Initiative for the Earth BioGenome Project (CBP)
+
 **GoaT Search Term:** CBP
+
 :::grid{container direction="row" class="padded"}
 
 ::grid[**The Catalan Initiative for the Earth BioGenome Project (CBP)** aims to produce a detailed catalogue of the genome of eukaryotic species in the Catalan territories. For more information access CBP's official project page at https://www.biogenoma.cat/en/home/.]{item xs=8}
 
-::grid[ ]{item xs=4}
+**Bioproject ID** PRJEB49670
+
+**Main Contact**:  catbiogenoma@correu.iec.cat
+
+:::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Summary Data
 
-## Tree representing CBP target list highlighting species currently in progress
+##  CBP Long List
 
-:::grid{container direction=row}
+ CBP long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=CBP" y="assembly_span AND bioproject=PRJEB49670" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2.1 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Taxa in the declared target list of CBP.** Orange highlights represent clades with at least one genome available under the CBP Bioproject Id PRJEB49670. Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+- long_list=CBP
+- tax_rank(species)
 
 :::grid{container direction="row" spacing="1" class="padded"}
+:::
 
+::include{pageId=/projects/reports/target_tree.md project=CBP bioproject=PRJEB49670 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## CBP Progress Reports
-### Progress of CBP Genome Sequencing by Taxon Rank
 
-:::grid{container direction="row" spacing="1" item xs=12}
-
-::report{report="xInY" x="bioproject=PRJEB49670" rank="phylum,class,order,family,genus,species" y="long_list=CBP" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome sequencing of CBP targets:** Genome assemblies under Bioproject ID PRJEB49670, at different taxonomic ranks" taxonomy="ncbi" item xs=6}
-
-::report{report="xPerRank" x="long_list=CBP" includeEstimates=true caption="**Counts of taxa targeted by CBP**: All summary reports on GoaT are based on these counts" item xs=6 }
-:::
+::include{pageId=/projects/reports/progress_by_rank.md project=CBP bioproject=PRJEB49670 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+::include{pageId=/projects/reports/progress_arcs.md project=CBP .inline}
 
-### Sequencing Status and Assembly Metrics of CBP Target Species
-
-:::grid{container direction="row" spacing="1"}
-
-::report{report="histogram" x="long_list=CBP AND sequencing_status_cbp" rank="species" taxonomy="ncbi" result="taxon" cat="sequencing_status_cbp=sample_collected@collected,sample_acquired@acquired,in_progress@in_progress,insdc_open@insdc" excludeAncestral="long_list" excludeMissing="long_list" xOpts=";;1;;Sequencing Status" caption="Current sequencing status of CBP targets" item xs=6}
-
-::report{report="scatter" x="contig_n50 AND bioproject_accession=PRJEB49670" y="scaffold_n50" cat="assembly_type=haploid@primary-haploid" result="assembly" xOpts="10000,1000000000,11,log10" yOpts="10000,1000000000,11,log10" scatterThreshold="10000" highlightArea="1000000,10000000,1000000000,1000000000,EBP metric zone" item caption="Contiguity assessment of CBP assemblies. EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb and a scaffold N50 > 10Mb" xs=6}
-
-### Sequencing Status of CBP Species
-
-:::grid{container direction="row" spacing="1" item xs=12}
-
-::report{report="xInY" x="sample_collected=cbp" y="long_list=cbp" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="Total of CBP target species collected" item xs=4}
-
-::report{report="xInY" x="sample_acquired=CBP" y="long_list=CBP" rank="species" includeEstimates=true excludeAncestral="sample_acquired" excludeMissing="sample_acquired" caption="Total of CBP target species already received by assigned sequencing centers" item xs=4}
-
-::report{report="xInY" x="in_progress=CBP" y="long_list=CBP" rank="species" includeEstimates=true excludeAncestral="in_progress" excludeMissing="in_progress" caption="Total of CBP target species with genome sequencing currently in progress" item xs=4}
-
+:::grid{container direction="row" spacing="1" class="padded"}
 :::
+
+::include{pageId=/projects/reports/progress_histo.md project=CBP bioproject=PRJEB49670 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/duplication.md project=CBP bioproject=PRJEB49670 .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# CBP Custom Reports
+
+::include{pageId=/projects/reports/progress_tree.md project=CBP .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/contiguity_scatters.md project=CBP bioproject=PRJEB49670 .inline}
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

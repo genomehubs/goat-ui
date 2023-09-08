@@ -6,7 +6,7 @@
 
 ::grid[**AusARG**, the Australian amphibian and reptile genomics Initiative (AusARG) is a collaborative project that aims to to build genomic resources to understand and protect Australia’s reptiles and amphibians. For more information access AusARG's project page at https://ausargenomics.com]{item xs=12}
 
-**Bioproject ID** {{bioproject}}
+**Bioproject ID** TBD
 
 **Main Contact**: Dr Sophie Mazard, Bioplatforms Australia - smazard(at)bioplatforms.com
 
@@ -42,10 +42,10 @@ AusARG long_list correspond to the subset of species declared as targets by the 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-{{::include{pageId=/projects/reports/progress_histo.md project=ARG bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_histo.md project=ARG bioproject=TBD .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
-:::}}
+:::
 
 ::include{pageId=/projects/reports/duplication.md project=ARG bioproject=TBD .inline}
 

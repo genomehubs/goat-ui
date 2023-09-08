@@ -44,10 +44,10 @@ AfricaBP long_list correspond to the subset of african species declared as targe
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-{{::include{pageId=/projects/reports/progress_histo.md project=AFRICABP bioproject=PRJNA811786 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=AFRICABP bioproject=PRJNA811786 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
-:::}}
+:::
 
 ::include{pageId=/projects/reports/duplication.md project=AFRICABP bioproject=PRJNA811786 .inline}
 

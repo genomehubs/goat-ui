@@ -2,7 +2,7 @@
 ::grid[![GoaT](/static/images/polar.jpeg)]{item xs=3}
 
 
-# Polar Genomes Project
+# Polar Genomes Project (PGP)
 **GoaT Search Term:** PGP
 
 
@@ -10,7 +10,7 @@
 
 **Bioproject ID** TBD
 
-::grid[ ]{item xs=4}
+**Main Contact**: [Seunghyun Kang](s.kang@kopri.re.kr), Korea Polar Research Institute (KOPRI)
 
 
 :::grid{container direction="row" spacing="1" class="padded"}
@@ -18,44 +18,54 @@
 
 # Summary Data
 
-## Tree representing the declared targets of Polar Genomes Project highlighting species currently in progress (green)
+## PGP Long List
 
-:::grid{container direction="row" spacing="1" item xs=12}
+PGP long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=PGP" y="in_progress=PGP" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=4.8 includeEstimates collapseMonotypic disableModal yOpts="1000000,100000000000" caption="**Taxa in the declared target list of the Polar Genomes Project.** Orange highlights represent clades with at least one descendant species in progress in the Polar Genomes Project pipeline. Tap tree nodes to browse taxa or long-press to search." item xs=12}
-:::
-
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-## Polar Genomes Project Progress Reports
-### Progress of Genome Sequencing by Taxon Rank and Sequencing Status of PGP Target Species
-:::grid{container direction="row" spacing="1"}
-
-::report{report="xInY" x="assembly_span AND bioproject=XXTBDXX" rank="phylum,class,order,family,genus,species" y="long_list=Polar Genomes Project" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of Polar Genomes Project Targets:** Genome assemblies under Bioproject ID **TBD**, at different taxonomic ranks" item xs=4}
-
-::report{report="xPerRank" x="long_list=PGP" includeEstimates=true caption="**Counts of taxa declared as targets by the Polar Genomes Project**: All summary reports on GoaT are based on these counts" item xs=4}
-
-::report{report="histogram" x="long_list=PGP AND sequencing_status_pgp" rank="species" taxonomy="ncbi" result="taxon" cat="sequencing_status_pgp=sample_collected,sample_acquired,in_progress,insdc_open" excludeAncestral="long_list" excludeMissing="long_list" xOpts=",,1,,Sequencing Status" caption="Current sequencing status of Polar Genomes Project targets" item xs=4}
-
-:::
+- long_list=PGP
+- tax_rank(species)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+::include{pageId=/projects/reports/target_tree.md project=PGP bioproject=TBD .inline}
 
-:::grid{container direction="row" toggle title="Polar Genomes progress: cumulative number of species per status" spacing="1"}
-
-::report{report="xInY" x="sample_collected=PGP" y="long_list=PGP" rank="species" includeEstimates excludeAncestral="sample_collected" excludeMissing="sample_collected" caption="Total of PGP target species collected" item xs=4}
-
-::report{report="xInY" x="sample_acquired=PGP" y="long_list=PGP" rank="species" includeEstimates=true excludeAncestral="sample_acquired" excludeMissing="sample_acquired" caption="Total of PGP target species already received by assigned sequencing centers" item xs=4}
-
-::report{report="xInY" x="in_progress=PGP" y="long_list=PGP" rank="species" includeEstimates=true excludeAncestral="in_progress" excludeMissing="in_progress" caption="Total of PGP target species with genome sequencing currently in progress" item xs=4}
-
-:::
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+## PGP Progress Reports
+
+::include{pageId=/projects/reports/progress_by_rank.md project=PGP bioproject=TBD .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_arcs.md project=PGP .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/progress_histo.md project=PGP bioproject=TBD .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/duplication.md project=PGP bioproject=TBD .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+# PGP Custom Reports
+
+::include{pageId=/projects/reports/progress_tree.md project=PGP .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+::include{pageId=/projects/reports/contiguity_scatters.md project=PGP bioproject=TBD .inline}
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 [back to projects](/projects)
+

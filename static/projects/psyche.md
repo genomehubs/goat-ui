@@ -8,9 +8,9 @@
 
 ::grid[**Project Psyche** aims to sequence the genomes of all  species of Lepidoptera in Europe. For more information reach the contact info below.]{item xs=8}
 
-**Bioproject ID** TBC
+**Bioproject ID** TBD
 
-**Main Contact**: Charlotte Wright charlotte.wright(at)sanger.ac.uk
+**Main Contact**: [Charlotte Wright](charlotte.wright@sanger.ac.uk), Wellcome Sanger Institute, UK
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -32,7 +32,7 @@ PSYCHE long_list correspond to all species of butterflies listed in the [Lepifor
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## {{project}} Progress Reports
+## PSYCHE Progress Reports
 
 ::include{pageId=/projects/reports/progress_by_rank.md project=PSYCHE bioproject=TBD .inline}
 
@@ -44,19 +44,19 @@ PSYCHE long_list correspond to all species of butterflies listed in the [Lepifor
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-{{::include{pageId=/projects/reports/progress_histo.md project=PSYCHE bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_histo.md project=PSYCHE bioproject=TBD .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
-:::}}
+:::
 
 ::include{pageId=/projects/reports/duplication.md project=PSYCHE bioproject=TBD .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-# {{PROJECT Custom Reports}}
+# PSYCHE Custom Reports
 
-::include{pageId=/projects/reports/target_tree_simple.md project=PSYCHE .inline}
+::include{pageId=/projects/reports/progress_tree_family.md project=PSYCHE .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

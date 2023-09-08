@@ -1,16 +1,15 @@
-## Sequencing Status of {{project}} Targets
 
 :::grid{container direction="row" spacing="1"}
 
 ```report
 report: histogram
-x: "long_list={{project}} AND sequencing_status_{{project}}"
-y: "sequencing_status_{{project}}"
+x: "long_list={{project}} AND sequencing_status_{{lc_project}}"
+y: "sequencing_status_{{lc_project}}"
 rank: species
-cat: "sequencing_status_{{project}}=sample_collected,sample_acquired,in_progress,open,insdc_open"
-includeEstimates: false
-excludeAncestral: sequencing_status_{{project}}
-excludeMissing: sequencing_status_{{project}}
+cat: "sequencing_status_{{lc_project}}=sample_collected,sample_acquired,in_progress,data_generation,in_assembly,open,insdc_open,published"
+includeEstimates: true
+excludeAncestral: sequencing_status_{{lc_project}}
+excludeMissing: sequencing_status_{{lc_project}}
 xOpts: ",,1,,Sequencing Status"
 caption: "Current status of {{project}} target species"
 item: true
@@ -25,7 +24,7 @@ cat: "assembly_level=contig,scaffold,chromosome,complete genome"
 includeEstimates: true
 excludeAncestral: bioproject
 excludeMissing: bioproject
-xOpts: ",,1,,"
+xOpts: "{{bioproject}},,1,,"
 caption: "Assembly level of {{project}} genomes"
 item: true
 xs: 6

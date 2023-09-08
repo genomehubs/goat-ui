@@ -8,7 +8,7 @@ YGG logo coming soon
 
 **GoaT Search Term:** YGG
 
-::grid[**Yggdrasil** is a Danish based initiative to generate and publicly release high quality genome sequences of relevance to the Danish, Greenlandic and Faroese research communities. For more information access Yggdrasil’s official project portal at **TBD** or reach the contact info below.]{item xs=8}
+::grid[**Yggdrasil** is a Danish based initiative to generate and publicly release high quality genome sequences of relevance to the Danish, Greenlandic and Faroese research communities. For more information access Yggdrasil’s official [project portal](http://yggdrasil-genome.dk) or reach the contact info below.]{item xs=8}
 
 **Bioproject ID** PRJNA955268
 
@@ -46,12 +46,12 @@ Yggdrasil long_list correspond to the subset of species declared as targets by t
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-{{::include{pageId=/projects/reports/progress_histo.md project=YGG bioproject=PRJNA955268 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=YGG bioproject=PRJNA955268 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
-:::}}
+:::
 
-::include{pageId=/projects/reports/duplication.md project=YGG bioproject={{project}} .inline}
+::include{pageId=/projects/reports/duplication.md project=YGG bioproject=PRJNA955268 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -63,7 +63,7 @@ Yggdrasil long_list correspond to the subset of species declared as targets by t
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=YGG bioproject={{project}} .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=YGG bioproject=PRJNA955268 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

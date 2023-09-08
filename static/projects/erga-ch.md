@@ -39,22 +39,17 @@ ERGA-CH long_list correspond to the subset of Swiss species declared as targets 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-{{::include{pageId=/projects/reports/progress_histo.md project=ERGA-CH bioproject=PRJEB49197 .inline}
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::}}
-
 ::include{pageId=/projects/reports/progress_arcs.md project=ERGA-CH .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=ERGA-CH bioproject=PRJEB49197 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=ERGA-CH bioproject=PRJEB49197 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=ERGA-CH bioproject=PRJEB49197 .inline}
+::include{pageId=/projects/reports/duplication.md project=ERGA-CH bioproject=PRJEB49197 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -66,6 +61,9 @@ ERGA-CH long_list correspond to the subset of Swiss species declared as targets 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+::include{pageId=/projects/reports/contiguity_scatters.md project=ERGA-CH bioproject=PRJEB49197 .inline}
 
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
 
 [back to projects](/projects)

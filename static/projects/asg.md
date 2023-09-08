@@ -38,18 +38,16 @@ ASG long_list correspond to the subset of species declared as targets by the pro
 
 
 ::include{pageId=/projects/reports/progress_arcs.md project=ASG .inline}
-* **sample_collected** only includes species collected by the [NHM](https://data.nhm.ac.uk/), those entered in [COPO](https://copo-project.org) and in the Wellcome Sanger Institute internal Sample Tracking System (STS). In the future it will include species reported by all ASG partners as collected.
-* **sample_acquired** correcpond to species with samples on site at the Wellcome Sanger Institute
-* **in_progress** includes sequencing, assembly and curation
+* ASG **sample_collected** only includes species collected by the [NHM](https://data.nhm.ac.uk/), those entered in [COPO](https://copo-project.org) and in the Wellcome Sanger Institute internal Sample Tracking System (STS). In the future it will include species reported by all ASG partners as collected.
 
 :::grid{container direction="row" spacing="1" item xs=12}
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-{{::include{pageId=/projects/reports/progress_histo.md project=ASG bioproject=PRJEB43743 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=ASG bioproject=PRJEB43743 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
-:::}}
+:::
 
 ::include{pageId=/projects/reports/duplication.md project=ASG bioproject=PRJEB43743 .inline}
 

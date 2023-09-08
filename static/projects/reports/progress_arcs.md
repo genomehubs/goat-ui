@@ -39,5 +39,14 @@ caption: "Total of {{project}} target species with genome sequencing currently i
 item: true
 xs: 4
 ```
-
 :::
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+### Sequencing status description:
+* **sample_collected:** tissue is available for whole genome sequencing
+* **sample_acquired:** samples received by the designated sequencing centers
+* **in_progress:** includes data_generation, in_assembly, and submitted to INSDC
+* **open:** data publicly available in a project-specific data store
+* **insdc_open:** assembly is publicly available on INSDC
+* **published:** has publication associated with genome assembly

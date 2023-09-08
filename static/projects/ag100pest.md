@@ -19,7 +19,7 @@
 
 # Summary Data
 
-## {{Project}} Long List
+## Ag100Pest Long List
 
 Ag100Pest long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
 
@@ -46,17 +46,17 @@ Ag100Pest long_list correspond to the subset of species declared as targets by t
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-{{::include{pageId=/projects/reports/progress_histo.md project=AG100PEST bioproject=PRJNA555319 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=AG100PEST bioproject=PRJNA555319 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
-:::}}
+:::
 
 ::include{pageId=/projects/reports/duplication.md project=AG100PEST bioproject=PRJNA555319 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-# {{PROJECT Custom Reports}}
+# Ag100Pest Custom Reports
 
 ::include{pageId=/projects/reports/progress_tree.md project=AG100PEST .inline}
 
@@ -68,15 +68,5 @@ Ag100Pest long_list correspond to the subset of species declared as targets by t
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-### Sequencing Status of Ag100Pest Species
-
-:::grid{container direction="row" spacing="1"}
-
-::report{report="histogram" x="long_list=AG100PEST AND sequencing_status_ag100pest" rank="species" taxonomy="ncbi" result="taxon" cat="sequencing_status_ag100pest=sample_collected@collected,sample_acquired@acquired,in_progress@in_progress,insdc_open@insdc" excludeAncestral="long_list" excludeMissing="long_list" xOpts=";;1;;Sequencing Status" caption="Current sequencing status of Ag100Pest targets" item xs=6}
-
-
-:::
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
 
 [back to projects](/projects)
