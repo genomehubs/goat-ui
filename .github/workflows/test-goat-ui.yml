@@ -1,4 +1,4 @@
-name: package-goat-ui
+name: test-goat-ui
 
 on:
   push:
