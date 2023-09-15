@@ -1,0 +1,17 @@
+description: Check rainbow plot has arcs for each rank
+endpoint: report
+querystring: report=arc&x=assembly_span&rank=phylum%2Cclass%2Corder%2Cfamily%2Cgenus%2Cspecies&includeEstimates=true&excludeAncestral%5B0%5D=assembly_span&excludeMissing%5B0%5D=assembly_span&result=taxon
+assert:
+  status:
+    success: true
+  report:
+    status:
+      success: true
+    report:
+      arc:
+        - rank: phylum
+        - rank: class
+        - rank: order
+        - rank: family
+        - rank: genus
+        - rank: species

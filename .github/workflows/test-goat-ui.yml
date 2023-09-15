@@ -1,0 +1,24 @@
+name: test-goat-ui
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  run-api-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Pip install genomehubs
+        run: yes | pip install genomehubs
+      - name: Run landing page tests
+        run: |
+          genomehubs test \
+            --config-file ./tests/config/goat.yaml \
+            --base-url https://goat.genomehubs.org/api/v2 \
+            --json-test-dir ./tests/api/landing

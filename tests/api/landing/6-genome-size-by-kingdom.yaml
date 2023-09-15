@@ -1,0 +1,38 @@
+description: Check assemblies by time histogram
+endpoint: report
+querystring: report=histogram&x=genome_size&rank=species&cat=kingdom&stacked=true&includeEstimates=true&excludeAncestral%5B0%5D=genome_size&excludeMissing%5B0%5D=genome_size&result=taxon
+assert:
+  status:
+    success: true
+  report:
+    status:
+      success: true
+    report:
+      histogram:
+        histograms:
+          buckets:
+            jsonSchema:
+              type: array
+              contains:
+                type: number
+          allValues:
+            jsonSchema:
+              type: array
+              contains:
+                type: number
+          byCat:
+            "4751":
+              jsonSchema:
+                type: array
+                contains:
+                  type: number
+            "33208":
+              jsonSchema:
+                type: array
+                contains:
+                  type: number
+            "33090":
+              jsonSchema:
+                type: array
+                contains:
+                  type: number
