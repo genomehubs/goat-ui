@@ -1,0 +1,44 @@
+description: Check rainbow plot has arcs for each rank
+endpoint: report
+querystring: report=xPerRank&includeEstimates=true&result=taxon
+assert:
+  status:
+    success: true
+  report:
+    status:
+      success: true
+    report:
+      xPerRank:
+        - rank: superkingdoms
+          x:
+            jsonSchema:
+              minimum: 1
+        - rank: kingdoms
+          x:
+            jsonSchema:
+              minimum: 3
+        - rank: phyla
+          x:
+            jsonSchema:
+              minimum: 50
+        - rank: classes
+          x:
+            jsonSchema:
+              minimum: 200
+        - rank: orders
+          x:
+            jsonSchema:
+              minimum: 1000
+        - rank: families
+          x:
+            jsonSchema:
+              minimum: 5000
+        - rank: genera
+          x:
+            jsonSchema:
+              minimum: 100000
+        - rank: species
+          x:
+            jsonSchema:
+              minimum: 1000000
+        - rank: subspecies

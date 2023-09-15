@@ -1,0 +1,23 @@
+description: Check donut plot
+endpoint: report
+querystring: report=arc&x=chromosome_number&rank=Family&includeEstimates=true&excludeAncestral%5B0%5D=chromosome_number&excludeMissing%5B0%5D=chromosome_number&result=taxon
+assert:
+  status:
+    success: true
+  report:
+    status:
+      success: true
+    report:
+      arc:
+        arc:
+          jsonSchema:
+            minimum: 0
+            maximum: 1
+        rank: Family
+        x:
+          jsonSchema:
+            minimum: 1000
+        xTerm: chromosome_number
+        y:
+          jsonSchema:
+            minimum: 5000

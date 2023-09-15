@@ -1,0 +1,23 @@
+description: Check donut plot
+endpoint: report
+querystring: report=arc&x=assembly_level%3Dchromosome&y=assembly_span&includeEstimates=false&rank=species&excludeAncestral%5B0%5D=assembly_span&excludeMissing%5B0%5D=assembly_span&result=taxon
+assert:
+  status:
+    success: true
+  report:
+    status:
+      success: true
+    report:
+      arc:
+        arc:
+          jsonSchema:
+            minimum: 0
+            maximum: 1
+        rank: species
+        x:
+          jsonSchema:
+            minimum: 2500
+        xTerm: assembly_level=chromosome
+        y:
+          jsonSchema:
+            minimum: 13000

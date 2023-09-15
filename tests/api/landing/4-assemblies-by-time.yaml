@@ -1,0 +1,38 @@
+description: Check assemblies by time histogram
+endpoint: report
+querystring: report=histogram&x=assembly_date&rank=species&cat=assembly_level&stacked=true&includeEstimates=true&excludeAncestral%5B0%5D=assembly_span&excludeMissing%5B0%5D=assembly_span&result=taxon
+assert:
+  status:
+    success: true
+  report:
+    status:
+      success: true
+    report:
+      histogram:
+        histograms:
+          buckets:
+            jsonSchema:
+              type: array
+              contains:
+                type: number
+          allValues:
+            jsonSchema:
+              type: array
+              contains:
+                type: number
+          byCat:
+            chromosome:
+              jsonSchema:
+                type: array
+                contains:
+                  type: number
+            contig:
+              jsonSchema:
+                type: array
+                contains:
+                  type: number
+            scaffold:
+              jsonSchema:
+                type: array
+                contains:
+                  type: number
