@@ -1,4 +1,4 @@
-::grid[![GoaT](/static/images/tol_logo_words.png)]{item xs=2}
+::grid[![GoaT](/static/images/DToL_Logo_with_text.png)]{item xs=2}
 
 # Darwin Tree of Life (DToL)
 **GoaT Search Term:** DTOL
