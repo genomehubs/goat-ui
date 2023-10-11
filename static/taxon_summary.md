@@ -7,7 +7,7 @@ Content to display in a panel on each taxon record page.
 
 ::grid{item xs=1}
 
-::include{pageId=taxon_summary/counts.md taxonId={{recordId}} item xs=4 .paragraph}
+::include{pageId=taxon_summary/counts.md taxonId={{recordId|taxon_id}} item xs=4 .paragraph}
 
-::include{pageId=taxon_summary/links.md taxonId={{recordId}} item xs=4 .unpadded}
+::include{pageId=taxon_summary/links.md taxonId={{recordId|taxon_id}} item xs=4 .unpadded}
 :::
