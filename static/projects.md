@@ -32,6 +32,8 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 - [CFGP - Cartilaginous Fish Genome Project](/projects/CFGP)
 
+- [CGP - Cetacean Genomes Project (PRJNA1020146)](/projects/CGP)
+
 - DNA Zoo (in progress)
 
 - [DTOL - Darwin Tree of Life (PRJEB40665)](/projects/DTOL)
