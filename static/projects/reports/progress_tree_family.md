@@ -1,4 +1,4 @@
-### Tree representing {{project}} target list highlighting species currently in progress
+### Tree representing {{project}} target list highlighting taxa currently in progress
 
 ```report
 report: tree

@@ -20,6 +20,8 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 - [ASG - Aquatic Symbiosis Genomics Project (PRJEB43743)](/projects/ASG)
 
+- [ATLASEA - An Atlas of Eukaryotic Marine Genomes (ATLASea - PRJEB64126)](/projects/ATLASEA)
+
 - [BAT1K - 1,000 Bat Genomes (PRJNA489245)](/projects/BAT1K)
 
 - [B10K - Bird 10,000 Genomes Project (PRJNA545868)](/projects/B10K)
