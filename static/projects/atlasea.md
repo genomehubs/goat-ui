@@ -15,7 +15,7 @@
 
 **Bioproject ID** PRJEB64126
 
-**Main Contact**: ATLASea managemen - contact(at)atlasea.fr
+**Main Contact**: ATLASea management - contact(at)atlasea.fr
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
