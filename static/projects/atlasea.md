@@ -1,18 +1,21 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/atlasea.png)]{item xs=3}
-::grid[![GoaT](/static/images/france2030.png)]{item xs=1}
-::grid[![GoaT](/static/images/ERGA_logo_rect.jpg)]{item xs=1}
+::grid[![GoaT](/static/images/ATLASEA-logo.png)]{item xs=2}
 :::
 
 # ATLASea: an Atlas of Eukaryotic Marine Genomes
 
 **GoaT Search Term:** ATLASEA
 
-::grid[**ATLASEA** will focus on the French Exclusive Economic Zone (EEZ), and will sequence a wide range of marine species in all eukaryotic groups, from mammals to microscopic forms. Working together with the European Reference Genome Atlas [(ERGA)](https://www.erga-biodiversity.eu) initiative, ATLASea is coordinating sampling, sequencing, and assembly efforts to generate high-quality reference genomes meeting Earth BioGenome Project (EBP) standards. For more information access [ATLASea's project page](https://www.atlasea.fr/en/home-page-en/).]{item xs=10}
+::grid[**ATLASEA** programme aims to sequence the genomes of 4,500 marine species, with a high coverage from metropolitan France and overseas territories, and using criteria designed to understand and analyse particularly threatened, fragile, biologically important and economically strategic ecosystems.]{item xs=10}
+:::grid{container direction="row" spacing="1"}
+::grid[![GoaT](/static/images/ERGA_logo_rect.jpg)]{item xs=1}
+::grid[![GoaT](/static/images/france2030.png)]{item xs=1}
+:::
+::grid[Working together with the European Reference Genome Atlas [(ERGA)](https://www.erga-biodiversity.eu) initiative, ATLASea is coordinating sampling, sequencing, and assembly efforts to generate high-quality reference genomes meeting Earth BioGenome Project (EBP) standards. It is funded under the France 2030 scheme of the French government. For more information see the [ATLASea's official project website](https://www.atlasea.fr/en/home-page-en/).]{item xs=10}
 
 **Bioproject ID** PRJEB64126
 
-**Main Contact**: contact (at) atlasea.fr
+**Main Contact**: ATLASea management - contact(at)atlasea.fr
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
