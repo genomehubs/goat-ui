@@ -5,4 +5,5 @@
 - projects
 - regions
 - (templates)
+- (browser)
 - submissions
