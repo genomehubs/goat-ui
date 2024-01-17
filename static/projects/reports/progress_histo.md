@@ -3,14 +3,15 @@
 
 ```report
 report: histogram
-x: "long_list={{project}} AND sequencing_status_{{lc_project}}"
-y: "sequencing_status_{{lc_project}}"
+x: "sequencing_status_{{lc_project}} AND long_list={{project}}"
+xField: "sequencing_status_{{lc_project}}"
 rank: species
 cat: "sequencing_status_{{lc_project}}=sample_collected,sample_acquired,in_progress,data_generation,in_assembly,open,insdc_open,published"
 includeEstimates: true
 excludeAncestral: sequencing_status_{{lc_project}}
 excludeMissing: sequencing_status_{{lc_project}}
-xOpts: ",,1,,Sequencing Status"
+xOpts: ";;;;Sequencing Status"
+stacked: True
 caption: "Current status of {{project}} target species"
 item: true
 xs: 6
