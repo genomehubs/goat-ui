@@ -70,6 +70,8 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 - [METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)](/projects/METAINVERT)
 
+- [OG - Ocean Genomes (PRJNA1046164)](/projects/OG)
+
 - [OGG - Open Green Genomes](/projects/OGG)
 
 - [OMG - Oz Mammals Genomics](/projects/OMG)
