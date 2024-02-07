@@ -11,3 +11,5 @@
 ::recordlink{result=taxon,assembly url="https://www.ebi.ac.uk/ena/browser/view/{assemblyId}" condition="assemblyId" label="ENA" color=#70bdbd description="Click to view the primary assembly {assemblyId} in ENA"}
 
 ::recordlink{result=taxon,assembly url="https://www.ncbi.nlm.nih.gov/assembly/{assemblyId}" condition="assemblyId" label="NCBI" color=#20558a description="Click to view the primary assembly {assemblyId} in NCBI"}
+
+::recordlink{result=taxon,assembly url="https://genome.ucsc.edu/h/{assemblyId}" condition="assemblyId" label="UCSC" color=#D4A017 description="Click to view the primary assembly {assemblyId} in the UCSC Genome Browser"}
