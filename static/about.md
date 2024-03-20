@@ -47,3 +47,5 @@ All projects that are part of the EBP Network are invited to share lists of targ
 We produce an annual report highlighting key developments, uses and outreach over the preceeding 12 months
 
 [GoaT Report | 2022](https://docs.google.com/document/d/1sUhMCZQUuQ8vYhTqrsbKEpB4lpZfpPPr5jDYFuIWPe8/edit#heading=h.j5pprs5ge9pk)
+
+[GoaT Report | 2023](https://docs.google.com/document/d/1GLXEEsIHAh22k6jev0LKy9R9o9eTU7fhjoPlBvDv0zw/edit)
