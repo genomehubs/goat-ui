@@ -82,7 +82,7 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 - [PRGP - Primate Genomes Project](/projects/PRGP)
 
-- [PSYCHE - Project Psyche](/projects/PSYCHE)
+- [PSYCHE - Project Psyche (PRJEB71705)](/projects/PSYCHE)
 
 - [SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans (PRJNA707598)](/projects/SQUALOMIX)
 
@@ -98,7 +98,7 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 - 10,000 Plant Genomes (10KP)
 
-- Beenome100
+- Beenome100 (in progress)
 
 - Butterfly Genome Project
 
@@ -125,3 +125,4 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 ## Other Projects
 
 - [1,000 Fungal Genomes (1KFG)](/projects/1KFG)
+
