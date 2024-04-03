@@ -8,7 +8,7 @@
 
 ::grid[**Project Psyche** aims to sequence the genomes of all  species of Lepidoptera in Europe. For more information reach the contact info below.]{item xs=8}
 
-**Bioproject ID** TBD
+**Bioproject ID** PRJEB71705
 
 **Main Contact**: [Charlotte Wright](charlotte.wright@sanger.ac.uk), Wellcome Sanger Institute, UK
 
@@ -27,14 +27,14 @@ PSYCHE long_list correspond to all species of butterflies listed in the [Lepifor
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree_family.md project=PSYCHE bioproject=TBD .inline}
+::include{pageId=/projects/reports/target_tree_family.md project=PSYCHE bioproject=PRJEB71705 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## PSYCHE Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=PSYCHE bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=PSYCHE bioproject=PRJEB71705 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -44,12 +44,12 @@ PSYCHE long_list correspond to all species of butterflies listed in the [Lepifor
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=PSYCHE bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_histo.md project=PSYCHE bioproject=PRJEB71705 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=PSYCHE bioproject=TBD .inline}
+::include{pageId=/projects/reports/duplication.md project=PSYCHE bioproject=PRJEB71705 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -61,7 +61,7 @@ PSYCHE long_list correspond to all species of butterflies listed in the [Lepifor
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=PSYCHE bioproject=TBD .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=PSYCHE bioproject=PRJEB71705 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
