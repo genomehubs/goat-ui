@@ -6,7 +6,7 @@
 
 **GoaT Search Term:** OG
 
-::grid[**Ocean Genomes** saims to accelerate and scale the production of openly accessible reference genome assemblies for marine vertebrates. For more information, access [Ocean Genomes page](https://www.minderoo.org/oceanomics) or reach the contact info below.]{item xs=8}
+::grid[**Ocean Genomes** aims to accelerate and scale the production of openly accessible reference genome assemblies for marine vertebrates. For more information, access [Ocean Genomes page](https://www.minderoo.org/oceanomics) or reach the contact info below.]{item xs=8}
 
 **Bioproject ID** PRJNA1046164
 

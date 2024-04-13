@@ -22,9 +22,11 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 - [ATLASEA - An Atlas of Eukaryotic Marine Genomes (ATLASea - PRJEB64126)](/projects/ATLASEA)
 
+- [B10K - Bird 10,000 Genomes Project (PRJNA545868)](/projects/B10K)
+
 - [BAT1K - 1,000 Bat Genomes (PRJNA489245)](/projects/BAT1K)
 
-- [B10K - Bird 10,000 Genomes Project (PRJNA545868)](/projects/B10K)
+- [BEENOME100 - The Beenome100 project (PRJNA923301)](/projects/BEENOME100)
 
 - [CANBP - Canada Biogenome Project (CBP - PRJNA813333)](/projects/CANBP)
 
@@ -97,8 +99,6 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 - 1,000 Chilean Genomes
 
 - 10,000 Plant Genomes (10KP)
-
-- Beenome100 (in progress)
 
 - Butterfly Genome Project
 
