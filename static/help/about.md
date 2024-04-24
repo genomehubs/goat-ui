@@ -1,8 +1,7 @@
 <!--
 Content to display at /about
 -->
-
-# About :hub
+::breadcrumbs[About GoaT]
 
 GoaT has been built using [GenomeHubs](https://github.com/genomehubs/genomehubs) to help coordinate efforts across the [Earth Biogenome Project](https://www.earthbiogenome.org) (EBP) Network at all stages from planning through sequencing and assembly to publication.
 

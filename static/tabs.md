@@ -1,7 +1,7 @@
 - search
-- about
-- help
-- api
+- (about)
+- +help+
+- (api)
 - projects
 - regions
 - (templates)
