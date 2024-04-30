@@ -42,7 +42,7 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 - [DTOL - Darwin Tree of Life (PRJEB40665)](/projects/DTOL)
 
-- [EBPN - Earth Biogenome Project Norway (EBP-Nor)](/projects/EBPN)
+- [EBPN - Earth Biogenome Project Norway (EBP-Nor; PRJEB65317)](/projects/EBPN)
 
 - [ENDEMIXIT - Italian Endemics (PRJNA712951)](/projects/ENDEMIXIT)
 

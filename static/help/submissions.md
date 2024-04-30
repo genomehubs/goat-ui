@@ -1,13 +1,4 @@
-# Submission Guidelines
-
-## Genome Metadata
-
-GoaT curators are actively seeking trusted sources of genome-relevant metadata. If you have a dataset that you would like us to index in GoaT, or a suggestion for additional data you think should be included, please contact goat@genomehubs.org.
-
-The [sources page](/sources) provides a summary of the current sources indexed by GoaT and the full dataset included in the latest and previous releases is available from [GoaT-data](https://github.com/genomehubs/goat-data).
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
+::breadcrumbs[Submission Guidelines]
 
 ## Project Lists
 
@@ -17,6 +8,15 @@ EBP-affiliated projects and smaller projects under any INSDC umbrella bioproject
 - [Template File](https://docs.google.com/spreadsheets/d/1eC6jQctRoUaeGWWDbb1qsWs-7ajC462nnJdHK4N3ivw/edit#gid=1552955356)
 
 **Note** that some attributes in GoaT are under testing phase. Guidelines for file preparation might change over time to best accomodate project requirements. Guidelines on this page will always represent the latest version.
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
+
+## Genome Metadata
+
+GoaT curators are actively seeking trusted sources of genome-relevant metadata. If you have a dataset that you would like us to index in GoaT, or a suggestion for additional data you think should be included, please contact goat@genomehubs.org.
+
+The [sources page](/sources) provides a summary of the current sources indexed by GoaT and the full dataset included in the latest and previous releases is available from [GoaT-data](https://github.com/genomehubs/goat-data).
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

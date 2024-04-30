@@ -1,4 +1,4 @@
-# Help
+::breadcrumbs[Help]
 
 :::grid{container direction="row" toggle expand title="Getting started" spacing="1"}
 
@@ -16,7 +16,7 @@
 :::
 
 ## Tutorials
-
+- Querying genome metadata and sequencing projects using GoaT[Slides](https://docs.google.com/presentation/d/1S4deT4LbYH1KesFjVVfTQUPCKxLFDqyNf2w47PdxRjE/edit#slide=id.g2c55f560361_0_2244)
 - BGA23 [Workshop Slides](https://bga23.org/goat/).
 - BGA23 [Workshop Video](https://www.youtube.com/watch?v=n-Jghkfi5fQ&list=PLF7zaQmc39cLJHpw7LyDIKPcP7vrM4tig&index=18&t=4s).
 
@@ -26,7 +26,7 @@
 
 ## User manual
 
-For a detailed description of key features of the GoaT user interface, please refer to the [GoaT data Wiki](https://github.com/genomehubs/goat-data/wiki).
+Soon available [GoaT data Wiki](https://github.com/genomehubs/goat-data/wiki).
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

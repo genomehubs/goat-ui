@@ -1,9 +1,9 @@
-- search
+- +search+
 - (about)
 - +help+
 - (api)
-- projects
-- regions
+- +projects+
+- (regions)
 - (templates)
 - (browser)
-- submissions
+- (submissions)

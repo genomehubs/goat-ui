@@ -1,6 +1,7 @@
 - about
 - api
-- (uses)
+- uses
 - (wiki)
-- (FAQs)
+- FAQs
+- submissions
 - contact

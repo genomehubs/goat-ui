@@ -1,6 +1,12 @@
+::breadcrumbs[Use Case Examples]
+
 ## User manual
 
-For a detailed description of key features of the GoaT user interface, please refer to the [Illustrated User Guide](https://docs.google.com/document/d/10ayIwVQ7kwEvStsBiG8dzE9xJDt53u8e0TF806CC344/edit?usp=sharing).
+Soon available at [GoaT data Wiki](https://github.com/genomehubs/goat-data/wiki).
+
+For a detailed description of key features of the GoaT user interface, please refer to the 
+[Tutorials](/help).
+
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
