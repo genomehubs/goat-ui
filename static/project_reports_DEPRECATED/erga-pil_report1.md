@@ -1,1 +1,0 @@
-::report{report="arc" x="long_list=ERGA-PIL AND ebp_metric_date AND bioproject!=PRJEB47820" y="long_list=ERGA-PIL" rank="species" includeEstimates="true" result="taxon" taxonomy="ncbi" caption="**Already Sequenced**"}

@@ -1,5 +1,7 @@
 <!--
-Content to display at /about
+Content to display at 
+-   /landing
+-   /help/about -> created a file to serve as soft link in the folder /help. removing it seems to break the redirect to /about
 -->
 ::breadcrumbs[About GoaT]
 

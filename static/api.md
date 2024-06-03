@@ -1,5 +1,7 @@
 <!--
-Content to display at /api
+Content to display at 
+- /api
+- /help/api
 -->
 
 ::breadcrumbs[GoaT API]

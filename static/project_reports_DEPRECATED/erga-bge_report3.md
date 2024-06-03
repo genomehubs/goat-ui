@@ -1,1 +1,0 @@
-::report{report="arc" x="length(sample_collected)>1 AND sequencing_status_ERGA-BGE>=sample_collected AND bioproject=null,!PRJEB61747 AND ebp_metric_date=null AND assembly_level=null,!chromosome,!complete genome" y="sequencing_status_ERGA-BGE>=sample_acquired" rank="species" includeEstimates="true" result="taxon" taxonomy="ncbi" caption="**In progress by ERGA-BGE and others**(*)"}

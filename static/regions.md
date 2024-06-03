@@ -1,4 +1,11 @@
-# Regions
+<!--
+Content to display at 
+/regions
+/project/regions
+-->
+
+
+::breadcrumbs[Regions]
 
 Select a country to display a summary of genome sequencing progress:
 

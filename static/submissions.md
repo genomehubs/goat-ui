@@ -21,7 +21,7 @@ The [sources page](/sources) provides a summary of the current sources indexed b
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## Submissions FAQ:
+## Submissions FAQs:
 
 :::grid{container direction="row" toggle title="My lab is currently sequencing only a few genomes. Can I submit intent and progress to GoaT?" spacing="1"}
 

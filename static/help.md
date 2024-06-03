@@ -27,6 +27,7 @@
 ## User manual
 
 Soon available [GoaT data Wiki](https://github.com/genomehubs/goat-data/wiki).
+Explore the different help sections for use examples and templates
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

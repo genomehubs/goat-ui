@@ -1,1 +1,4 @@
-- regions
+- EBP
+- +EBP-affiliates+
+- all-projects
+- +regions+

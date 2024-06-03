@@ -1,5 +1,5 @@
 <!--
-Content to display immediately below the search box when the user toggles "browse tree"
+Content to display on landing page immediately below the search box when the user toggles "browse tree"
 -->
 
 GoaT uses the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) tree as its default backbone taxonomy. Tap the tree nodes below to browse the taxa available in GoaT or long press to search for data on a particular taxon.
