@@ -1,4 +1,4 @@
-::breadcrumbs[Use Case Examples]
+::breadcrumbs[Use Cases]
 
 ## User manual
 

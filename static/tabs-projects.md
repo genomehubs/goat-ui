@@ -1,4 +1,4 @@
 - EBP
-- +EBP-affiliates+
-- all-projects
-- +regions+
+- EBP-affiliates
+- all_projects
+- /regions
