@@ -31,7 +31,7 @@ The [sources page](/sources) provides a summary of the current sources indexed b
 
 :::grid{container direction="row" toggle title="My project already has a data portal with a list of targets and detailed progress tracking. Can GoaT retrieve my data from the portal instead?" spacing="1"}
 
-::grid[Yes. GoaT can access APIs and live documents and translate progress information into "GoaT-specific" terms. Reach out to [our curators](goat@genomehubs.org) to arrange direct data transfers between systems.]{item xs=12 .paragraph}
+::grid[Yes. GoaT can access APIs and live documents and translate progress information into "GoaT-specific" terms. Reach out to [our curators](/help/contact) to arrange direct data transfers between systems.]{item xs=12 .paragraph}
 
 :::
 
