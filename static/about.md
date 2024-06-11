@@ -1,8 +1,9 @@
 <!--
-Content to display at /about
+Content to display at 
+-   /landing
+-   /help/about -> created a file to serve as soft link in the folder /help. removing it seems to break the redirect to /about
 -->
-
-# About :hub
+::breadcrumbs[About GoaT]
 
 GoaT has been built using [GenomeHubs](https://github.com/genomehubs/genomehubs) to help coordinate efforts across the [Earth Biogenome Project](https://www.earthbiogenome.org) (EBP) Network at all stages from planning through sequencing and assembly to publication.
 

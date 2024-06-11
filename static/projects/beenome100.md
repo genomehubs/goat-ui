@@ -1,6 +1,5 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/i5k.png)]{item xs=1}
-::grid[![GoaT](/static/images/USDA.png)]{item xs=3}
+::grid[![GoaT](/static/images/beenome.png)]{item xs=3}
 :::
 
 
@@ -73,5 +72,8 @@ BEENOME100 long_list correspond to the subset of species declared as targets by 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+:::grid{container direction="row" spacing="1"}
+::grid[![GoaT](/static/images/i5k.png)]{item xs=1}
+::grid[![GoaT](/static/images/USDA.png)]{item xs=1}
 
 [back to projects](/projects)

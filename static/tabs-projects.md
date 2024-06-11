@@ -1,0 +1,4 @@
+- EBP
+- EBP-affiliates
+- all_projects
+- /regions

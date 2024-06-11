@@ -1,8 +1,10 @@
 <!--
-Content to display at /search
+Content to display at 
+- /api
+- /help/api
 -->
 
-# API
+::breadcrumbs[GoaT API]
 
 The GoaT API underpins all the functionality of this site and can be queried directly to support automated and bulk data retrieval.
 

@@ -30,4 +30,4 @@ See the [help page](/help) for a full list of available attributes.
 
 GoaT supports many advanced search options, please see the help pages for more information or visit the [project pages](/projects) to see some examples of reports generated from GoaT search queries.
 
-We have created search templates to make it easier to run some advanced searches, visit the [templates page](/templates) to find out more.
+We have created search templates to make it easier to run some advanced searches, visit the [templates page](/search/templates) to find out more.

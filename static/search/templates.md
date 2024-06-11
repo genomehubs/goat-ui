@@ -1,8 +1,8 @@
 <!--
-Content to display at /templates
+Content to display at /search/templates
 -->
 
-# Templates
+::breadcrumbs[Templates]
 
 Use the templates below to explore some of the search options available in :hub
 
