@@ -1,12 +1,10 @@
-
-
-::grid[![GoaT](/static/images/Squalomix-logo5.jpeg)]{item xs=10}
+::grid[![GoaT](/static/images/Squalomix-logo5.jpeg)]{size=10}
 
 # SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans
+
 **GoaT Search Term:** SQUALOMIX
 
-
-::grid[**SQUALOMIX** aims at unveiling the unique evolutionary trajectory of chondrichthyans (sharks, rays, and chimaeras) and is sustained by tight collaborations involving academic sequencing core facilities, marine stations, and public aquariums. By means of multimodal omics and molecular evolutionary approaches, it tackles biological questions in various fields including developmental biology and comparative physiology. For more information access SQUALOMIX's official project hub at https://github.com/Squalomix/info/]{item xs=8}
+::grid[**SQUALOMIX** aims at unveiling the unique evolutionary trajectory of chondrichthyans (sharks, rays, and chimaeras) and is sustained by tight collaborations involving academic sequencing core facilities, marine stations, and public aquariums. By means of multimodal omics and molecular evolutionary approaches, it tackles biological questions in various fields including developmental biology and comparative physiology. For more information access SQUALOMIX's official project hub at https://github.com/Squalomix/info/]{size=8}
 
 **Bioproject ID:** PRJNA707598
 
@@ -67,4 +65,3 @@ SQUALOMIX long_list correspond to the subset of species declared as targets by t
 :::
 
 [back to projects](/projects)
-

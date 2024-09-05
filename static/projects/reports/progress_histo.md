@@ -1,4 +1,3 @@
-
 :::grid{container direction="row" spacing="1"}
 
 ```report
@@ -13,7 +12,6 @@ excludeMissing: sequencing_status_{{lc_project}}
 xOpts: ";;;;Sequencing Status"
 stacked: True
 caption: "Current status of {{project}} target species"
-item: true
 xs: 6
 ```
 
@@ -27,7 +25,7 @@ excludeAncestral: bioproject
 excludeMissing: bioproject
 xOpts: "{{bioproject}},,1,,"
 caption: "Assembly level of {{project}} genomes"
-item: true
 xs: 6
 ```
+
 :::

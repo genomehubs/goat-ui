@@ -1,9 +1,10 @@
-::grid[![GoaT](/static/images/logo_ENDEMIXIT.png)]{item xs=4}
+::grid[![GoaT](/static/images/logo_ENDEMIXIT.png)]{size=4}
 
 # ENDEMIXIT
+
 **GoaT Search Term:** ENDEMIXIT
 
-::grid[Using five endangered Italian endemic species, Endemixit plans to produce five de novo genomes and re-sequence 20 individuals. Further information can be found at https://endemixit.com.]{item xs=8}
+::grid[Using five endangered Italian endemic species, Endemixit plans to produce five de novo genomes and re-sequence 20 individuals. Further information can be found at https://endemixit.com.]{size=8}
 
 **Bioproject ID** PRJNA712951
 
@@ -13,6 +14,7 @@
 :::
 
 # Summary Data
+
 ## ENDEMIXIT Long List
 
 ENDEMIXIT long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
@@ -56,7 +58,7 @@ ENDEMIXIT long_list correspond to the subset of species declared as targets by t
 
 :::grid{container direction=row}
 
-::report{report="tree" x="tax_tree(Eukaryota) AND long_list=endemixit" y="assembly_span AND bioproject=PRJNA712951" treeStyle="ring" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=6 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Taxa in the declared target list of the ENDEMIXIT.** Orange highlights represent clades with at least one genome available under the ENDEMIXIT Bioproject Id PRJNA712951. Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." item xs=12}
+::report{report="tree" x="tax_tree(Eukaryota) AND long_list=endemixit" y="assembly_span AND bioproject=PRJNA712951" treeStyle="ring" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=6 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Taxa in the declared target list of the ENDEMIXIT.** Orange highlights represent clades with at least one genome available under the ENDEMIXIT Bioproject Id PRJNA712951. Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." size=12}
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}

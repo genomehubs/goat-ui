@@ -1,14 +1,13 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/i5k.png)]{item xs=1}
-::grid[![GoaT](/static/images/USDA.png)]{item xs=3}
+::grid[![GoaT](/static/images/i5k.png)]{size=1}
+::grid[![GoaT](/static/images/USDA.png)]{size=3}
 :::
-
 
 # Ag100Pest Initiative (Ag100Pest)
 
 **GoaT Search Term:** AG100PEST
 
-::grid[**Ag100Pest** aims to produce annotated, reference quality genome assemblies for the top 100 US arthropod agricultural pests. When possible, generate the PacBio long-read data from a single individual. For more information access the Ag100Pest's project page at http://i5k.github.io/ag100pest]{item xs=8}
+::grid[**Ag100Pest** aims to produce annotated, reference quality genome assemblies for the top 100 US arthropod agricultural pests. When possible, generate the PacBio long-read data from a single individual. For more information access the Ag100Pest's project page at http://i5k.github.io/ag100pest]{size=8}
 
 **Bioproject ID** PRJNA555319
 
@@ -67,6 +66,5 @@ Ag100Pest long_list correspond to the subset of species declared as targets by t
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
-
 
 [back to projects](/projects)

@@ -1,10 +1,10 @@
-::grid[![GoaT](/static/images/omg-logo.jpeg)]{item xs=2}
+::grid[![GoaT](/static/images/omg-logo.jpeg)]{size=2}
 
 # Oz Mammals Genomics (OMG)
+
 **GoaT Search Term:** OMG
 
-
-::grid[**Oz Mammals Genomics** aim is to build genomic resources to understand and protect Australia’s mammals. For more information access OMG's project page at https://ozmammalsgenomics.com/]{item xs=12}
+::grid[**Oz Mammals Genomics** aim is to build genomic resources to understand and protect Australia’s mammals. For more information access OMG's project page at https://ozmammalsgenomics.com/]{size=12}
 
 **Bioproject ID** TBD
 

@@ -1,10 +1,10 @@
-::grid[![GoaT](/static/images/gap_logo.jpeg)]{item xs=4}
+::grid[![GoaT](/static/images/gap_logo.jpeg)]{size=4}
 
 # Genomics for Australian Plants (GAP)
+
 **GoaT Search Term:** GAP
 
-
-::grid[**Genomics for Australian Plants** aim is to develop genomics resources to enhance our understanding of the evolution and conservation of the unique Australian flora. For more information access GAP's project page at https://www.genomicsforaustralianplants.com and https://data.bioplatforms.com/organization/bpa-plants]{item xs=12}
+::grid[**Genomics for Australian Plants** aim is to develop genomics resources to enhance our understanding of the evolution and conservation of the unique Australian flora. For more information access GAP's project page at https://www.genomicsforaustralianplants.com and https://data.bioplatforms.com/organization/bpa-plants]{size=12}
 
 **Bioproject ID** TBD
 
@@ -65,4 +65,3 @@ GAP long_list correspond to the subset of species declared as targets by the pro
 :::
 
 [back to projects](/projects)
-

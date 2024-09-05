@@ -1,9 +1,8 @@
 <!--
-Content to display at 
+Content to display at
 /regions
 /project/regions
 -->
-
 
 ::breadcrumbs[Regions]
 
@@ -35,6 +34,5 @@ result: taxon
 taxonomy: ncbi
 caption: ""
 disableModal: true
-item: true
 xs: 12
 ```

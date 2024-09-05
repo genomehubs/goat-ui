@@ -1,11 +1,10 @@
-
-::grid[![GoaT](/static/images/CanBP.png)]{item xs=4}
+::grid[![GoaT](/static/images/CanBP.png)]{size=4}
 
 # Canada Biogenome Project (CBP)
 
 **GoaT Search Term:** CanBP
 
-::grid[**The Canada Biogenome Project** (CBP / CanBP) will embark on the task of determining the complete genetic diversity of Canada's plants and animals through genomic sequencing. For more information access http://earthbiogenome.ca/.]{item xs=8}
+::grid[**The Canada Biogenome Project** (CBP / CanBP) will embark on the task of determining the complete genetic diversity of Canada's plants and animals through genomic sequencing. For more information access http://earthbiogenome.ca/.]{size=8}
 
 **Bioproject ID** PRJNA813333
 
@@ -20,7 +19,7 @@
 
 CanBP long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
 
-- long_list=CANBP 
+- long_list=CANBP
 - tax_rank(species)
 
 :::grid{container direction="row" spacing="1" class="padded"}
@@ -64,7 +63,5 @@ CanBP long_list correspond to the subset of species declared as targets by the p
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
-
-
 
 [back to projects](/projects)

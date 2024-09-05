@@ -1,13 +1,13 @@
-::grid[![GoaT](/static/images/EBPlogo.jpeg)]{item xs=2}
+::grid[![GoaT](/static/images/EBPlogo.jpeg)]{size=2}
 
 # Earth Biogenome Project (EBP)
 
-::grid[**The Earth BioGenome Project (EBP)**, a moonshot for biology, aims to sequence, catalog and characterize the genomes of all of Earth’s eukaryotic biodiversity over a period of ten years. More information can be found in the EBP official web portal at https://www.earthbiogenome.org.]{item xs=8}
+::grid[**The Earth BioGenome Project (EBP)**, a moonshot for biology, aims to sequence, catalog and characterize the genomes of all of Earth’s eukaryotic biodiversity over a period of ten years. More information can be found in the EBP official web portal at https://www.earthbiogenome.org.]{size=8}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::grid[Several **Earth BioGenome Project Affiliates** are already on GoaT. Browse through the [**list of project-dedicated pages**](/projects) for specific reports.]{item xs=10}
+::grid[Several **Earth BioGenome Project Affiliates** are already on GoaT. Browse through the [**list of project-dedicated pages**](/projects) for specific reports.]{size=10}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -16,15 +16,15 @@
 
 ### Progress of Eukaryotic Genome Sequencing by Taxon Rank: all assemblies in INSDC and those submitted under the EBP umbrella (BioProject PRJNA533106)
 
-:::grid{container direction="row" spacing="1" item xs=12}
+:::grid{container direction="row" spacing="1" size=12}
 
-::report{report="xInY" x="assembly_span" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**All INSDC taxa** - Taxa with assemblies out of all Eukaryotic taxa in INSDC" item xs=4}
+::report{report="xInY" x="assembly_span" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**All INSDC taxa** - Taxa with assemblies out of all Eukaryotic taxa in INSDC" size=4}
 
-::report{report="xInY" x="assembly_span AND bioproject=PRJNA533106" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="**EBP Umbrella** - EBP taxa with assemblies out of all Eukaryotic taxa in INSDC" item xs=4}
+::report{report="xInY" x="assembly_span AND bioproject=PRJNA533106" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="**EBP Umbrella** - EBP taxa with assemblies out of all Eukaryotic taxa in INSDC" size=4}
 
 ::divider
 
-::report{report="xPerRank" x="bioproject=PRJNA533106" includeEstimates=true caption="**Counts of taxa sequenced under the EBP Umbrella.** Contribution of Affiliated Projects under EBP Umbrella Bioproject Id PRJNA533106" item xs=4}
+::report{report="xPerRank" x="bioproject=PRJNA533106" includeEstimates=true caption="**Counts of taxa sequenced under the EBP Umbrella.** Contribution of Affiliated Projects under EBP Umbrella Bioproject Id PRJNA533106" size=4}
 
 :::
 Click on report to see and download individually.
@@ -34,8 +34,8 @@ Click on report to see and download individually.
 
 ## Tree representing the eukaryotic orders with at least one species sequenced by the EBP network
 
-:::grid{container direction="row" spacing="1" item xs=12}
-::report{report="tree" x="bioproject AND tax_tree(Eukaryota) AND tax_rank(order) AND bioproject=PRJNA533106" y="assembly_span>0 AND bioproject=PRJNA533106" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" ratio=2 includeEstimates collapseMonotypic disableModal item yOpts="10000,100000000000" caption="**Taxa sequenced by the Earth Biogenome Project**. Orange highlights represent clades with at least one assembly published under the EBP umbrella BioProject ID (PRJNA533106). Orange bars = assembly span estimates from descendants. Tap tree nodes to see taxon records or long-press to expand each branch." xs=12}
+:::grid{container direction="row" spacing="1" size=12}
+::report{report="tree" x="bioproject AND tax_tree(Eukaryota) AND tax_rank(order) AND bioproject=PRJNA533106" y="assembly_span>0 AND bioproject=PRJNA533106" treeStyle="rect" taxonomy="ncbi" levels="subspecies,species,genus,family,order,class,phylum" ratio=2 includeEstimates collapseMonotypic disableModal yOpts="10000,100000000000" caption="**Taxa sequenced by the Earth Biogenome Project**. Orange highlights represent clades with at least one assembly published under the EBP umbrella BioProject ID (PRJNA533106). Orange bars = assembly span estimates from descendants. Tap tree nodes to see taxon records or long-press to expand each branch." size=12}
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}
@@ -44,11 +44,11 @@ Click on report to see and download individually.
 ### Contribution of EBP to Whole Genome Sequencing of Eukaryotic Taxa
 
 **Progress of EBP in 2024**
-:::grid{container direction="row" spacing="1" item xs=12}
+:::grid{container direction="row" spacing="1" size=12}
 
-::report{report="histogram" x="min(assembly_date)>2024 AND bioproject=PRJNA533106" rank="species" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2024-01,2025,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic species generated by EBP affiliates each month in 2024" item xs=6}
+::report{report="histogram" x="min(assembly_date)>2024 AND bioproject=PRJNA533106" rank="species" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2024-01,2025,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic species generated by EBP affiliates each month in 2024" size=6}
 
-::report{report="histogram" x="min(assembly_date)>2024 AND bioproject=PRJNA533106" rank="family" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" includeEstimates=true excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2024-01,2025,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic families generated by EBP affiliates each month in 2024" item xs=6}
+::report{report="histogram" x="min(assembly_date)>2024 AND bioproject=PRJNA533106" rank="family" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" includeEstimates=true excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2024-01,2025,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic families generated by EBP affiliates each month in 2024" size=6}
 
 :::
 Click on report to see and download individually.
@@ -58,16 +58,16 @@ Click on report to see and download individually.
 
 :::grid{container direction="row" toggle title="Progress of EBP in 2023" spacing="1"}
 
-::report{report="histogram" x="min(assembly_date)>2023 AND bioproject=PRJNA533106" rank="species" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2023-01,2024,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic species generated by EBP affiliates each month in 2023" item xs=6}
+::report{report="histogram" x="min(assembly_date)>2023 AND bioproject=PRJNA533106" rank="species" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2023-01,2024,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic species generated by EBP affiliates each month in 2023" size=6}
 
-::report{report="histogram" x="min(assembly_date)>2023 AND bioproject=PRJNA533106" rank="family" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" includeEstimates=true excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2023-01,2024,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic families generated by EBP affiliates each month in 2023" item xs=6}
+::report{report="histogram" x="min(assembly_date)>2023 AND bioproject=PRJNA533106" rank="family" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" includeEstimates=true excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2023-01,2024,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic families generated by EBP affiliates each month in 2023" size=6}
 :::
 
 :::grid{container direction="row" toggle title="Progress of EBP in 2022" spacing="1"}
 
-::report{report="histogram" x="min(assembly_date)>2022 AND bioproject=PRJNA533106" rank="species" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2022-01,2023,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic species generated by EBP affiliates each month in 2022" item xs=6}
+::report{report="histogram" x="min(assembly_date)>2022 AND bioproject=PRJNA533106" rank="species" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2022-01,2023,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic species generated by EBP affiliates each month in 2022" size=6}
 
-::report{report="histogram" x="min(assembly_date)>2022 AND bioproject=PRJNA533106" rank="family" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" includeEstimates=true excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2022-01,2023,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic families generated by EBP affiliates each month in 2022" item xs=6}
+::report{report="histogram" x="min(assembly_date)>2022 AND bioproject=PRJNA533106" rank="family" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" includeEstimates=true excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" xOpts="2022-01,2023,,,Assembly date (month)" yOpts="0,1000,1" caption="Number of assemblies for eukaryotic families generated by EBP affiliates each month in 2022" size=6}
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}
@@ -75,11 +75,11 @@ Click on report to see and download individually.
 
 **Progress of EBP over the years**
 
-:::grid{container direction="row" spacing="1" item xs=12}
+:::grid{container direction="row" spacing="1" size=12}
 
-::report{report="histogram" x="min(assembly_date) AND bioproject=PRJNA533106" rank="species" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" cumulative="true" xOpts="2006,,2,,Assembly date" yOpts="0,1000,1" caption="Cumulative number of assemblies for eukaryotic species generated by EBP affiliates over time" item xs=6}
+::report{report="histogram" x="min(assembly_date) AND bioproject=PRJNA533106" rank="species" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" stacked="true" cumulative="true" xOpts="2006,,2,,Assembly date" yOpts="0,1000,1" caption="Cumulative number of assemblies for eukaryotic species generated by EBP affiliates over time" size=6}
 
-::report{report="histogram" x="min(assembly_date) AND bioproject=PRJNA533106" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" stacked="true" cumulative="true" includeEstimates="true" rank="Family" xOpts="2006,,2,,Assembly date" caption="Cumulative number of eukaryotic families for which assemblies were generated by EBP affiliates over time" item xs=6}
+::report{report="histogram" x="min(assembly_date) AND bioproject=PRJNA533106" result="taxon" cat="assembly_level=contig,scaffold,chromosome,complete genome" stacked="true" cumulative="true" includeEstimates="true" rank="Family" xOpts="2006,,2,,Assembly date" caption="Cumulative number of eukaryotic families for which assemblies were generated by EBP affiliates over time" size=6}
 
 :::
 Click on report to see and download individually.
@@ -91,11 +91,11 @@ Click on report to see and download individually.
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="contig_n50>=1000000 AND scaffold_n50>=10000000 AND bioproject=PRJNA533106" y="contig_n50>=1000000 AND scaffold_n50>=10000000" rank="species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **species** with assemblies meeting EBP metrics" item xs=4}
+::report{report="xInY" x="contig_n50>=1000000 AND scaffold_n50>=10000000 AND bioproject=PRJNA533106" y="contig_n50>=1000000 AND scaffold_n50>=10000000" rank="species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **species** with assemblies meeting EBP metrics" size=4}
 
-::report{report="xInY" x="contig_n50>=1000000 AND scaffold_n50>=10000000 AND bioproject=PRJNA533106" y="contig_n50>=1000000 AND scaffold_n50>=10000000" rank="genus" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **genera** with assemblies meeting EBP metrics" item xs=4}
+::report{report="xInY" x="contig_n50>=1000000 AND scaffold_n50>=10000000 AND bioproject=PRJNA533106" y="contig_n50>=1000000 AND scaffold_n50>=10000000" rank="genus" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **genera** with assemblies meeting EBP metrics" size=4}
 
-::report{report="xInY" x="contig_n50>=1000000 AND scaffold_n50>=10000000 AND bioproject=PRJNA533106" y="contig_n50>=1000000 AND scaffold_n50>=10000000" rank="family" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **families** with assemblies meeting EBP metrics" item xs=4}
+::report{report="xInY" x="contig_n50>=1000000 AND scaffold_n50>=10000000 AND bioproject=PRJNA533106" y="contig_n50>=1000000 AND scaffold_n50>=10000000" rank="family" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **families** with assemblies meeting EBP metrics" size=4}
 
 :::
 :::grid{container direction="row" spacing="1" class="padded"}
@@ -105,54 +105,54 @@ Click on report to see and download individually.
 
 :::grid{container direction="row" toggle title="EBP Progress by Taxon Groups (NCBI taxonomy)" spacing="1"}
 
-::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(eukaryota)" rank="species" taxonomy="ncbi" result="taxon" cat="kingdom[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of eukaryotic species sequenced by EBP by kingdom" item xs=6}
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(eukaryota)" rank="species" taxonomy="ncbi" result="taxon" cat="kingdom[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of eukaryotic species sequenced by EBP by kingdom" size=6}
 
-::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(eukaryota)" rank="species" taxonomy="ncbi" result="taxon" cat="phylum[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of eukaryotic species sequenced by EBP by phylum" item xs=6}
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(eukaryota)" rank="species" taxonomy="ncbi" result="taxon" cat="phylum[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of eukaryotic species sequenced by EBP by phylum" size=6}
 
-::grid[]{item xs=12}
+::grid[]{size=12}
 
-::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(chordata)" rank="species" taxonomy="ncbi" result="taxon" cat="class[13]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of chordate species sequenced by EBP by class" item xs=6}
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(chordata)" rank="species" taxonomy="ncbi" result="taxon" cat="class[13]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of chordate species sequenced by EBP by class" size=6}
 
-::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(Arthropoda,!insecta)" rank="species" taxonomy="ncbi" result="taxon" cat="class[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of non-insect arthropod species sequenced by EBP by class" item xs=6}
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(Arthropoda,!insecta)" rank="species" taxonomy="ncbi" result="taxon" cat="class[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of non-insect arthropod species sequenced by EBP by class" size=6}
 
-::grid[]{item xs=12}
+::grid[]{size=12}
 
-::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(insecta)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of insect species sequenced by EBP by order" item xs=6}
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(insecta)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of insect species sequenced by EBP by order" size=6}
 
-::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(streptophyta)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of streptophyta plant species sequenced by EBP by order" item xs=6}
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(streptophyta)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of streptophyta plant species sequenced by EBP by order" size=6}
 
-::grid[]{item xs=12}
+::grid[]{size=12}
 
-::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(fungi)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of fungi species sequenced by EBP by order" item xs=6}
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(fungi)" rank="species" taxonomy="ncbi" result="taxon" cat="order[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of fungi species sequenced by EBP by order" size=6}
 
-::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(eukaryota,!opisthokonta,!streptophyta)" rank="species" taxonomy="ncbi" result="taxon" cat="family[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of species from selected eukaryotic taxa sequenced by EBP by family. GoaT search excluded Opisthokonta and Streptophyta, and currently correspond to species within Sar, Discoba, and Chlorophyta clades." item xs=6}
+::report{report="histogram" x="bioproject=PRJNA533106 AND tax_tree(eukaryota,!opisthokonta,!streptophyta)" rank="species" taxonomy="ncbi" result="taxon" cat="family[10]+" excludeAncestral="bioproject" excludeMissing="bioproject" xOpts="PRJNA533106,,1,," caption="Number of species from selected eukaryotic taxa sequenced by EBP by family. GoaT search excluded Opisthokonta and Streptophyta, and currently correspond to species within Sar, Discoba, and Chlorophyta clades." size=6}
 
-::grid[Click on reports to see and download individually; and long-press on bins to retrieve search results]{item xs=12 .paragraph}
+::grid[Click on reports to see and download individually; and long-press on bins to retrieve search results]{size=12 .paragraph}
 :::
 
 :::grid{container direction="row" toggle title="Summary reports for EBP affiliates on GoaT" spacing="1"}
 
-::grid[**Disclaimer:** the reports below have been generated based on the number of species declared as targets (long_list) by each EBP affiliate. Note that if a species is present in multiple target lists and has received at least one value for sequencing status or assembly level, that value will be transposed to other projects. For sequencing status, the most advanced stage among all projects will be used to retrieve the counts for each project. For more accurate reports per project, prease visit the respective [project-dedicated page](/projects) on GoaT.]{item xs=12 .paragraph}
+::grid[**Disclaimer:** the reports below have been generated based on the number of species declared as targets (long_list) by each EBP affiliate. Note that if a species is present in multiple target lists and has received at least one value for sequencing status or assembly level, that value will be transposed to other projects. For sequencing status, the most advanced stage among all projects will be used to retrieve the counts for each project. For more accurate reports per project, prease visit the respective [project-dedicated page](/projects) on GoaT.]{size=12 .paragraph}
 
-::grid[Click on reports to see and download individually. Long-press on bins to retrieve search results and details for each project]{item xs=12 .paragraph}
+::grid[Click on reports to see and download individually. Long-press on bins to retrieve search results and details for each project]{size=12 .paragraph}
 
-::report{report="scatter" x="tax_tree(2759) AND long_list" y="sequencing_status" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" ratio=2 xOpts=",,55" yOpts="sample_collected,sample_acquired,in_progress,insdc_open;;" includeEstimates="false" scatterThreshold="10" item caption="Distribution of sequencing status for target species across EBP affiliated projects. Note that for species present in multiple long_lists the most advanced stage among all projects will be used to retrieve the counts for each project" xs=12}
+::report{report="scatter" x="tax_tree(2759) AND long_list" y="sequencing_status" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" ratio=2 xOpts=",,55" yOpts="sample_collected,sample_acquired,in_progress,insdc_open;;" includeEstimates="false" scatterThreshold="10" caption="Distribution of sequencing status for target species across EBP affiliated projects. Note that for species present in multiple long_lists the most advanced stage among all projects will be used to retrieve the counts for each project" size=12}
 
-:::grid{container direction="row" spacing="1" item xs=12}
+:::grid{container direction="row" spacing="1" size=12}
 
-::report{report="histogram" x="tax_tree(2759) AND long_list AND bioproject=PRJNA533106" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Assemblies available on INSDC for target species across EBP-affiliated projects. Note that umbrella projects will inherit counts from their sub-projects and that overlapping targets sequenced by at least one EBP affiliate will appear as complete in all projects targeting that taxon" item xs=6}
+::report{report="histogram" x="tax_tree(2759) AND long_list AND bioproject=PRJNA533106" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Assemblies available on INSDC for target species across EBP-affiliated projects. Note that umbrella projects will inherit counts from their sub-projects and that overlapping targets sequenced by at least one EBP affiliate will appear as complete in all projects targeting that taxon" size=6}
 
-::report{report="histogram" x="tax_tree(2759) AND long_list AND sequencing_status=in_progress" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Number of target species across EBP affiliated projects with genome sequencing in progress. Note that species in multiple lists will be counted as in progress for all projects if sequencing has been initiated by at least one of the projects" item xs=6}
+::report{report="histogram" x="tax_tree(2759) AND long_list AND sequencing_status=in_progress" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Number of target species across EBP affiliated projects with genome sequencing in progress. Note that species in multiple lists will be counted as in progress for all projects if sequencing has been initiated by at least one of the projects" size=6}
 
-:::grid{container direction="row" spacing="1" item xs=12}
+:::grid{container direction="row" spacing="1" size=12}
 
-::report{report="scatter" x="tax_tree(2759) AND long_list" y="assembly_level AND bioproject=prjna533106" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" ratio=2 xOpts=",,55" yOpts="contig,scaffold,chromosome,complete genome;;" includeEstimates="false" scatterThreshold="10" item caption="Distribution of sequenced target species across EBP affiliates by assembly level. Note that for each initiative, if a species has an available assembly it will be counted regardless of project of origin" xs=12}
+::report{report="scatter" x="tax_tree(2759) AND long_list" y="assembly_level AND bioproject=prjna533106" result="taxon" summaryValues="count" taxonomy="ncbi" rank="species" ratio=2 xOpts=",,55" yOpts="contig,scaffold,chromosome,complete genome;;" includeEstimates="false" scatterThreshold="10" caption="Distribution of sequenced target species across EBP affiliates by assembly level. Note that for each initiative, if a species has an available assembly it will be counted regardless of project of origin" size=12}
 
-:::grid{container direction="row" spacing="1" item xs=12}
+:::grid{container direction="row" spacing="1" size=12}
 
-::report{report="histogram" x="tax_tree(2759) AND long_list AND bioproject=PRJNA533106 AND assembly_level=chromosome" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Chromosome-level assemblies available on INSDC for target species across EBP-affiliated projects. Note that this particular assembly level migtht have originated from a different project with target list overlaps" item xs=6}
+::report{report="histogram" x="tax_tree(2759) AND long_list AND bioproject=PRJNA533106 AND assembly_level=chromosome" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Chromosome-level assemblies available on INSDC for target species across EBP-affiliated projects. Note that this particular assembly level migtht have originated from a different project with target list overlaps" size=6}
 
-::report{report="histogram" x="tax_tree(2759) AND long_list AND bioproject=PRJNA533106 AND assembly_level=scaffold" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Scaffold-level assemblies available on INSDC for target species across EBP-affiliated projects. Note that this particular assembly level migtht have originated from a different project with target overlaps." item xs=6}
+::report{report="histogram" x="tax_tree(2759) AND long_list AND bioproject=PRJNA533106 AND assembly_level=scaffold" rank="species" includeEstimates="false" cat="kingdom" stacked="true" xOpts=",,55,,EBP Affiliate" caption="Scaffold-level assemblies available on INSDC for target species across EBP-affiliated projects. Note that this particular assembly level migtht have originated from a different project with target overlaps." size=6}
 :::
 
 **Note:** Not all EBP Affiliated Projects are accounted for under the EBP Umbrella BioProject Id PRJNA533106. Numbers and reports on this page include only those under BioProject Id PRJNA533106.

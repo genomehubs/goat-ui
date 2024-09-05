@@ -1,12 +1,12 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/Psyche_logo.png)]{item xs=3}
+::grid[![GoaT](/static/images/Psyche_logo.png)]{size=3}
 :::
 
 # Project Psyche
 
 **GoaT Search Term:** PSYCHE
 
-::grid[**Project Psyche** aims to sequence the genomes of all  species of Lepidoptera in Europe. For more information reach the contact info below.]{item xs=8}
+::grid[**Project Psyche** aims to sequence the genomes of all species of Lepidoptera in Europe. For more information reach the contact info below.]{size=8}
 
 **Bioproject ID** PRJEB71705
 

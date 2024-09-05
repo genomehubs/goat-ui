@@ -1,9 +1,10 @@
+::grid[![GoaT](/static/images/ogg.png)]{size=5}
 
-::grid[![GoaT](/static/images/ogg.png)]{item xs=5}
 # Open Green Genomes Initiative (OGG)
+
 **GoaT Search Term:** OGG
 
-::grid[**OGG** is an will generate high-quality genome assemblies and annotations for 35 species representing all major evolutionary lineages in the land plant tree of life. For more information, access OGG project page at https://phytozome-next.jgi.doe.gov/ogg/.]{item xs=8}
+::grid[**OGG** is an will generate high-quality genome assemblies and annotations for 35 species representing all major evolutionary lineages in the land plant tree of life. For more information, access OGG project page at https://phytozome-next.jgi.doe.gov/ogg/.]{size=8}
 
 **Bioproject ID** OGG (placeholder aggregator)
 
@@ -13,18 +14,20 @@
 :::
 
 # Summary Data
+
 ## OGG Long List
 
 The OGG targets 35+ species, representing major evolutionary lineages in the land plant tree of life.
 OGG long list on GoaT corresponds to all declared targets in the [OGG target list](https://phytozome-next.jgi.doe.gov/ogg/) with available ncbi taxonomy IDs. To retrieve the list use the search terms:
-- long_list=OGG 
+
+- long_list=OGG
 - tax_rank(species)
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
+  :::grid{container direction="row" spacing="1" class="padded"}
+  :::
 
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/capra3.png)]{item xs=1}
-::grid[**Note:** JGI may have applied certain data [restrictions](https://phytozome-next.jgi.doe.gov/ogg/), which may cause discrepancies on sequencing_status reported on GoaT. Permission from PI and JGI before publications or data repackaging/redistribution may be required in a species/project specific manner.]{item xs=10}
+::grid[![GoaT](/static/images/capra3.png)]{size=1}
+::grid[**Note:** JGI may have applied certain data [restrictions](https://phytozome-next.jgi.doe.gov/ogg/), which may cause discrepancies on sequencing_status reported on GoaT. Permission from PI and JGI before publications or data repackaging/redistribution may be required in a species/project specific manner.]{size=10}
 :::
 
 ::include{pageId=/projects/reports/target_tree.md project=OGG bioproject=OGG .inline}
@@ -67,4 +70,3 @@ OGG long list on GoaT corresponds to all declared targets in the [OGG target lis
 :::
 
 [back to projects](/projects)
-

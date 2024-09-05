@@ -1,17 +1,14 @@
-
-::grid[![GoaT](/static/images/polar.jpeg)]{item xs=3}
-
+::grid[![GoaT](/static/images/polar.jpeg)]{size=3}
 
 # Polar Genomes Project (PGP)
+
 **GoaT Search Term:** PGP
 
-
-::grid[**Polar Genomes Project** will foster research on the unique features and functions of the genome that enable unique and powerful biological processes in polar organisms. For more information access https://eng.kopri.re.kr/eng/html/rsch/020102.html?mode=V&mng_no=141.]{item xs=8}
+::grid[**Polar Genomes Project** will foster research on the unique features and functions of the genome that enable unique and powerful biological processes in polar organisms. For more information access https://eng.kopri.re.kr/eng/html/rsch/020102.html?mode=V&mng_no=141.]{size=8}
 
 **Bioproject ID** TBD
 
 **Main Contact**: [Seunghyun Kang](s.kang@kopri.re.kr), Korea Polar Research Institute (KOPRI)
-
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -68,4 +65,3 @@ PGP long_list correspond to the subset of species declared as targets by the pro
 :::
 
 [back to projects](/projects)
-

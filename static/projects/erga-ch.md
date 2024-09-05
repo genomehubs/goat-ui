@@ -1,12 +1,12 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/ERGA-CH-logo.png)]{item xs=3}
+::grid[![GoaT](/static/images/ERGA-CH-logo.png)]{size=3}
 :::
 
 # ERGA-CH - The Swiss node of the European Reference Genome Atlas (ERGA) initiative
 
 **GoaT Search Term:** ERGA-CH
 
-::grid[**ERGA-CH** is the Swiss node of the European Reference Genome Atlas initiative. ERGA-CH is coordinating national sampling, sequencing, and assembly efforts to contribute to reference genome generation as part of the ERGA community. For more information reach the contact info below.]{item xs=8}
+::grid[**ERGA-CH** is the Swiss node of the European Reference Genome Atlas initiative. ERGA-CH is coordinating national sampling, sequencing, and assembly efforts to contribute to reference genome generation as part of the ERGA community. For more information reach the contact info below.]{size=8}
 
 **Bioproject ID** PRJEB49197
 

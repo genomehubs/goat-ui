@@ -1,13 +1,12 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/YGG.png)]{item xs=3} 
-::: 
-
+::grid[![GoaT](/static/images/YGG.png)]{size=3}
+:::
 
 # Yggdrasil
 
 **GoaT Search Term:** YGG
 
-::grid[**Yggdrasil** is a Danish based initiative to generate and publicly release high quality genome sequences of relevance to the Danish, Greenlandic and Faroese research communities. For more information access Yggdrasil’s official [project portal](http://yggdrasil-genome.dk) or reach the contact info below.]{item xs=8}
+::grid[**Yggdrasil** is a Danish based initiative to generate and publicly release high quality genome sequences of relevance to the Danish, Greenlandic and Faroese research communities. For more information access Yggdrasil’s official [project portal](http://yggdrasil-genome.dk) or reach the contact info below.]{size=8}
 
 **Bioproject ID** PRJNA955268
 

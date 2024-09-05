@@ -11,7 +11,6 @@ includeEstimates: true
 excludeAncestral: "assembly_span"
 excludeMissing: "assembly_span"
 caption: "**Genome Sequencing of {{project}} Targets:** Genome assemblies under Bioproject ID {{bioproject}}, at different taxonomic ranks"
-item: true
 xs: 6
 ```
 
@@ -20,7 +19,6 @@ report: xPerRank
 x: "long_list={{project}}"
 includeEstimates: true
 caption: "**Counts of taxa targeted by {{project}}**: All summary reports on GoaT are based on these counts"
-item: true
 xs: 6
 ```
 

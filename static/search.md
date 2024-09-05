@@ -4,13 +4,13 @@ Content to display at /search
 
 # Search
 
-::include{pageId=help/searchTips.md xs=12 .inline}
+::include{pageId=help/searchTips.md size=12 .inline}
 
 These options modify the search query and affect the number of results returned. Visit the [help page](/help) for tutorials and more information.
 
 :::grid{container direction="row" toggle title="Color key" spacing="1"}
 
-::include{pageId=help/colorKey.md xs=12 .paragraph}
+::include{pageId=help/colorKey.md size=12 .paragraph}
 
 :::
 
@@ -19,7 +19,7 @@ These options modify the search query and affect the number of results returned.
 
 ## Attribute values
 
-::include{pageId=help/attributeValues.md xs=12 .inline}
+::include{pageId=help/attributeValues.md size=12 .inline}
 
 See the [help page](/help) for a full list of available attributes.
 

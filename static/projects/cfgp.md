@@ -2,13 +2,11 @@
 
 **GoaT Search Term:** CFGP
 
-
-::grid[**CFGP** This project aims to sequence genomes of more than 30 cartilaginous fishes, covering all the orders. With these new resources, scientists can investigate the evolutionary landscape of early jawed vertebrates as well as specific features of cartilaginous fishes.]{item xs=12}
+::grid[**CFGP** This project aims to sequence genomes of more than 30 cartilaginous fishes, covering all the orders. With these new resources, scientists can investigate the evolutionary landscape of early jawed vertebrates as well as specific features of cartilaginous fishes.]{size=12}
 
 **Bioproject ID** TBD
 
 **Main Contact**: [Kun Wang](https://teacher.nwpu.edu.cn/m/en/2017010198.html), Northwestern Polytechnical University, Xi'an, China
-
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -65,6 +63,3 @@ CFGP long_list correspond to the subset of species declared as targets by the pr
 :::
 
 [back to projects](/projects)
-
-
-
