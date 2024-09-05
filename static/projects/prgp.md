@@ -1,9 +1,10 @@
+::grid[![GoaT](/static/images/prgp.jpeg)]{size=3}
 
-::grid[![GoaT](/static/images/prgp.jpeg)]{item xs=3}
 # Primate Genome Project (PGP)
+
 **GoaT Search Term:** PRGP
 
-::grid[**PRGP** This project will generate high quality reference genomes in combination of long reads and short reads sequencing for all extant primate species. For more information, access PRGP [announcement article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8920853/).]{item xs=8}
+::grid[**PRGP** This project will generate high quality reference genomes in combination of long reads and short reads sequencing for all extant primate species. For more information, access PRGP [announcement article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8920853/).]{size=8}
 
 **Bioproject ID** PRGP (placeholder aggregator)
 
@@ -13,18 +14,20 @@
 :::
 
 # Summary Data
+
 ## PRGP Long List
 
-The PRGP targets all >500 non-human primate species. PRGP long list on GoaT corresponds to all declared targets, represented by taxa sequenced under the Bioproject IDs PRJNA785018 and 
+The PRGP targets all >500 non-human primate species. PRGP long list on GoaT corresponds to all declared targets, represented by taxa sequenced under the Bioproject IDs PRJNA785018 and
 PRJNA911016（[NCBI)](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA785018) and PRJCA007326 [(Genome Warehouse)](https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA007326). To retrieve the list use the search terms:
-- long_list=PRGP 
+
+- long_list=PRGP
 - tax_rank(species)
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
+  :::grid{container direction="row" spacing="1" class="padded"}
+  :::
 
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/capra3.png)]{item xs=1}
-::grid[**Note:** Many PRGP genomes are stored in the [Genome Warehouse](https://ngdc.cncb.ac.cn/gwh/). This database is not yet on GoaT (work in progress), which may cause discrepancies on sequencing_status and summary reports.]{item xs=10}
+::grid[![GoaT](/static/images/capra3.png)]{size=1}
+::grid[**Note:** Many PRGP genomes are stored in the [Genome Warehouse](https://ngdc.cncb.ac.cn/gwh/). This database is not yet on GoaT (work in progress), which may cause discrepancies on sequencing_status and summary reports.]{size=10}
 :::
 
 ::include{pageId=/projects/reports/target_tree.md project=PRGP bioproject=PRGP .inline}
@@ -67,4 +70,3 @@ PRJNA911016（[NCBI)](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA785018)
 :::
 
 [back to projects](/projects)
-

@@ -1,9 +1,10 @@
-::grid[![GoaT](/static/images/ASG_logo_transparent.png)]{item xs=3}
+::grid[![GoaT](/static/images/ASG_logo_transparent.png)]{size=3}
 
 # Aquatic Symbiosis Genomics Project (ASG)
+
 **GoaT Search Term:** ASG
 
-::grid[**The Aquatic Symbiosis Genomics Project**, jointly funded by the Wellcome Sanger Institute and the Gordon and Betty Moore Foundation, seeks to provide the genomic foundations needed by scientists to answer key questions about the ecology and evolution of symbiosis in marine and freshwater species, where at least one partner is a microbe. For more information, access ASG's project page at https://www.aquaticsymbiosisgenomics.org.]{item xs=8}
+::grid[**The Aquatic Symbiosis Genomics Project**, jointly funded by the Wellcome Sanger Institute and the Gordon and Betty Moore Foundation, seeks to provide the genomic foundations needed by scientists to answer key questions about the ecology and evolution of symbiosis in marine and freshwater species, where at least one partner is a microbe. For more information, access ASG's project page at https://www.aquaticsymbiosisgenomics.org.]{size=8}
 
 **Bioproject ID** PRJEB43743
 
@@ -36,11 +37,11 @@ ASG long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-
 ::include{pageId=/projects/reports/progress_arcs.md project=ASG .inline}
-* ASG **sample_collected** only includes species collected by the [NHM](https://data.nhm.ac.uk/), those entered in [COPO](https://copo-project.org) and in the Wellcome Sanger Institute internal Sample Tracking System (STS). In the future it will include species reported by all ASG partners as collected.
 
-:::grid{container direction="row" spacing="1" item xs=12}
+- ASG **sample_collected** only includes species collected by the [NHM](https://data.nhm.ac.uk/), those entered in [COPO](https://copo-project.org) and in the Wellcome Sanger Institute internal Sample Tracking System (STS). In the future it will include species reported by all ASG partners as collected.
+
+:::grid{container direction="row" spacing="1" size=12}
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
@@ -66,6 +67,4 @@ ASG long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-
 [back to projects](/projects)
-

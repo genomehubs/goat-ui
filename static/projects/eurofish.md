@@ -1,9 +1,10 @@
-::grid[![GoaT](/static/images/euro-fish_logo.png)]{item xs=8}
+::grid[![GoaT](/static/images/euro-fish_logo.png)]{size=8}
 
 # The Euro-Fish Project
-**GoaT Search Term:** EUROFISH 
 
-::grid[**Euro-Fish** aims to create a genomic survey of all species of freshwater fishes of Europe in order to understand and avert the loss of biodiversity. The MPI-CBG and the CSBD are contributing to the EURO-Fish initiative together with the University of Konstanz, Germany, the Leibniz Institute of Freshwater Ecology & Inland Fisheries Berlin, and the Zoological Research Museum Alexander Koenig, Berlin. The Max Planck Society is funding this ambitious genome sequencing project. For more information access the Euro-Fish's MPI-CBG project page at https://www.mpi-cbg.de/research/our-research/institutional-research-consortia/the-euro-fish-project]{item xs=8}
+**GoaT Search Term:** EUROFISH
+
+::grid[**Euro-Fish** aims to create a genomic survey of all species of freshwater fishes of Europe in order to understand and avert the loss of biodiversity. The MPI-CBG and the CSBD are contributing to the EURO-Fish initiative together with the University of Konstanz, Germany, the Leibniz Institute of Freshwater Ecology & Inland Fisheries Berlin, and the Zoological Research Museum Alexander Koenig, Berlin. The Max Planck Society is funding this ambitious genome sequencing project. For more information access the Euro-Fish's MPI-CBG project page at https://www.mpi-cbg.de/research/our-research/institutional-research-consortia/the-euro-fish-project]{size=8}
 
 **Bioproject ID** PRJNA768423
 

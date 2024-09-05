@@ -25,18 +25,18 @@ The [sources page](/sources) provides a summary of the current sources indexed b
 
 :::grid{container direction="row" toggle title="My lab is currently sequencing only a few genomes. Can I submit intent and progress to GoaT?" spacing="1"}
 
-::grid[Yes. GoaT can import lists of intent and progress of smaller projects as long as those are registered under an umbrella [bioproject](https://www.ncbi.nlm.nih.gov/bioproject/docs/faq/) ID on INSDC and ideally linked to at least one major Earth Biogenome Project Umbrella. Projects should contact one of the major [initiatives](/projects) that best fit with their scope to be listed as a contributing lab]{item xs=12 .paragraph}
+::grid[Yes. GoaT can import lists of intent and progress of smaller projects as long as those are registered under an umbrella [bioproject](https://www.ncbi.nlm.nih.gov/bioproject/docs/faq/) ID on INSDC and ideally linked to at least one major Earth Biogenome Project Umbrella. Projects should contact one of the major [initiatives](/projects) that best fit with their scope to be listed as a contributing lab]{size=12 .paragraph}
 
 :::
 
 :::grid{container direction="row" toggle title="My project already has a data portal with a list of targets and detailed progress tracking. Can GoaT retrieve my data from the portal instead?" spacing="1"}
 
-::grid[Yes. GoaT can access APIs and live documents and translate progress information into "GoaT-specific" terms. Reach out to [our curators](/help/contact) to arrange direct data transfers between systems.]{item xs=12 .paragraph}
+::grid[Yes. GoaT can access APIs and live documents and translate progress information into "GoaT-specific" terms. Reach out to [our curators](/help/contact) to arrange direct data transfers between systems.]{size=12 .paragraph}
 
 :::
 
 :::grid{container direction="row" toggle title="Our project is building a data portal to display progress. Can our site display live data and reports from the project pages on GoaT?" spacing="1"}
 
-::grid[Yes. GoaT links from UI searches are equivalent to links from GoaT API endpoints and those can be used to feed other data systems. Reports from any metadata, including those on the [project-dedicated pages](/projects), can be retrieved from GoaT; their embeddable links can be used directly in other project portals.]{item xs=12 .paragraph}
+::grid[Yes. GoaT links from UI searches are equivalent to links from GoaT API endpoints and those can be used to feed other data systems. Reports from any metadata, including those on the [project-dedicated pages](/projects), can be retrieved from GoaT; their embeddable links can be used directly in other project portals.]{size=12 .paragraph}
 
 :::

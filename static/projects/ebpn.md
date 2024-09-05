@@ -1,10 +1,10 @@
-
-::grid[![GoaT](/static/images/ebpn.jpeg)]{item xs=4}
+::grid[![GoaT](/static/images/ebpn.jpeg)]{size=4}
 
 # Earth Biogenome Project Norway (EBP-Norway)
+
 **GoaT Search Term:** EBPN
 
-::grid[**EBPN** (EBP-Nor) will explore the diversity of species found in and around Norway through sequencing and genomic analyses. Comparisons across groups of related organisms will be made to better understand the ecology and evolution of Norwegian species. For more information access https://www.ebpnor.org/english/.]{item xs=8}
+::grid[**EBPN** (EBP-Nor) will explore the diversity of species found in and around Norway through sequencing and genomic analyses. Comparisons across groups of related organisms will be made to better understand the ecology and evolution of Norwegian species. For more information access https://www.ebpnor.org/english/.]{size=8}
 
 **Bioproject ID** PRJEB65317
 
@@ -65,4 +65,3 @@ EBPN long_list correspond to the subset of species declared as targets by the pr
 :::
 
 [back to projects](/projects)
-

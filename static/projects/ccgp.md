@@ -1,14 +1,14 @@
-::grid[![GoaT](/static/images/CCGP.png)]{item xs=4}
+::grid[![GoaT](/static/images/CCGP.png)]{size=4}
 
 # The California Conservation Genomics Project (CCGP)
 
 **GoaT Search Term:** CCGP
 
-::grid[**CCGP** is a state-funded initiative with a single goal: to produce the most comprehensive, multispecies, genomic dataset ever assembled to help manage regional biodiversity. The CCGP brings together many of California’s leading experts, working at the interface of genomics and conservation science, to provide decision makers with cutting-edge genomic resources and analyses. Our resources will inform conservation decisions in the face of rapidly accelerating species declines. For more information access the CCGP's project page at https://www.ccgproject.org/]{item xs=8}
+::grid[**CCGP** is a state-funded initiative with a single goal: to produce the most comprehensive, multispecies, genomic dataset ever assembled to help manage regional biodiversity. The CCGP brings together many of California’s leading experts, working at the interface of genomics and conservation science, to provide decision makers with cutting-edge genomic resources and analyses. Our resources will inform conservation decisions in the face of rapidly accelerating species declines. For more information access the CCGP's project page at https://www.ccgproject.org/]{size=8}
 
 **Bioproject ID** PRJNA720569
 
-**Main Contact:** [Courtney A. Miller](https://www.ccgproject.org/contact), CCGP Fund and Project Manager; 
+**Main Contact:** [Courtney A. Miller](https://www.ccgproject.org/contact), CCGP Fund and Project Manager;
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

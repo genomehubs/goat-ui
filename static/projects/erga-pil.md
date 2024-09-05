@@ -1,23 +1,22 @@
-
-::grid[![GoaT](/static/images/ERGA_logo_rect.jpg)]{item xs=2}
+::grid[![GoaT](/static/images/ERGA_logo_rect.jpg)]{size=2}
 
 # European Reference Genome Atlas Pilot Project (ERGA-Pilot)
+
 **GoaT Search Term:** ERGA-PIL
 
-
-::grid[**ERGA** is an effort to generate reference genomes representing European biodiversity. To demonstrate the feasibility of continent-wide collaboration, ERGA has launched a Pilot Project; established, funded, and driven entirely by its members. For more information access ERGA-PIL official project page at https://www.erga-biodiversity.eu/pilot-project.]{item xs=8}
+::grid[**ERGA** is an effort to generate reference genomes representing European biodiversity. To demonstrate the feasibility of continent-wide collaboration, ERGA has launched a Pilot Project; established, funded, and driven entirely by its members. For more information access ERGA-PIL official project page at https://www.erga-biodiversity.eu/pilot-project.]{size=8}
 
 **Bioproject ID** PRJEB47820
 
 **Main Contact**: pilot(at)erga-biodiversity.eu
 
-::grid[ ]{item xs=4}
-
+::grid[ ]{size=4}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Summary Data
+
 ## ERGA-PIL Long List
 
 ERGA-PIL long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:

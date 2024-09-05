@@ -1,15 +1,16 @@
 <!--
-Content to display at 
+Content to display at
 -   /landing
 -   /help/about -> created a file to serve as soft link in the folder /help. removing it seems to break the redirect to /about
 -->
+
 ::breadcrumbs[About GoaT]
 
 GoaT has been built using [GenomeHubs](https://github.com/genomehubs/genomehubs) to help coordinate efforts across the [Earth Biogenome Project](https://www.earthbiogenome.org) (EBP) Network at all stages from planning through sequencing and assembly to publication.
 
 GoaT is described in our [announcement paper](https://wellcomeopenresearch.org/articles/8-24) in [Wellcome Open Research](https://wellcomeopenresearch.org):
 
-::include{pageId=citation.md xs=12 .inline}
+::include{pageId=citation.md size=12 .inline}
 
 From the abstract:
 
@@ -33,7 +34,7 @@ Data are indexed for around 80 [taxon-level attributes](/types) (including, asse
 GoaT produces summary reports of the sources included in any set of search results to encourage citation of the original data , e.g. the sources for a search of [chromosome numbers in the genus _Canis_](/search?query=tax_tree%28Canis%29%20AND%20chromosome_number&result=taxon&includeEstimates=false&summaryValues=count&taxonomy=ncbi&offset=0&fields=chromosome_number&names=&ranks=&report=sources) are:
 
 :::grid{container direction="row" spacing="1" class="padded"}
-::report{x="tax_tree(Canis) AND chromosome_number" fields="chromosome_number" report="sources" class="unpadded" item xs=12}
+::report{x="tax_tree(Canis) AND chromosome_number" fields="chromosome_number" report="sources" class="unpadded" size=12}
 :::
 
 ## EBP Network progress reports

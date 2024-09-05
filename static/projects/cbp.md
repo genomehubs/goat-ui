@@ -1,4 +1,4 @@
-::grid[![GoaT](/static/images/CBP.jpg)]{item xs=4}
+::grid[![GoaT](/static/images/CBP.jpg)]{size=4}
 
 # Catalan Initiative for the Earth BioGenome Project (CBP)
 
@@ -6,20 +6,20 @@
 
 :::grid{container direction="row" class="padded"}
 
-::grid[**The Catalan Initiative for the Earth BioGenome Project (CBP)** aims to produce a detailed catalogue of the genome of eukaryotic species in the Catalan territories. For more information access CBP's official project page at https://www.biogenoma.cat/en/home/.]{item xs=8}
+::grid[**The Catalan Initiative for the Earth BioGenome Project (CBP)** aims to produce a detailed catalogue of the genome of eukaryotic species in the Catalan territories. For more information access CBP's official project page at https://www.biogenoma.cat/en/home/.]{size=8}
 
 **Bioproject ID** PRJEB49670
 
-**Main Contact**:  catbiogenoma@correu.iec.cat
+**Main Contact**: catbiogenoma@correu.iec.cat
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Summary Data
 
-##  CBP Long List
+## CBP Long List
 
- CBP long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
+CBP long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
 
 - long_list=CBP
 - tax_rank(species)

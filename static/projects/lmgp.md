@@ -1,11 +1,10 @@
-
-::grid[![GoaT](/static/images/lilioid.png)]{item xs=3}
+::grid[![GoaT](/static/images/lilioid.png)]{size=3}
 
 # Lilioid Monocots Core Group Genome Project
 
 **GoaT Search Term:** LMGP
 
-::grid[**LMGP** will sequence the genomes of representative species in each family of Liliales and Asparagales at the chromosomal level. This will help identify the genetic novelty underlying the innovation in flower morphology, geophyte, and secondary metabolites. For more information contact professor Jing Cai at jingcai (at) nwpu.edu.cn.]{item xs=8}
+::grid[**LMGP** will sequence the genomes of representative species in each family of Liliales and Asparagales at the chromosomal level. This will help identify the genetic novelty underlying the innovation in flower morphology, geophyte, and secondary metabolites. For more information contact professor Jing Cai at jingcai (at) nwpu.edu.cn.]{size=8}
 
 **Bioproject ID** PRJNA948806
 
@@ -15,11 +14,12 @@
 :::
 
 # Summary Data
+
 ## LMGP Long List
 
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/capra3.png)]{item xs=1} 
-::grid[LMGP target and status list compilation is currently **in progress.** All data in GoaT currently corresponds to a subset of declared targets.]{item xs=6}
+::grid[![GoaT](/static/images/capra3.png)]{size=1}
+::grid[LMGP target and status list compilation is currently **in progress.** All data in GoaT currently corresponds to a subset of declared targets.]{size=6}
 :::
 
 LMGP long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:

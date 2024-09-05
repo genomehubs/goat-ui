@@ -1,10 +1,10 @@
-::grid[![GoaT](/static/images/TSI_logo.png)]{item xs=2}
+::grid[![GoaT](/static/images/TSI_logo.png)]{size=2}
 
 # Threatened Species Initiative (TSI)
+
 **GoaT Search Term:** TSI
 
-
-::grid[**TSI** aim is to build genomic resources to understand and protect Australia’s threatened species. For more information access TSI's project page at https://threatenedspeciesinitiative.com]{item xs=12}
+::grid[**TSI** aim is to build genomic resources to understand and protect Australia’s threatened species. For more information access TSI's project page at https://threatenedspeciesinitiative.com]{size=12}
 
 **Bioproject ID** TBD
 
@@ -65,4 +65,3 @@ TSI long_list correspond to the subset of species declared as targets by the pro
 :::
 
 [back to projects](/projects)
-

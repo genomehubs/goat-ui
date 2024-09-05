@@ -1,12 +1,12 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/CGP.png)]{item xs=3}
+::grid[![GoaT](/static/images/CGP.png)]{size=3}
 :::
 
-# Cetacean Genomes Project  (CGP)
+# Cetacean Genomes Project (CGP)
 
 **GoaT Search Term:** CGP
 
-::grid[**Cetacean Genomes Project** aim is to facilitate generation of reference genomes of all cetacean species. For more information reach the contact info below or access CGP [main project page](https://www.fisheries.noaa.gov/international/science-data/cetacean-genomes-project).]{item xs=8}
+::grid[**Cetacean Genomes Project** aim is to facilitate generation of reference genomes of all cetacean species. For more information reach the contact info below or access CGP [main project page](https://www.fisheries.noaa.gov/international/science-data/cetacean-genomes-project).]{size=8}
 
 **Bioproject ID** PRJNA1020146
 
@@ -62,6 +62,7 @@ CGP long_list correspond to the subset of species declared as targets by the pro
 :::
 
 ## Contiguity assessment of Public Cetacean Genomes
+
 :::grid{container direction="row" spacing="1"}
 
 ```report
@@ -79,10 +80,8 @@ plotRatio: "auto"
 pointSize: "5"
 scatterThreshold: "10000"
 caption: "Contiguity by assembly type"
-item: true
 xs: 6
 ```
-
 
 ```report
 report: "scatter"
@@ -99,11 +98,13 @@ plotRatio: "auto"
 pointSize: "5"
 scatterThreshold: "10000"
 caption: "Contiguity by assembly level"
-item: true
 xs: 6
 ```
+
 :::
+
 ## Completeness Assessment of Public Cetacean Genomes
+
 :::grid{container direction="row" spacing="1"}
 
 ```report
@@ -120,10 +121,8 @@ plotRatio: "auto"
 pointSize: "5"
 scatterThreshold: "10000"
 caption: "Completeness by assembly type"
-item: true
 xs: 6
 ```
-
 
 ```report
 report: "scatter"
@@ -139,11 +138,13 @@ plotRatio: "auto"
 pointSize: "5"
 scatterThreshold: "10000"
 caption: "Completeness by assembly level"
-item: true
 xs: 6
 ```
+
 :::
+
 ## Metrics of Public Cetacean Genomes
+
 :::grid{container direction="row" spacing="1"}
 
 ```report
@@ -157,10 +158,8 @@ pointSize: 20
 result: assembly
 taxonomy: ncbi
 caption: "Distribution of QV scores by family"
-item: true
 xs: 6
 ```
-
 
 ```report
 report: histogram
@@ -172,9 +171,9 @@ pointSize: 20
 result: assembly
 taxonomy: ncbi
 caption: "Distribution of assembly_span by family"
-item: true
 xs: 6
 ```
+
 :::
 ::include{pageId=/projects/reports/contiguity_scatters.md project=CGP bioproject=PRJNA1020146 .inline}
 

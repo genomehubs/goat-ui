@@ -2,13 +2,13 @@
 
 :::grid{container direction="row" toggle expand title="Getting started" spacing="1"}
 
-::include{pageId=help/searchTips.md xs=12 .unpadded}
+::include{pageId=help/searchTips.md size=12 .unpadded}
 
-::grid[These options modify the search query and affect the number of results returned.]{item xs=12 .unpaddedParagraph}
+::grid[These options modify the search query and affect the number of results returned.]{size=12 .unpaddedParagraph}
 
-::include{pageId=help/stepbystep.md xs=12 .unpaddedParagraph}
+::include{pageId=help/stepbystep.md size=12 .unpaddedParagraph}
 
-::include{pageId=help/colorkey.md xs=12 .paragraph}
+::include{pageId=help/colorkey.md size=12 .paragraph}
 
 :::
 
@@ -16,10 +16,10 @@
 :::
 
 ## Tutorials
+
 - Querying genome metadata and sequencing projects using GoaT[Slides](https://docs.google.com/presentation/d/1S4deT4LbYH1KesFjVVfTQUPCKxLFDqyNf2w47PdxRjE/edit#slide=id.g2c55f560361_0_2244)
 - BGA23 [Workshop Slides](https://bga23.org/goat/).
 - BGA23 [Workshop Video](https://www.youtube.com/watch?v=n-Jghkfi5fQ&list=PLF7zaQmc39cLJHpw7LyDIKPcP7vrM4tig&index=18&t=4s).
-
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -47,26 +47,25 @@ GoaT reports from search results can be edited following three main steps:
 
 ## Search attributes
 
-::include{pageId=help/attributevalues.md xs=12 .inline}
+::include{pageId=help/attributevalues.md size=12 .inline}
 
 :::grid{container direction="row" toggle title="Taxon attributes" spacing="1"}
 
-::report{report="types" result="taxon" item xs=12 .paragraph}
+::report{report="types" result="taxon" size=12 .paragraph}
 
 :::
 
 :::grid{container direction="row" toggle title="Assembly attributes" spacing="1"}
 
-::report{report="types" result="assembly" item xs=12 .paragraph}
+::report{report="types" result="assembly" size=12 .paragraph}
 
 :::
 
 :::grid{container direction="row" toggle title="Sample attributes" spacing="1"}
 
-::report{report="types" result="sample" item xs=12 .paragraph}
+::report{report="types" result="sample" size=12 .paragraph}
 
 :::
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
-

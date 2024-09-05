@@ -1,12 +1,12 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/capra3.png)]{item xs=3}
+::grid[![GoaT](/static/images/capra3.png)]{size=3}
 :::
 
 # {{project}} (ACRO)
 
 **GoaT Search Term:** {{project}}
 
-::grid[**{{project}}** short description For more information reach the contact info below.]{item xs=8}
+::grid[**{{project}}** short description For more information reach the contact info below.]{size=8}
 
 **Bioproject ID** {{bioproject}}
 

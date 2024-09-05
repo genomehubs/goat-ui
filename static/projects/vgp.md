@@ -1,10 +1,10 @@
-::grid[![GoaT](/static/images/VGP_logo.png)]{item xs=4}
+::grid[![GoaT](/static/images/VGP_logo.png)]{size=4}
 
 # The Vertebrate Genomes Project (VGP)
 
 **GoaT Search Term:** VGP
 
-::grid[**VGP** aims to producing high-quality, accurate, annotated reference genomes for all [71,657](http://vgpdb.snu.ac.kr/splist/) living and named vertebrate species. Phase I of the project will generate over 260 near-gapless, chromosome-level and phased genome assemblies representing all extant vertebrate orders. For more information access the VGP's project page at https://vertebrategenomesproject.org]{item xs=8}
+::grid[**VGP** aims to producing high-quality, accurate, annotated reference genomes for all [71,657](http://vgpdb.snu.ac.kr/splist/) living and named vertebrate species. Phase I of the project will generate over 260 near-gapless, chromosome-level and phased genome assemblies representing all extant vertebrate orders. For more information access the VGP's project page at https://vertebrategenomesproject.org]{size=8}
 
 **Bioproject ID** PRJNA489243
 
@@ -14,7 +14,6 @@
 :::
 
 # Summary Data
-
 
 ## VGP Long List
 
@@ -76,9 +75,9 @@ includeEstimates: false
 xOpts: "20,80,30,,QV Scores"
 stacked: True
 caption: "Distribution of QV scores across VGP assemblies"
-item: true
 xs: 6
 ```
+
 ```report
 report: histogram
 result: assembly
@@ -88,11 +87,9 @@ includeEstimates: false
 xOpts: "20,80,30,,QV Scores"
 stacked: True
 caption: "Distribution of QV scores across VGP assemblies"
-item: true
 xs: 6
 ```
+
 :::
 
 [back to projects](/projects)
-
-
