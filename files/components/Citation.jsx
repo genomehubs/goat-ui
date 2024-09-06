@@ -1,6 +1,6 @@
 import React, { memo, useEffect, useRef, useState } from "react";
 
-import { Grid } from "@mui/material/Grid2";
+import Grid from "@mui/material/Grid2";
 import NavLink from "./NavLink";
 import { compose } from "recompose";
 import { link as linkStyle } from "./Styles.scss";
