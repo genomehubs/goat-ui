@@ -24,7 +24,7 @@ caption: "Taxa with chromosomal assemblies out of all taxa with country_list={{c
 pointSize: 15
 result: taxon
 taxonomy: ncbi
-xs: 6
+size: 6
 ```
 
 ::divider
@@ -41,7 +41,7 @@ result: taxon
 taxonomy: ncbi
 caption: "Number of species with publicly available chromosomal assemblies by country"
 disableModal: true
-xs: 6
+size: 6
 ```
 
 :::
@@ -60,7 +60,7 @@ caption: "Taxa with assemblies out of all taxa with country_list={{country_list}
 pointSize: 15
 result: taxon
 taxonomy: ncbi
-xs: 6
+size: 6
 ```
 
 ::divider
@@ -70,7 +70,7 @@ report: xPerRank
 x: country_list={{country_list}}
 includeEstimates: true
 caption: "Counts of all taxa with country_list={{country_list}} in GoaT"
-xs: 6
+size: 6
 ```
 
 :::
@@ -94,7 +94,7 @@ levels: subspecies,species,genus,family,order,class,phylum
 ratio: 3
 disableModal: true
 caption: "Tree of all eukaryotic orders with country_list={{country_list}}, highlighting those with at least one chromosomal assembly"
-xs: 12
+size: 12
 ```
 
 :::
@@ -115,7 +115,7 @@ cumulative: true
 result: taxon
 taxonomy: ncbi
 caption: "Cumulative number of assemblies for country_list={{country_list}} **species** over time"
-xs: 6
+size: 6
 ```
 
 ```report
@@ -130,7 +130,7 @@ cumulative: true
 caption: "Cumulative number of assemblies for country_list={{country_list}} **families** over time"
 result: taxon
 taxonomy: ncbi
-xs: 6
+size: 6
 ```
 
 :::
@@ -148,7 +148,7 @@ includeEstimates: true
 caption: "Contribution of EBP to total of country_list={{country_list}} species with assemblies meeting EBP metrics"
 result: taxon
 taxonomy: ncbi
-xs: 4
+size: 4
 ```
 
 ```report
@@ -164,7 +164,7 @@ pointSize: 15
 ratio: 1.5
 result: taxon
 taxonomy: ncbi
-xs: 8
+size: 8
 ```
 
 :::
@@ -188,7 +188,7 @@ pointSize: 15
 result: taxon
 taxonomy: ncbi
 caption: "Range of genome sizes for species recorded in {{country_list}} and fewer than 10 other countries"
-xs: 12
+size: 12
 ratio: 1.5
 ```
 

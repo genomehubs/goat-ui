@@ -26,41 +26,41 @@ Bat1k long list on GoaT correspond to all declared targets. To retrieve the list
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=BAT1K bioproject=PRJNA489245 .inline}
+::include{pageId=/projects/reports/target_tree.md project=BAT1K bioproject=PRJNA489245 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## Bat1K Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=BAT1K bioproject=PRJNA489245 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=BAT1K bioproject=PRJNA489245 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=BAT1K .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=BAT1K .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=BAT1K bioproject=PRJNA489245 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=BAT1K bioproject=PRJNA489245 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=BAT1K bioproject=PRJNA489245 .inline}
+::include{pageId=/projects/reports/duplication.md project=BAT1K bioproject=PRJNA489245 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Bat1K Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=BAT1K .inline}
+::include{pageId=/projects/reports/progress_tree.md project=BAT1K .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=BAT1K bioproject=PRJNA489245 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=BAT1K bioproject=PRJNA489245 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

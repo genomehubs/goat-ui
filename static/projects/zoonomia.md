@@ -25,29 +25,29 @@ ZOONOMIA long_list correspond to the subset of species declared as targets by th
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=ZOONOMIA bioproject=PRJNA312960 .inline}
+::include{pageId=/projects/reports/target_tree.md project=ZOONOMIA bioproject=PRJNA312960 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## ZOONOMIA Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=ZOONOMIA bioproject=PRJNA312960 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=ZOONOMIA bioproject=PRJNA312960 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=ZOONOMIA .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=ZOONOMIA .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=ZOONOMIA bioproject=PRJNA312960 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=ZOONOMIA bioproject=PRJNA312960 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=ZOONOMIA bioproject=PRJNA312960 .inline}
+::include{pageId=/projects/reports/duplication.md project=ZOONOMIA bioproject=PRJNA312960 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -60,7 +60,7 @@ ZOONOMIA long_list correspond to the subset of species declared as targets by th
 
 ::report{report="tree" x="tax_tree(Eukaryota) AND long_list=ZOONOMIA AND tax_rank(species)" y="assembly_span AND bioproject=PRJNA312960,PRJNA12590" treeStyle="rect" taxonomy="ncbi" levels=",subspecies,species,genus,family,order,class,phylum" includeEstimates="true" ratio=2 disableModal collapseMonotypic yOpts="1000000,100000000000" caption="**Tree representing species for which Zoonomia has generated assemblies.** Orange highlights represent clades with at least one genome already available under the Bioproject ID PRJNA312960 (plus PRJNA12590 for Echinops telfairi). Bars = assembly span. Tap tree nodes to browse taxa or long-press to search." size=12}
 :::
-::include{pageId=/projects/reports/contiguity_scatters.md project=ZOONOMIA bioproject=PRJNA312960 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=ZOONOMIA bioproject=PRJNA312960 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

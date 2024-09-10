@@ -27,41 +27,41 @@ CBP long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=CBP bioproject=PRJEB49670 .inline}
+::include{pageId=/projects/reports/target_tree.md project=CBP bioproject=PRJEB49670 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## CBP Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=CBP bioproject=PRJEB49670 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=CBP bioproject=PRJEB49670 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=CBP .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=CBP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=CBP bioproject=PRJEB49670 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=CBP bioproject=PRJEB49670 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=CBP bioproject=PRJEB49670 .inline}
+::include{pageId=/projects/reports/duplication.md project=CBP bioproject=PRJEB49670 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # CBP Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=CBP .inline}
+::include{pageId=/projects/reports/progress_tree.md project=CBP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=CBP bioproject=PRJEB49670 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=CBP bioproject=PRJEB49670 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

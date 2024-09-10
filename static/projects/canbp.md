@@ -25,41 +25,41 @@ CanBP long_list correspond to the subset of species declared as targets by the p
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree_family.md project=CANBP bioproject=PRJNA813333 .inline}
+::include{pageId=/projects/reports/target_tree_family.md project=CANBP bioproject=PRJNA813333 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## CANBP Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=CANBP bioproject=PRJNA813333 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=CANBP bioproject=PRJNA813333 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=CANBP .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=CANBP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=CANBP bioproject=PRJNA813333 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=CANBP bioproject=PRJNA813333 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=CANBP bioproject=PRJNA813333 .inline}
+::include{pageId=/projects/reports/duplication.md project=CANBP bioproject=PRJNA813333 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # CANBP Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=CANBP .inline}
+::include{pageId=/projects/reports/progress_tree.md project=CANBP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=CANBP bioproject=PRJNA813333 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=CANBP bioproject=PRJNA813333 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

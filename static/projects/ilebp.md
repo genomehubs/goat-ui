@@ -27,41 +27,41 @@ ILEBP long_list correspond to the subset of species declared as targets by the p
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=ILEBP bioproject=PRJNA844590 .inline}
+::include{pageId=/projects/reports/target_tree.md project=ILEBP bioproject=PRJNA844590 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## ILEBP Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=ILEBP bioproject=PRJNA844590 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=ILEBP bioproject=PRJNA844590 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=ILEBP .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=ILEBP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=ILEBP bioproject=PRJNA844590 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=ILEBP bioproject=PRJNA844590 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=ILEBP bioproject=PRJNA844590 .inline}
+::include{pageId=/projects/reports/duplication.md project=ILEBP bioproject=PRJNA844590 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # ILEBP Custom Reports
 
-{{::include{pageId=/projects/reports/progress_tree.md project=ILEBP .inline}
+{{::include{pageId=/projects/reports/progress_tree.md project=ILEBP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::}}
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=ILEBP bioproject=PRJNA844590 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=ILEBP bioproject=PRJNA844590 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

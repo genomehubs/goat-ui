@@ -25,41 +25,41 @@ VGP long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree_family.md project=VGP bioproject=PRJNA489243 .inline}
+::include{pageId=/projects/reports/target_tree_family.md project=VGP bioproject=PRJNA489243 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## VGP Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=VGP bioproject=PRJNA489243 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=VGP bioproject=PRJNA489243 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=VGP .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=VGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=VGP bioproject=PRJNA489243 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=VGP bioproject=PRJNA489243 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=VGP bioproject=PRJNA489243 .inline}
+::include{pageId=/projects/reports/duplication.md project=VGP bioproject=PRJNA489243 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # VGP Custom Reports
 
-::include{pageId=/projects/reports/progress_tree_family.md project=VGP .inline}
+::include{pageId=/projects/reports/progress_tree_family.md project=VGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=VGP bioproject=PRJNA489243 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=VGP bioproject=PRJNA489243 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -75,7 +75,7 @@ includeEstimates: false
 xOpts: "20,80,30,,QV Scores"
 stacked: True
 caption: "Distribution of QV scores across VGP assemblies"
-xs: 6
+size: 6
 ```
 
 ```report
@@ -87,7 +87,7 @@ includeEstimates: false
 xOpts: "20,80,30,,QV Scores"
 stacked: True
 caption: "Distribution of QV scores across VGP assemblies"
-xs: 6
+size: 6
 ```
 
 :::

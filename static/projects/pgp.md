@@ -25,41 +25,41 @@ PGP long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=PGP bioproject=TBD .inline}
+::include{pageId=/projects/reports/target_tree.md project=PGP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## PGP Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=PGP bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=PGP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=PGP .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=PGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=PGP bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_histo.md project=PGP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=PGP bioproject=TBD .inline}
+::include{pageId=/projects/reports/duplication.md project=PGP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # PGP Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=PGP .inline}
+::include{pageId=/projects/reports/progress_tree.md project=PGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=PGP bioproject=TBD .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=PGP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

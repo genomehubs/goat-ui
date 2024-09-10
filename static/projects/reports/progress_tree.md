@@ -14,5 +14,5 @@ disableModal: true
 yOpts: "1000000,100000000000"
 treeThreshold: 2500
 caption: "**Tree of species in the {{project}} long list.** Orange highlights represent clades with at least one descendant species in progress in the {{project}} pipeline. Species in progress are highlighted in green. Tap tree nodes to browse taxa or long-press to search."
-xs: 12
+size: 12
 ```

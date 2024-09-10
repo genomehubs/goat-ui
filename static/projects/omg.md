@@ -25,41 +25,41 @@ OMG long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=OMG bioproject=TBD .inline}
+::include{pageId=/projects/reports/target_tree.md project=OMG bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## OMG Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=OMG bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=OMG bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=OMG .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=OMG .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=OMG bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_histo.md project=OMG bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=OMG bioproject=TBD .inline}
+::include{pageId=/projects/reports/duplication.md project=OMG bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # OMG Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=OMG .inline}
+::include{pageId=/projects/reports/progress_tree.md project=OMG .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=OMG bioproject=TBD .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=OMG bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

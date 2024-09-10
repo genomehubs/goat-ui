@@ -28,41 +28,41 @@ BEENOME100 long_list correspond to the subset of species declared as targets by 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=BEENOME100 bioproject=PRJNA923301 .inline}
+::include{pageId=/projects/reports/target_tree.md project=BEENOME100 bioproject=PRJNA923301 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## BEENOME100 Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=BEENOME100 bioproject=PRJNA923301 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=BEENOME100 bioproject=PRJNA923301 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=BEENOME100 .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=BEENOME100 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=BEENOME100 bioproject=PRJNA923301 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=BEENOME100 bioproject=PRJNA923301 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=BEENOME100 bioproject=PRJNA923301 .inline}
+::include{pageId=/projects/reports/duplication.md project=BEENOME100 bioproject=PRJNA923301 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # BEENOME100 Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=BEENOME100 .inline}
+::include{pageId=/projects/reports/progress_tree.md project=BEENOME100 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=BEENOME100 bioproject=PRJNA923301 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=BEENOME100 bioproject=PRJNA923301 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

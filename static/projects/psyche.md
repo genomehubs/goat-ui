@@ -27,41 +27,41 @@ PSYCHE long_list correspond to all species of butterflies listed in the [Lepifor
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree_family.md project=PSYCHE bioproject=PRJEB71705 .inline}
+::include{pageId=/projects/reports/target_tree_family.md project=PSYCHE bioproject=PRJEB71705 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## PSYCHE Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=PSYCHE bioproject=PRJEB71705 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=PSYCHE bioproject=PRJEB71705 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=PSYCHE .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=PSYCHE .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=PSYCHE bioproject=PRJEB71705 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=PSYCHE bioproject=PRJEB71705 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=PSYCHE bioproject=PRJEB71705 .inline}
+::include{pageId=/projects/reports/duplication.md project=PSYCHE bioproject=PRJEB71705 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # PSYCHE Custom Reports
 
-::include{pageId=/projects/reports/progress_tree_family.md project=PSYCHE .inline}
+::include{pageId=/projects/reports/progress_tree_family.md project=PSYCHE .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=PSYCHE bioproject=PRJEB71705 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=PSYCHE bioproject=PRJEB71705 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

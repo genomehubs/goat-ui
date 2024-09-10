@@ -27,41 +27,41 @@ METAINVERT long_list correspond to the subset of species declared as targets by 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=METAINVERT bioproject=PRJNA758215 .inline}
+::include{pageId=/projects/reports/target_tree.md project=METAINVERT bioproject=PRJNA758215 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## METAINVERT Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=METAINVERT bioproject=PRJNA758215 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=METAINVERT bioproject=PRJNA758215 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=METAINVERT .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=METAINVERT .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=METAINVERT bioproject=PRJNA758215 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=METAINVERT bioproject=PRJNA758215 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=METAINVERT bioproject=PRJNA758215 .inline}
+::include{pageId=/projects/reports/duplication.md project=METAINVERT bioproject=PRJNA758215 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # METAINVERT Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=METAINVERT .inline}
+::include{pageId=/projects/reports/progress_tree.md project=METAINVERT .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=METAINVERT bioproject=PRJNA758215 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=METAINVERT bioproject=PRJNA758215 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

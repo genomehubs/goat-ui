@@ -25,41 +25,41 @@ SQUALOMIX long_list correspond to the subset of species declared as targets by t
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=SQUALOMIX bioproject=PRJNA707598 .inline}
+::include{pageId=/projects/reports/target_tree.md project=SQUALOMIX bioproject=PRJNA707598 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## SQUALOMIX Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=SQUALOMIX bioproject=PRJNA707598 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=SQUALOMIX bioproject=PRJNA707598 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=SQUALOMIX .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=SQUALOMIX .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=SQUALOMIX bioproject=PRJNA707598 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=SQUALOMIX bioproject=PRJNA707598 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=SQUALOMIX bioproject=PRJNA707598 .inline}
+::include{pageId=/projects/reports/duplication.md project=SQUALOMIX bioproject=PRJNA707598 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # SQUALOMIX Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=SQUALOMIX .inline}
+::include{pageId=/projects/reports/progress_tree.md project=SQUALOMIX .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=SQUALOMIX bioproject=PRJNA707598 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=SQUALOMIX bioproject=PRJNA707598 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

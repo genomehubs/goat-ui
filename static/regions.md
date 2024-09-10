@@ -34,5 +34,5 @@ result: taxon
 taxonomy: ncbi
 caption: ""
 disableModal: true
-xs: 12
+size: 12
 ```

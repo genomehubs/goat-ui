@@ -27,36 +27,36 @@ CGP long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=CGP bioproject=PRJNA1020146 .inline}
+::include{pageId=/projects/reports/target_tree.md project=CGP bioproject=PRJNA1020146 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## CGP Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=CGP bioproject=PRJNA1020146 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=CGP bioproject=PRJNA1020146 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=CGP .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=CGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=CGP bioproject=PRJNA1020146 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=CGP bioproject=PRJNA1020146 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=CGP bioproject=PRJNA1020146 .inline}
+::include{pageId=/projects/reports/duplication.md project=CGP bioproject=PRJNA1020146 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # CGP Custom Reports
 
-::include{pageId=/projects/reports/target_tree_simple_species.md project=CGP .inline}
+::include{pageId=/projects/reports/target_tree_simple_species.md project=CGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -80,7 +80,7 @@ plotRatio: "auto"
 pointSize: "5"
 scatterThreshold: "10000"
 caption: "Contiguity by assembly type"
-xs: 6
+size: 6
 ```
 
 ```report
@@ -98,7 +98,7 @@ plotRatio: "auto"
 pointSize: "5"
 scatterThreshold: "10000"
 caption: "Contiguity by assembly level"
-xs: 6
+size: 6
 ```
 
 :::
@@ -121,7 +121,7 @@ plotRatio: "auto"
 pointSize: "5"
 scatterThreshold: "10000"
 caption: "Completeness by assembly type"
-xs: 6
+size: 6
 ```
 
 ```report
@@ -138,7 +138,7 @@ plotRatio: "auto"
 pointSize: "5"
 scatterThreshold: "10000"
 caption: "Completeness by assembly level"
-xs: 6
+size: 6
 ```
 
 :::
@@ -158,7 +158,7 @@ pointSize: 20
 result: assembly
 taxonomy: ncbi
 caption: "Distribution of QV scores by family"
-xs: 6
+size: 6
 ```
 
 ```report
@@ -171,11 +171,11 @@ pointSize: 20
 result: assembly
 taxonomy: ncbi
 caption: "Distribution of assembly_span by family"
-xs: 6
+size: 6
 ```
 
 :::
-::include{pageId=/projects/reports/contiguity_scatters.md project=CGP bioproject=PRJNA1020146 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=CGP bioproject=PRJNA1020146 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

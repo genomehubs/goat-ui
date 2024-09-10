@@ -30,41 +30,41 @@ PRJNA911016（[NCBI)](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA785018)
 ::grid[**Note:** Many PRGP genomes are stored in the [Genome Warehouse](https://ngdc.cncb.ac.cn/gwh/). This database is not yet on GoaT (work in progress), which may cause discrepancies on sequencing_status and summary reports.]{size=10}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=PRGP bioproject=PRGP .inline}
+::include{pageId=/projects/reports/target_tree.md project=PRGP bioproject=PRGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## PRGP Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=PRGP bioproject=PRGP .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=PRGP bioproject=PRGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=PRGP .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=PRGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=PRGP bioproject=PRGP .inline}
+::include{pageId=/projects/reports/progress_histo.md project=PRGP bioproject=PRGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=PRGP bioproject=PRGP .inline}
+::include{pageId=/projects/reports/duplication.md project=PRGP bioproject=PRGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # PRGP Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=PRGP .inline}
+::include{pageId=/projects/reports/progress_tree.md project=PRGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=PRGP bioproject=PRGP .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=PRGP bioproject=PRGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

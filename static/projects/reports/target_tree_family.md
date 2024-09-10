@@ -15,7 +15,7 @@ disableModal: true
 collapseMonotypic: true
 yOpts: "10000000,7000000000,,log10"
 caption: "**Taxa in the declared target list of the {{project}} project.** Orange highlights represent clades with at least one genome available under the {{project}} Bioproject Id {{bioproject}}. Bars = assembly span. Tap tree nodes to browse taxa or long-press to search."
-xs: 12
+size: 12
 ```
 
 :::

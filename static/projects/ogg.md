@@ -30,41 +30,41 @@ OGG long list on GoaT corresponds to all declared targets in the [OGG target lis
 ::grid[**Note:** JGI may have applied certain data [restrictions](https://phytozome-next.jgi.doe.gov/ogg/), which may cause discrepancies on sequencing_status reported on GoaT. Permission from PI and JGI before publications or data repackaging/redistribution may be required in a species/project specific manner.]{size=10}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=OGG bioproject=OGG .inline}
+::include{pageId=/projects/reports/target_tree.md project=OGG bioproject=OGG .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## OGG Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=OGG bioproject=OGG .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=OGG bioproject=OGG .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=OGG .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=OGG .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=OGG bioproject=OGG .inline}
+::include{pageId=/projects/reports/progress_histo.md project=OGG bioproject=OGG .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=OGG bioproject=OGG .inline}
+::include{pageId=/projects/reports/duplication.md project=OGG bioproject=OGG .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # OGG Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=OGG .inline}
+::include{pageId=/projects/reports/progress_tree.md project=OGG .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=OGG bioproject=OGG .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=OGG bioproject=OGG .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

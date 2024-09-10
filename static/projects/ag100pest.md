@@ -28,41 +28,41 @@ Ag100Pest long_list correspond to the subset of species declared as targets by t
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=Ag100Pest bioproject=PRJNA555319 .inline}
+::include{pageId=/projects/reports/target_tree.md project=Ag100Pest bioproject=PRJNA555319 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## Progress Reports for the Ag100Pest Project
 
-::include{pageId=/projects/reports/progress_by_rank.md project=AG100PEST bioproject=PRJNA555319 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=AG100PEST bioproject=PRJNA555319 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=AG100PEST .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=AG100PEST .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=AG100PEST bioproject=PRJNA555319 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=AG100PEST bioproject=PRJNA555319 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=AG100PEST bioproject=PRJNA555319 .inline}
+::include{pageId=/projects/reports/duplication.md project=AG100PEST bioproject=PRJNA555319 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Ag100Pest Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=AG100PEST .inline}
+::include{pageId=/projects/reports/progress_tree.md project=AG100PEST .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=AG100PEST bioproject=PRJNA555319 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=AG100PEST bioproject=PRJNA555319 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

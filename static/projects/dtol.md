@@ -27,19 +27,19 @@ To retrieve the list use the search terms:
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree_phylum.md project=DTOL bioproject=PRJEB40665 .inline}
+::include{pageId=/projects/reports/target_tree_phylum.md project=DTOL bioproject=PRJEB40665 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## DTOL Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=DTOL bioproject=PRJEB40665 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=DTOL bioproject=PRJEB40665 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=DTOL .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=DTOL .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -49,12 +49,12 @@ To retrieve the list use the search terms:
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=DTOL bioproject=PRJEB40665 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=DTOL bioproject=PRJEB40665 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=DTOL bioproject=PRJEB40665 .inline}
+::include{pageId=/projects/reports/duplication.md project=DTOL bioproject=PRJEB40665 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -70,7 +70,7 @@ Tap tree nodes to browse taxa or long-press to search.
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
-::include{pageId=/projects/reports/contiguity_scatters.md project=DTOL bioproject=PRJEB40665 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=DTOL bioproject=PRJEB40665 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

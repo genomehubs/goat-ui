@@ -25,41 +25,41 @@ EUROFISH long_list correspond to the subset of species declared as targets by th
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=EUROFISH bioproject=PRJNA768423 .inline}
+::include{pageId=/projects/reports/target_tree.md project=EUROFISH bioproject=PRJNA768423 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## EUROFISH Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=EUROFISH bioproject=PRJNA768423 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=EUROFISH bioproject=PRJNA768423 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=EUROFISH .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=EUROFISH .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=EUROFISH bioproject=PRJNA768423 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=EUROFISH bioproject=PRJNA768423 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=EUROFISH bioproject=PRJNA768423 .inline}
+::include{pageId=/projects/reports/duplication.md project=EUROFISH bioproject=PRJNA768423 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # EUROFISH Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=EUROFISH .inline}
+::include{pageId=/projects/reports/progress_tree.md project=EUROFISH .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=EUROFISH bioproject=PRJNA768423 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=EUROFISH bioproject=PRJNA768423 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

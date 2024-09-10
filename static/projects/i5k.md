@@ -34,41 +34,41 @@ i5K long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=i5K bioproject=PRJNA163993 .inline}
+::include{pageId=/projects/reports/target_tree.md project=i5K bioproject=PRJNA163993 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## i5K Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=i5K bioproject=PRJNA163993 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=i5K bioproject=PRJNA163993 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=i5K .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=i5K .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=i5K bioproject=PRJNA163993 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=i5K bioproject=PRJNA163993 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=i5K bioproject=PRJNA163993 .inline}
+::include{pageId=/projects/reports/duplication.md project=i5K bioproject=PRJNA163993 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # i5K Custom Reports
 
-{{::include{pageId=/projects/reports/progress_tree.md project=i5K .inline}
+{{::include{pageId=/projects/reports/progress_tree.md project=i5K .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::}}
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=i5K bioproject=PRJNA163993 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=i5K bioproject=PRJNA163993 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

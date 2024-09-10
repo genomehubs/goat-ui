@@ -27,41 +27,41 @@ ERGA-PIL long_list correspond to the subset of species declared as targets by th
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=ERGA-PIL bioproject=PRJEB47820 .inline}
+::include{pageId=/projects/reports/target_tree.md project=ERGA-PIL bioproject=PRJEB47820 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## ERGA-PIL Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=ERGA-PIL bioproject=PRJEB47820 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=ERGA-PIL bioproject=PRJEB47820 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=ERGA-PIL .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=ERGA-PIL .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=ERGA-PIL bioproject=PRJEB47820 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=ERGA-PIL bioproject=PRJEB47820 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=ERGA-PIL bioproject=PRJEB47820 .inline}
+::include{pageId=/projects/reports/duplication.md project=ERGA-PIL bioproject=PRJEB47820 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # ERGA-PIL Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=ERGA-PIL .inline}
+::include{pageId=/projects/reports/progress_tree.md project=ERGA-PIL .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=ERGA-PIL bioproject=PRJEB47820 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=ERGA-PIL bioproject=PRJEB47820 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

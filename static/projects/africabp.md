@@ -25,41 +25,41 @@ AfricaBP long_list correspond to the subset of african species declared as targe
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=AFRICABP bioproject=PRJNA811786 .inline}
+::include{pageId=/projects/reports/target_tree.md project=AFRICABP bioproject=PRJNA811786 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## AfricaBP Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=AFRICABP bioproject=PRJNA811786 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=AFRICABP bioproject=PRJNA811786 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=AFRICABP .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=AFRICABP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=AFRICABP bioproject=PRJNA811786 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=AFRICABP bioproject=PRJNA811786 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=AFRICABP bioproject=PRJNA811786 .inline}
+::include{pageId=/projects/reports/duplication.md project=AFRICABP bioproject=PRJNA811786 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # AfricaBP Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=AFRICABP .inline}
+::include{pageId=/projects/reports/progress_tree.md project=AFRICABP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=AFRICABP bioproject=PRJNA811786 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=AFRICABP bioproject=PRJNA811786 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

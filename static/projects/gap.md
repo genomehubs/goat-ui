@@ -25,41 +25,41 @@ GAP long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=GAP bioproject=TBD .inline}
+::include{pageId=/projects/reports/target_tree.md project=GAP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## GAP Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=GAP bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=GAP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=GAP .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=GAP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=GAP bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_histo.md project=GAP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=GAP bioproject=TBD .inline}
+::include{pageId=/projects/reports/duplication.md project=GAP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # GAP Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=GAP .inline}
+::include{pageId=/projects/reports/progress_tree.md project=GAP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=GAP bioproject=TBD .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=GAP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

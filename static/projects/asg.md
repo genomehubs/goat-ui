@@ -25,19 +25,19 @@ ASG long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=ASG bioproject=PRJEB43743 .inline}
+::include{pageId=/projects/reports/target_tree.md project=ASG bioproject=PRJEB43743 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## ASG Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=ASG bioproject=PRJEB43743 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=ASG bioproject=PRJEB43743 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=ASG .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=ASG .inline size=12}
 
 - ASG **sample_collected** only includes species collected by the [NHM](https://data.nhm.ac.uk/), those entered in [COPO](https://copo-project.org) and in the Wellcome Sanger Institute internal Sample Tracking System (STS). In the future it will include species reported by all ASG partners as collected.
 
@@ -45,24 +45,24 @@ ASG long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=ASG bioproject=PRJEB43743 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=ASG bioproject=PRJEB43743 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=ASG bioproject=PRJEB43743 .inline}
+::include{pageId=/projects/reports/duplication.md project=ASG bioproject=PRJEB43743 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # ASG Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=ASG .inline}
+::include{pageId=/projects/reports/progress_tree.md project=ASG .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=ASG bioproject=PRJEB43743 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=ASG bioproject=PRJEB43743 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

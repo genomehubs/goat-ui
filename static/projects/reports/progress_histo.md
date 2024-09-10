@@ -12,7 +12,7 @@ excludeMissing: sequencing_status_{{lc_project}}
 xOpts: ";;;;Sequencing Status"
 stacked: True
 caption: "Current status of {{project}} target species"
-xs: 6
+size: 6
 ```
 
 ```report
@@ -25,7 +25,7 @@ excludeAncestral: bioproject
 excludeMissing: bioproject
 xOpts: "{{bioproject}},,1,,"
 caption: "Assembly level of {{project}} genomes"
-xs: 6
+size: 6
 ```
 
 :::

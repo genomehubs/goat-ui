@@ -17,7 +17,7 @@ plotRatio: "auto"
 pointSize: "5"
 scatterThreshold: "10000"
 caption: "Contiguity by assembly type"
-xs: 6
+size: 6
 ```
 
 ```report
@@ -35,7 +35,7 @@ plotRatio: "auto"
 pointSize: "5"
 scatterThreshold: "10000"
 caption: "Contiguity by assembly level"
-xs: 6
+size: 6
 ```
 
 :::

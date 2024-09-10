@@ -27,41 +27,41 @@ ERGA-CH long_list correspond to the subset of Swiss species declared as targets 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=ERGA-CH bioproject=PRJEB49197 .inline}
+::include{pageId=/projects/reports/target_tree.md project=ERGA-CH bioproject=PRJEB49197 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## ERGA-CH Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=ERGA-CH bioproject=PRJEB49197 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=ERGA-CH bioproject=PRJEB49197 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=ERGA-CH .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=ERGA-CH .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=ERGA-CH bioproject=PRJEB49197 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=ERGA-CH bioproject=PRJEB49197 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=ERGA-CH bioproject=PRJEB49197 .inline}
+::include{pageId=/projects/reports/duplication.md project=ERGA-CH bioproject=PRJEB49197 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # ERGA-CH Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=ERGA-CH .inline}
+::include{pageId=/projects/reports/progress_tree.md project=ERGA-CH .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=ERGA-CH bioproject=PRJEB49197 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=ERGA-CH bioproject=PRJEB49197 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

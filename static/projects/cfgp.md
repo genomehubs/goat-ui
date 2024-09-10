@@ -23,41 +23,41 @@ CFGP long_list correspond to the subset of species declared as targets by the pr
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=CFGP bioproject=TBD .inline}
+::include{pageId=/projects/reports/target_tree.md project=CFGP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## CFGP Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=CFGP bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=CFGP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=CFGP .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=CFGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=CFGP bioproject=TBD .inline}
+::include{pageId=/projects/reports/progress_histo.md project=CFGP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=CFGP bioproject=TBD .inline}
+::include{pageId=/projects/reports/duplication.md project=CFGP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # CFGP Custom Reports
 
-::include{pageId=/projects/reports/progress_tree.md project=CFGP .inline}
+::include{pageId=/projects/reports/progress_tree.md project=CFGP .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=CFGP bioproject=TBD .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=CFGP bioproject=TBD .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

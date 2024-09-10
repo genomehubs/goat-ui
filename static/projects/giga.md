@@ -26,41 +26,41 @@ GIGA long_list correspond to the subset of species declared as targets by the pr
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=GIGA bioproject=PRJNA649812 .inline}
+::include{pageId=/projects/reports/target_tree.md project=GIGA bioproject=PRJNA649812 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## GIGA Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=GIGA bioproject=PRJNA649812 .inline}
+::include{pageId=/projects/reports/progress_by_rank.md project=GIGA bioproject=PRJNA649812 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_arcs.md project=GIGA .inline}
+::include{pageId=/projects/reports/progress_arcs.md project=GIGA .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=GIGA bioproject=PRJNA649812 .inline}
+::include{pageId=/projects/reports/progress_histo.md project=GIGA bioproject=PRJNA649812 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=GIGA bioproject=PRJNA649812 .inline}
+::include{pageId=/projects/reports/duplication.md project=GIGA bioproject=PRJNA649812 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # GIGA Custom Reports
 
-{{::include{pageId=/projects/reports/progress_tree.md project=GIGA .inline}
+{{::include{pageId=/projects/reports/progress_tree.md project=GIGA .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::}}
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=GIGA bioproject=PRJNA649812 .inline}
+::include{pageId=/projects/reports/contiguity_scatters.md project=GIGA bioproject=PRJNA649812 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
