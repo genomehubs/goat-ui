@@ -69,7 +69,7 @@ EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb
 ### Projects contributing assemblies to ERGA Umbrella.
 
 - [25 Genomes Project: Genome Data and Assemblies (PRJEB33226)](https://www.ebi.ac.uk/ena/browser/view/PRJEB33226)
-- ATLASea - An Atlas of eukaryotic marine genomes (PRJEB64126)
+- [ATLASea - An Atlas of eukaryotic marine genomes (PRJEB64126)](/projects/ATLASEA)
 - [CBP - Catalan Initiative for the Earth BioGenome Project (PRJEB49670)](/projects/CBP)
 - [DTOL - Darwin Tree of Life (PRJEB40665)](/projects/DTOL)
 - [ENDEMIXIT - Italian Endemics (PRJNA712951)](/projects/ENDEMIXIT)

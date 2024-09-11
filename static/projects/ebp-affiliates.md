@@ -11,17 +11,21 @@ Content to display at /projects/EBP-affiliates
 
 - [AG100PEST - Ag100Pest Initiative (PRJNA555319)](/projects/AG100PEST)
 
-- [ARG - Australian Amphibian and Reptile Genomics Initiative Collaboration (AusARG)](/projects/ARG)
+- [ARG - Australian Amphibian and Reptile Genomics Initiative Collaboration (AusARG - PRJNA1075730)](/projects/ARG)
 
 - [ASG - Aquatic Symbiosis Genomics Project (PRJEB43743)](/projects/ASG)
 
 - [ATLASEA - An Atlas of Eukaryotic Marine Genomes (ATLASea - PRJEB64126)](/projects/ATLASEA)
+
+- [AVI - Australian Avian Genomics Initiative (PRJNA1098052)](/projects/AVI)
 
 - [B10K - Bird 10,000 Genomes Project (PRJNA545868)](/projects/B10K)
 
 - [BAT1K - 1,000 Bat Genomes (PRJNA489245)](/projects/BAT1K)
 
 - [BEENOME100 - The Beenome100 project (PRJNA923301)](/projects/BEENOME100)
+
+- [BIOPLATFORMS - Bioplatforms Australia (PRJNA1075696)](/projects/BIOPLATFORMS)
 
 - [CANBP - Canada Biogenome Project (CBP - PRJNA813333)](/projects/CANBP)
 
@@ -51,15 +55,23 @@ Content to display at /projects/EBP-affiliates
 
 - [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
 
+- [FFI - Australian Functional Fungi Initiative (PRJNA1098046)](/projects/FFI)
+
+- [FISH - Australian Fish Genomics Initiative (PRJNA1098053)](/projects/FISH)
+
 - [GAGA - Global Ant Genomics Alliance](/projects/GAGA)
 
-- [GAP - Genomics for Australian Plants](/projects/GAP)
+- [GAP - Genomics for Australian Plants (PRJNA1075727)](/projects/GAP)
+
+- [GBR - Great Barrier Reef - SeaQuence project (PRJNA1075702)](/projects/GBR)
 
 - [GIGA - Global Invertebrate Genome Alliance (PRJNA649812)](/projects/GIGA)
 
 - [i5K - 5,000 Insect Genomes (PRJNA163993)](/projects/i5K)
 
 - [ILEBP - Illinois EBP Pilot (PRJNA844590)](/projects/ILEBP)
+
+- [IPM - Integrated Pest Management Omics Initiative (PRJNA1098055)](/projects/IPM)
 
 - [LMGP - Lilioid Monocots Core Group Genome Project (PRJNA948806)](/projects/LMGP)
 
@@ -71,11 +83,13 @@ Content to display at /projects/EBP-affiliates
 
 - [OGG - Open Green Genomes](/projects/OGG)
 
-- [OMG - Oz Mammals Genomics](/projects/OMG)
+- [OMG - Oz Mammals Genomics (PRJNA1075707)](/projects/OMG)
 
 - [PGP - Polar Genomes Project](/projects/PGP)
 
-- PhyloAlps (in progress)
+- [PhyloAlps (in progress)](/projects/PHYLOALPS)
+
+- [PP - Plant Pathogen Initiative (PRJNA1098054)](/projects/PP)
 
 - [PRGP - Primate Genomes Project](/projects/PRGP)
 
@@ -83,7 +97,7 @@ Content to display at /projects/EBP-affiliates
 
 - [SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans (PRJNA707598)](/projects/SQUALOMIX)
 
-- [TSI - Threatened Species Initiative](/projects/TSI)
+- [TSI - Threatened Species Initiative (PRJNA1075750)](/projects/TSI)
 
 - [VGP - Vertebrate Genomes Project (PRJNA489243)](/projects/VGP)
 
