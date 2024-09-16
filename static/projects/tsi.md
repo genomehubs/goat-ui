@@ -4,11 +4,15 @@
 
 **GoaT Search Term:** TSI
 
-::grid[**TSI** aim is to build genomic resources to understand and protect Australia’s threatened species. For more information access TSI's project page at https://threatenedspeciesinitiative.com]{size=12}
+::grid[**TSI** The [Threatened Species Initiative](https://bioplatforms.com/projects/threatened-species/) A collaborative partnership to develop genomic resources, analytical pipelines and reporting methods in support of conserving Australia’s threatened biodiversity.]{size=12}
 
-**Bioproject ID** TBD
+For more information access TSI's project page at https://threatenedspeciesinitiative.com
+
+**Bioproject ID** PRJNA1075750
 
 **Main Contact**: [Dr Sophie Mazard](smazard@bioplatforms.com) or [the Project Manager, Sarah Richmond](srichmond@bioplatforms.com) - Bioplatforms Australia
+
+Bioplatforms is enabled by the Commonwealth Government National Collaborative Research Infrastructure Strategy (NCRIS).
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -25,14 +29,14 @@ TSI long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=TSI bioproject=TBD .inline size=12}
+::include{pageId=/projects/reports/target_tree.md project=TSI bioproject=PRJNA1075750 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## TSI Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=TSI bioproject=TBD .inline size=12}
+::include{pageId=/projects/reports/progress_by_rank.md project=TSI bioproject=PRJNA1075750 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -42,12 +46,12 @@ TSI long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=TSI bioproject=TBD .inline size=12}
+::include{pageId=/projects/reports/progress_histo.md project=TSI bioproject=PRJNA1075750 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=TSI bioproject=TBD .inline size=12}
+::include{pageId=/projects/reports/duplication.md project=TSI bioproject=PRJNA1075750 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -59,7 +63,7 @@ TSI long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=TSI bioproject=TBD .inline size=12}
+::include{pageId=/projects/reports/contiguity_scatters.md project=TSI bioproject=PRJNA1075750 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

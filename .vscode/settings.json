@@ -4,7 +4,7 @@
       {
           "match": ".*",
           "isAsync": true,
-          "cmd": "touch ~/cibele-site/genomehubs/src/genomehubs-ui/src/client/index.html"
+          "cmd": "echo >> ~/cibele-site/genomehubs/src/genomehubs-ui/src/client/index.html"
       },
     ]
   }
