@@ -2,6 +2,6 @@
 - /api
 - use_cases
 - wiki
-- (FAQs)
 - /submissions
 - contact
+- (FAQs)
