@@ -26,11 +26,15 @@
 
 ## User manual
 
-Soon available [GoaT data Wiki](https://github.com/genomehubs/goat-data/wiki).
+Soon available [GoaT data Wiki](https://github.com/genomehubs/goat-data/wiki)
 Explore the different help sections for use examples and templates
+you can start [here](https://goat.genomehubs.org/help) to learn about GoaT **color-codes** and see a list of **all attributes**.
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
+
+## GoaT YouTube Channel
+- Explore our video tutorials and talks at the [genomesonatree](https://www.youtube.com/@genomesonatree) YouTube channel
 
 <!-- ## GoaT Reports
 
