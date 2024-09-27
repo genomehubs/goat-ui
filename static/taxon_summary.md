@@ -30,7 +30,7 @@ Content to display in a panel on each taxon record page.
 
 ::grid{size=1}
 
-::include{pageId=taxon_summary/{{groups}}_counts.md taxonId={{recordId|taxon_id}} size=4 .paragraph}
+::include{pageId=taxon_summary/counts.md taxonId={{recordId|taxon_id}} size=4 .paragraph}
 
 ::include{pageId=taxon_summary/links.md taxonId={{recordId|taxon_id}} size=4 .paragraph}
 :::
