@@ -1,10 +1,11 @@
 ::grid[![GoaT](/static/images/ERGA_logo_rect.jpg)]{size=2}
 
-# European Reference Genome Atlas (ERGA)
+# The European Reference Genome Atlas (ERGA) Umbrella
 
 **GoaT Search Term:** ERGA
 
-::grid[**ERGA** is an effort to generate reference genomes representing European biodiversity. For more information access ERGA's official project page at https://www.erga-biodiversity.eu.]{size=8}
+::grid[**ERGA**, The European Reference Genome Atlas (ERGA) is a pan-European community initiative to coordinate the generation of reference genomes representing European eukaryotic biodiversity. The ERGA Umbrella connects various biogenome projects and national initiatives working on establishing reference genomes for European species. For more information please visit the ERGA website at https://www.erga-biodiversity.eu.
+]{size=8}
 
 **Bioproject ID** PRJEB43510
 
@@ -76,6 +77,7 @@ EBP metric zone defines the EBP assembly quality standards of a contig N50 > 1Mb
 - [ERGA-BGE - ERGA Biodiversity Genomics Europe project](/projects/ERGA-BGE)
 - [ERGA-PIL - European Reference Genome Atlas Pilot project (PRJEB47820)](/projects/ERGA-PIL)
 - [ERGA-CH - The Swiss node of the ERGA initiative (PRJEB49197)](/projects/ERGA-CH)
+- [ERGA-COM - European Reference Genome Atlas (ERGA) Community Genomes](/projects/ERGA-COM)
 - ERGA-FR - The French node of the ERGA initiative (PRJEB47985)
   :::grid{container direction="row" spacing="1" class="padded"}
   :::
