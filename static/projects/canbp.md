@@ -1,4 +1,4 @@
-::grid[![GoaT](/static/images/CanBP.png)]{size=4}
+::grid[![GoaT](/static/images/Canadian_CBP_logo.png)]{size=4}
 
 # Canada Biogenome Project (CBP)
 

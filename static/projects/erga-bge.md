@@ -9,7 +9,7 @@
 
 **GoaT Search Term:** ERGA-BGE
 
-::grid[**ERGA-BGE** will deliver genomes fostered by the Biodiversity Genomics Europe (BGE). The overriding aim of BGE is to accelerate the use of genomic science to enhance understanding of biodiversity, monitor biodiversity change, and guide interventions to address its decline. BGE brings together two European-wide networks: [BIOSCAN Europe](https://www.bioscaneurope.org/), which focuses on DNA barcoding, and the European Reference Genome Atlas [ERGA](https://www.erga-biodiversity.eu/), which focuses on genome sequencing. For more information access BGE official page at https://biodiversitygenomics.eu/the-project.]{size=8}
+::grid[The **ERGA-BGE** project collects reference genomes produced through the work of the Biodiversity Genomics Europe (BGE) project. BGE brings together two European-wide networks: iBOL Europe, which focuses on DNA barcoding, and the European Reference Genome Atlas (ERGA), which focuses on genome sequencing. is to accelerate the use of genomic science to enhance understanding of biodiversity, monitor biodiversity change, and guide interventions to address its decline. For more information please visit the BGE website at https://biodiversitygenomics.eu/.]{size=8}
 
 **Bioproject ID** PRJEB61747
 
@@ -24,8 +24,6 @@
 
 :::grid{container direction="row" spacing="1"}
 ::grid[![GoaT](/static/images/capra3.png)]{size=23}
-::grid[ERGA-BGE target list compilation is currently **in progress.** All data in GoaT currently corresponds to the declared targets of the Biodiversity Hotspots.]{size=6}
-:::
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
