@@ -7,6 +7,8 @@ Content to display at /projects/EBP-affiliates
 
 - [EBP - Earth Biogenome Project (bioproject PRJNA533106)](/projects/EBP)
 
+- [1000GCH - 1,000 Chilean Genomes ()](/projects/1000GCH)
+
 - [AFRICABP - African BioGenome Project (AfricaBP, PRJNA811786)](/projects/AFRICABP)
 
 - [AG100PEST - Ag100Pest Initiative (PRJNA555319)](/projects/AG100PEST)
@@ -67,6 +69,8 @@ Content to display at /projects/EBP-affiliates
 
 - [GIGA - Global Invertebrate Genome Alliance (PRJNA649812)](/projects/GIGA)
 
+- [HK-EBP - Hong Kong EBP](/projects/HK-EBP)
+
 - [i5K - 5,000 Insect Genomes (PRJNA163993)](/projects/i5K)
 
 - [ILEBP - Illinois EBP Pilot (PRJNA844590)](/projects/ILEBP)
@@ -87,7 +91,7 @@ Content to display at /projects/EBP-affiliates
 
 - [PGP - Polar Genomes Project](/projects/PGP)
 
-- [PhyloAlps (in progress)](/projects/PHYLOALPS)
+- [PHYLOALPS (not for reference genomes)](/projects/PHYLOALPS)
 
 - [PP - Plant Pathogen Initiative (PRJNA1098054)](/projects/PP)
 
@@ -105,25 +109,27 @@ Content to display at /projects/EBP-affiliates
 
 - [ZOONOMIA - 200 Mammals Project (PRJNA312960)](/projects/ZOONOMIA)
 
-- 1,000 Chilean Genomes
+
 
 - 10,000 Plant Genomes (10KP)
+
+- Amphibian Genomics Consortium (AGC)
 
 - Butterfly Genome Project
 
 - Crab Genome Project
 
-- Deep-Ocean Genomes Project
+- Deep-Ocean Genomes Project (DOG)
 
-- Diversity Initiative for the Southern California Ocean (DISCO)
+- [Diversity Initiative for the Southern California Ocean (DISCO)](https://research.nhm.org/disco/)
 
 - Dresden HQ Genomes Project
 
-- EBP Colombia
-
 - Epizoic Diatom Genomes Project
 
-- Fish 10,000 Genomes (Fish 10K)
+- Fish 10,000 Genomes (Fish10K)
+
+- Genomics of the Brazilian Biodiversity (GBB)
 
 - Taiwan BioGenome Project
 

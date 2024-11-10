@@ -1,68 +1,51 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/capra3.png)]{size=3}
+::grid[![GoaT](/static/images/france-gn.png)]{size=3}
 :::
-# PAGE IN PROGRESS
 
-# {{project}} (ACRO)
 
-**GoaT Search Term:** {{project}}
+# PhyloAlps (PHYLOALPS)
 
-::grid[**{{project}}** short description For more information reach the contact info below.]{size=8}
+**GoaT Search Term:** PHYLOALPS
 
-**Bioproject ID** {{bioproject}}
+# Scope: Low coverage shotgun sequencing of genomic DNA
+PHYLOALPS **will NOT** produce reference genome assemblies
 
-**Main Contact**:
+::grid[**PHYLOALPS** PhyloAlps is a research project that aims to provide information about the flora in the European Alps, which currently describes more than 4,000 species. For more information, visit http://phyloalps.org/ or https://www.france-genomique.org/projet/phyloalps/?lang=en.]{size=8}
+
+**Bioproject ID** PRJEB52290 (for publicatyion using local DNA reference library)
+
+**Main Contact**: info@phyloalps.org
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 # Summary Data
 
-## {{Project}} Long List
+## PHYLOALPS Long List
 
-{{Project}} long_list correspond to the subset of species declared as targets by the project. To retrieve the list use the search terms:
+PHYLOALPS long_list correspond to the subset of species declared as targets by the project. Note that the **project status will not advance past sample_acquired** and the species list retrieved serve as a list of species for which the project might have sample or species information available.
+To retrieve the list use the search terms:
 
-- long_list={{project}}
+- long_list=PHYLOALPS
 - tax_rank(species)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project={{project}} bioproject={{bioproject}} .inline size=12}
+::include{pageId=/projects/reports/long_list_tree_phyloalps_simple.md project=PHYLOALPS .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## {{project}} Progress Reports
+## PHYLOALPS Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project={{project}} bioproject={{bioproject}} .inline size=12}
 
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-::include{pageId=/projects/reports/progress_arcs.md project={{project}} .inline size=12}
+::include{pageId=/projects/reports/progress_arcs.md project=PHYLOALPS .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project={{project}} bioproject={{bioproject}} .inline size=12}
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-::include{pageId=/projects/reports/duplication.md project={{project}} bioproject={{bioproject}} .inline size=12}
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-# {{PROJECT}} Custom Reports
-
-::include{pageId=/projects/reports/progress_tree.md project={{project}} .inline size=12}
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-::include{pageId=/projects/reports/contiguity_scatters.md project={{project}} bioproject={{bioproject}} .inline size=12}
+::include{pageId=/projects/reports/duplication.md project=PHYLOALPS bioproject={{bioproject}} .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
