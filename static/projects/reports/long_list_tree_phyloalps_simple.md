@@ -1,4 +1,4 @@
-## Tree representing the declared target list of {{project}}, highlighting families with available assemblies (orange)
+## Tree representing the declared target list of {{project}}
 
 :::grid{container direction="row" spacing="1" size=12}
 
