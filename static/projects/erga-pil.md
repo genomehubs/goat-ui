@@ -4,7 +4,7 @@
 
 **GoaT Search Term:** ERGA-PIL
 
-::grid[The **ERGA Pilot** Project is an initiative of the European Reference Genome Atlas (ERGA) community that aimed to develop and test the first decentralised, accessible, equitable, and inclusive model for producing high-quality reference genomes across Europe. For more information please visit the ERGA website at https://www.erga-biodiversity.eu/. ]{size=8}
+::grid[The **ERGA Pilot** Project is an initiative of the European Reference Genome Atlas (ERGA) community that aimed to develop and test the first decentralised, accessible, equitable, and inclusive model for producing high-quality reference genomes across Europe. For more information please visit the ERGA website at https://www.erga-biodiversity.eu/.]{size=8}
 
 **Bioproject ID** PRJEB47820
 

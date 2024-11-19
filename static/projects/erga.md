@@ -4,8 +4,7 @@
 
 **GoaT Search Term:** ERGA
 
-::grid[**ERGA**, The European Reference Genome Atlas (ERGA) is a pan-European community initiative to coordinate the generation of reference genomes representing European eukaryotic biodiversity. The ERGA Umbrella connects various biogenome projects and national initiatives working on establishing reference genomes for European species. For more information please visit the ERGA website at https://www.erga-biodiversity.eu.
-]{size=8}
+::grid[**ERGA**, The European Reference Genome Atlas (ERGA) is a pan-European community initiative to coordinate the generation of reference genomes representing European eukaryotic biodiversity. The ERGA Umbrella connects various biogenome projects and national initiatives working on establishing reference genomes for European species. For more information please visit the ERGA website at https://www.erga-biodiversity.eu.]{size=8}
 
 **Bioproject ID** PRJEB43510
 
