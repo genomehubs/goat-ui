@@ -1,27 +1,27 @@
 <!--
 Content to display at /projects/EBP-affiliates
 -->
-# EBP-affiliates
 
-
+::grid[![GoaT](/static/images/EBP-Logo.png)]{size=0.8}
+- [EBP - Earth Biogenome Project (Bioproject PRJNA533106)](/projects/EBP)
 
 ## Earth Biogenome Project Network
 
-- [EBP - Earth Biogenome Project (Bioproject PRJNA533106)](/projects/EBP)
+- 10KP 10,000 Plant Genomes (Bioproject TBD) - data not available
 
-- 10,000 Plant Genomes (10KP) - data not available
+- [1000GCH - 1,000 Chilean Genomes (Bioproject TBD)](/projects/1000GCH)
 
-- [1000GCH - 1,000 Chilean Genomes (TBD)](/projects/1000GCH)
+- 25GP - 25 Genomes Project (PRJEB33226) - data ingestion in progress
 
-- [25GP - 25 Genomes Project: Genome Data and Assemblies (PRJEB33226)] - Page in progress
+- AEGIS - Ancient Environmental Genomics Initiative for Sustainability (PRJEB80366) - affiliation in progress
 
-- [AFRICABP - African BioGenome Project (AfricaBP, PRJNA811786)](/projects/AFRICABP)
+- [AFRICABP - African BioGenome Project (AfricaBP - PRJNA811786)](/projects/AFRICABP)
 
 - [AG100PEST - Ag100Pest Initiative (PRJNA555319)](/projects/AG100PEST)
 
-- Amphibian Genomics Consortium (AGC) - data not available
+- AGC - Amphibian Genomics Consortium (Bioproject TBD) - data not available
 
-- [ARG - Australian Amphibian and Reptile Genomics Initiative Collaboration (AusARG - PRJNA1075730)](/projects/ARG)
+- ARGP - Anopheles Reference Genomes Project (PRJEB51690) - affiliation in progress
 
 - [ASG - Aquatic Symbiosis Genomics Project (PRJEB43743)](/projects/ASG)
 
@@ -35,15 +35,17 @@ Content to display at /projects/EBP-affiliates
 
 - Butterfly Genome Project - data not available
 
+- CAL-EBP - University of California Consortium (PRJNA707235) - data ingestion in progress
+
 - [CANBP - Canadian Biogenome Project (CBP - PRJNA813333)](/projects/CANBP)
 
 - [CANSEQ150 - Canada 150 Sequencing Initiative (PRJNA706690)](/projects/CANSEQ150)
 
 - [CBP - Catalan Biogenome Project (PRJEB49670)](/projects/CBP)
 
-- [CCGP - California Conservation Genomics Project (CCGP - PRJNA720569)](/projects/CCGP)
+- [CCGP - California Conservation Genomics Project (PRJNA720569)](/projects/CCGP)
 
-- [CFGP - Cartilaginous Fish Genome Project](/projects/CFGP)
+- [CFGP - Cartilaginous Fish Genome Project (Bioproject TBD)](/projects/CFGP)
 
 - [CGP - Cetacean Genomes Project (PRJNA1020146)](/projects/CGP)
 
@@ -58,6 +60,8 @@ Content to display at /projects/EBP-affiliates
 - [DTOL - Darwin Tree of Life (PRJEB40665)](/projects/DTOL)
 
 - [EBP-COL - Earth Biogenome Project Colombia] - data not available
+
+- [EBPHK - Hong Kong EBP (Bioproject TBD)](/projects/EBPHK) - page in progress
 
 - [EBPN - Earth Biogenome Project Norway (EBP-Nor; PRJEB65317)](/projects/EBPN)
 
@@ -77,19 +81,17 @@ Content to display at /projects/EBP-affiliates
 
 - [ERGA-COM - ERGA Community Genomes (PRJEB66264)](/projects/ERGA-COM)
 
-- [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
+- [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH) - affiliation in progress
 
 - Fish 10,000 Genomes (Fish10K) - data not available
 
-- [G10K - Genome 10K Organization] - Page in progress. See flagship project data [VGP](/projects/VGP) 
+- [G10K - Genome 10K Organization] - Page in progress. See flagship project data [VGP](/projects/VGP)
 
-- [GAGA - Global Ant Genomics Alliance](/projects/GAGA)
+- [GAGA - Global Ant Genomics Alliance (Bioproject TBD)](/projects/GAGA)
 
 - GBB - Genomics of the Brazilian Biodiversity (PRJNA1180976) - data not available
 
 - [GIGA - Global Invertebrate Genome Alliance (PRJNA649812)](/projects/GIGA)
-
-- [HK-EBP - Hong Kong EBP](/projects/HK-EBP)
 
 - [i5K - 5,000 Insect Genomes (PRJNA163993)](/projects/i5K)
 
@@ -97,19 +99,23 @@ Content to display at /projects/EBP-affiliates
 
 - [LMGP - Lilioid Monocots Core Group Genome Project (PRJNA948806)](/projects/LMGP)
 
-- [LOEWE-TBG - LOEWE Centre for Translational Biodiversity Genomics (PRJNA706923)](/projects/LOEWE-TBG)
+- [LOEWE-TBG - LOEWE Centre for Translational Biodiversity Genomics (SBN-TBG; PRJNA706923)](/projects/LOEWE-TBG)
 
 - [METAINVERT - Soil Invertebrate Genome Initiative (PRJNA758215)](/projects/METAINVERT)
 
 - [OG - Ocean Genomes (PRJNA1046164)](/projects/OG)
 
-- [OGG - Open Green Genomes](/projects/OGG)
+- [OGG - Open Green Genomes (Bioproject TBD)](/projects/OGG)
+
+- PAFTOL - Plant and Fungi Trees of Life - data not available
 
 - [PGP - Polar Genomes Project](/projects/PGP)
 
 - [PHYLOALPS (not for reference genomes)](/projects/PHYLOALPS)
 
-- [PRGP - Primate Genomes Project](/projects/PRGP)
+- Plant Garden - data not available
+
+- [PRGP - Primate Genomes Project (Bioproject TBD)](/projects/PRGP)
 
 - [PSYCHE - Project Psyche (PRJEB71705)](/projects/PSYCHE)
 
@@ -119,14 +125,15 @@ Content to display at /projects/EBP-affiliates
 
 - [TSI - Threatened Species Initiative (PRJNA1075750)](/projects/TSI)
 
-- University of California Consortium (UCC) - data not available
-
 - Ungulates Genome Project - data not available
 
 - [VGP - Vertebrate Genomes Project (PRJNA489243)](/projects/VGP)
 
-- [WA - Wise Ancestors (TBD)](/projects/WA)
+- [WA - Wise Ancestors (Bioproject TBD)](/projects/WA) - page in progress
 
 - [YGG - Yggdrasil (PRJNA955268)](/projects/YGG)
 
 - [ZOONOMIA - 200 Mammals Project (PRJNA312960)](/projects/ZOONOMIA)
+
+:::grid{container direction="row" spacing="1" class="padded"}
+:::
