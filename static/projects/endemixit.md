@@ -4,6 +4,8 @@
 
 **GoaT Search Term:** ENDEMIXIT
 
+**Scope:** Genome assembly and population genomics
+
 ::grid[Using five endangered Italian endemic species, Endemixit plans to produce five de novo genomes and re-sequence 20 individuals. Further information can be found at https://endemixit.com.]{size=8}
 
 **Bioproject ID** PRJNA712951
