@@ -1,4 +1,4 @@
-::grid[![GoaT](/static/images/ebpn.jpeg)]{size=4}
+::grid[![GoaT](/static/images/ebp_nor-orig.png)]{size=3}
 
 # Earth Biogenome Project Norway (EBP-Norway)
 

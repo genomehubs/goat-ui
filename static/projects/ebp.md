@@ -1,4 +1,4 @@
-::grid[![GoaT](/static/images/EBPlogo.jpeg)]{size=2}
+::grid[![GoaT](/static/images/EBP-Logo.png)]{size=2}
 
 # Earth Biogenome Project (EBP)
 

@@ -6,6 +6,8 @@
 
 **GoaT Search Term:** {{project}}
 
+# Scope: 
+
 ::grid[**{{project}}** short description For more information reach the contact info below.]{size=8}
 
 **Bioproject ID** {{bioproject}}
