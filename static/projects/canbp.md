@@ -1,10 +1,10 @@
 ::grid[![GoaT](/static/images/Canadian_CBP_logo.png)]{size=4}
 
-# Canada Biogenome Project (CBP)
+# Canadian Biogenome Project (CBP)
 
 **GoaT Search Term:** CanBP
 
-::grid[**The Canada Biogenome Project** (CBP / CanBP) will embark on the task of determining the complete genetic diversity of Canada's plants and animals through genomic sequencing. For more information access http://earthbiogenome.ca/.]{size=8}
+::grid[**The Canadian Biogenome Project** (CBP / CanBP) will embark on the task of determining the complete genetic diversity of Canada's plants and animals through genomic sequencing. For more information access http://earthbiogenome.ca/.]{size=8}
 
 **Bioproject ID** PRJNA813333
 

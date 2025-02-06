@@ -1,7 +1,6 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/capra3.png)]{size=3}
+::grid[![GoaT](/static/images/ERGA_logo_rect.jpg)]{size=2}
 :::
-# To-be-created
 
 # European Reference Genome Atlas (ERGA) Community Genomes (ERGA-COM)
 

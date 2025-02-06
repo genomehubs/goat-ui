@@ -2,6 +2,19 @@
 Content to display below the search box on the landing page
 -->
 
+## GoaT on YouTube
+
+:::grid{container size=12 spacing=2}
+
+::iframe{size=4 aspectRatio=16/9 src="https://www.youtube-nocookie.com/embed/UZn869FPsV0?si=cnkW4xIVoUqBx0MV" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen}
+
+::iframe{size=4 aspectRatio=16/9 src="https://www.youtube-nocookie.com/embed/YzT4GDccdh8?si=dYxC8BvqUm6aXdgU" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen}
+
+::iframe{size=4 aspectRatio=16/9 src="https://www.youtube-nocookie.com/embed/nV8SGtKEI54?si=Yo-PULzJERfI0a-s" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen}
+:::
+
+Request GoaT tutorials [here](https://github.com/genomehubs/goat-data/issues/new?template=tutorial_request.yaml)
+
 ## Data summary
 
 All search results in GoaT can be viewed in a table or as a set of interactive reports. The reports below present a live summary of the latest GoaT data. Click on a report to explore further.
