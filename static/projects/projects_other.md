@@ -17,24 +17,24 @@ Content to display at /projects
 
 ::grid[![GoaT](/static/images/Bioplatforms.png)]{size=1.2}
 
-- [BIOPLATFORMS - Bioplatforms Australia (PRJNA1075696)](/projects/BIOPLATFORMS)
+- [BIOPLATFORMS - Bioplatforms Australia (PRJNA1075696)](/projects/BIOPLATFORMS) - data ingestion in progress
 
 ### Bioplatforms Australia Umbrella Subprojects
 
-- [ARG - Australian Amphibian and Reptile Genomics Initiative Collaboration (AusARG - PRJNA1075730)](/projects/ARG)
+- [ARG - Australian Amphibian and Reptile Genomics Initiative Collaboration (AusARG - PRJNA1075730)](/projects/ARG) - data ingestion in progress
 
-- [AVI - Australian Avian Genomics Initiative (PRJNA1098052)](/projects/AVI)
+- [AVI - Australian Avian Genomics Initiative (PRJNA1098052)](/projects/AVI) - data ingestion in progress
 
-- [FFI - Australian Functional Fungi Initiative (PRJNA1098046)](/projects/FFI)
+- [FFI - Australian Functional Fungi Initiative (PRJNA1098046)](/projects/FFI) - data ingestion in progress
 
-- [FISH - Australian Fish Genomics Initiative (PRJNA1098053)](/projects/FISH)
+- [FISH - Australian Fish Genomics Initiative (PRJNA1098053)](/projects/FISH) - data ingestion in progress
 
-- [GAP - Genomics for Australian Plants (PRJNA1075727)](/projects/GAP)
+- [GAP - Genomics for Australian Plants (PRJNA1075727)](/projects/GAP) - data ingestion in progress
 
-- [GBR - Great Barrier Reef - SeaQuence project (PRJNA1075702)](/projects/GBR)
+- [GBR - Great Barrier Reef - SeaQuence project (PRJNA1075702)](/projects/GBR) - data ingestion in progress
 
-- [IPM - Integrated Pest Management Omics Initiative (PRJNA1098055)](/projects/IPM)
+- [IPM - Integrated Pest Management Omics Initiative (PRJNA1098055)](/projects/IPM) - data ingestion in progress
 
-- [OMG - Oz Mammals Genomics (PRJNA1075707)](/projects/OMG)
+- [OMG - Oz Mammals Genomics (PRJNA1075707)](/projects/OMG) - data ingestion in progress
 
-- [PP - Plant Pathogen Initiative (PRJNA1098054)](/projects/PP)
+- [PP - Plant Pathogen Initiative (PRJNA1098054)](/projects/PP) - data ingestion in progress

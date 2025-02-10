@@ -6,7 +6,7 @@
 
 ::grid[**Oz Mammals Genomics** aim is to build genomic resources to understand and protect Australia’s mammals. For more information access OMG's project page at https://ozmammalsgenomics.com/]{size=12}
 
-**Bioproject ID** TBD
+**Bioproject ID** PRJNA1075707
 
 **Main Contact**: Dr Sophie Mazard, Bioplatforms Australia - smazard(at)bioplatforms.com
 
@@ -25,14 +25,14 @@ OMG long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/target_tree.md project=OMG bioproject=TBD .inline size=12}
+::include{pageId=/projects/reports/target_tree.md project=OMG bioproject=PRJNA1075707 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
 ## OMG Progress Reports
 
-::include{pageId=/projects/reports/progress_by_rank.md project=OMG bioproject=TBD .inline size=12}
+::include{pageId=/projects/reports/progress_by_rank.md project=OMG bioproject=PRJNA1075707 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -42,12 +42,12 @@ OMG long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/progress_histo.md project=OMG bioproject=TBD .inline size=12}
+::include{pageId=/projects/reports/progress_histo.md project=OMG bioproject=PRJNA1075707 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/duplication.md project=OMG bioproject=TBD .inline size=12}
+::include{pageId=/projects/reports/duplication.md project=OMG bioproject=PRJNA1075707 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
@@ -59,7 +59,7 @@ OMG long_list correspond to the subset of species declared as targets by the pro
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-::include{pageId=/projects/reports/contiguity_scatters.md project=OMG bioproject=TBD .inline size=12}
+::include{pageId=/projects/reports/contiguity_scatters.md project=OMG bioproject=PRJNA1075707 .inline size=12}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

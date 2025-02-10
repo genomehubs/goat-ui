@@ -7,7 +7,7 @@ Content to display at /projects/EBP-affiliates
 
 ## Earth Biogenome Project Network
 
-- 10KP 10,000 Plant Genomes (Bioproject TBD) - data not available
+- 10KP - 10,000 Plant Genomes (Bioproject TBD) - data not available
 
 - [1000GCH - 1,000 Chilean Genomes (Bioproject TBD)](/projects/1000GCH)
 
