@@ -10,6 +10,8 @@ Content to display at /projects
 
 - [China National GenBank (CNGB)](/projects/CNGB)
 
+- [Human Pangenome Reference Consortium (HPRC)](/projects/HPRC)
+
 - DNA Zoo (EBP Associated Project) - (data ingestion in progress)
 
 :::grid{container direction="row" spacing="1" class="padded"}

@@ -1,5 +1,5 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/ATLASEA-logo.png)]{size=2}
+::grid[![GoaT](/static/images/_atlasea.png)]{size=2}
 :::
 
 # ATLASea: an Atlas of Eukaryotic Marine Genomes
