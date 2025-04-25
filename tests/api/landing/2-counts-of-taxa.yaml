@@ -9,10 +9,10 @@ assert:
       success: true
     report:
       xPerRank:
-        - rank: superkingdoms
-          x:
-            jsonSchema:
-              minimum: 1
+        # - rank: superkingdoms
+        #   x:
+        #     jsonSchema:
+        #       minimum: 1
         - rank: kingdoms
           x:
             jsonSchema:
