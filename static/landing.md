@@ -50,3 +50,6 @@ All search results in GoaT can be viewed in a table or as a set of interactive r
 :::
 
 GoaT features report pages highlighting progress in the [Earth BioGenome Project](/projects/EBP) and in individual affiliated projects such as the [Darwin Tree of Life](/projects/DTOL).
+
+:::grid{container direction="row" spacing="1" class="padded"}
+::include{pageId=ncbi.md size=12 .inline}
