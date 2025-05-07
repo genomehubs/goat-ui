@@ -34,9 +34,12 @@ Data are indexed for around 80 [taxon-level attributes](/types) (including, asse
 GoaT produces summary reports of the sources included in any set of search results to encourage citation of the original data , e.g. the sources for a search of [chromosome numbers in the genus _Canis_](/search?query=tax_tree%28Canis%29%20AND%20chromosome_number&result=taxon&includeEstimates=false&summaryValues=count&taxonomy=ncbi&offset=0&fields=chromosome_number&names=&ranks=&report=sources) are:
 
 :::grid{container direction="row" spacing="1" class="padded"}
-::report{x="tax_tree(Canis) AND chromosome_number" fields="chromosome_number" report="sources" class="unpadded" size=12}
+::report{x="tax_tree(Canis) AND chromosome_number" fields="chromosome_number" report="sources" class="padded" size=12}
 :::
 
+:::grid{container direction="row" spacing="1" class="padded"}
+::include{pageId=ncbi.md size=12 .inline}
+:::
 ## EBP Network progress reports
 
 All projects that are part of the EBP Network are invited to share lists of target taxa and current sequencing status through GoaT to facilitate project coordination. Progress reports for the EBP overall and for individual projects are displayed on dedicated [project pages](/projects). If you have a project that you would like to see listed here, check out the [sumbissions page](/submissions) for detailed guidelines.

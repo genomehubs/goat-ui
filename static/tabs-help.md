@@ -5,3 +5,4 @@
 - /submissions
 - contact
 - (FAQs)
+- glossary
