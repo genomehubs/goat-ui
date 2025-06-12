@@ -13,7 +13,7 @@ Content to display at /projects/EBP-affiliates
 
 - 25GP - 25 Genomes Project (PRJEB33226) - data ingestion in progress
 
-- AEGIS - Ancient Environmental Genomics Initiative for Sustainability (PRJEB80366) - affiliation in progress
+- AEGIS - Ancient Environmental Genomics Initiative for Sustainability (PRJEB80366)
 
 - [AFRICABP - African BioGenome Project (AfricaBP - PRJNA811786)](/projects/AFRICABP)
 
@@ -21,7 +21,7 @@ Content to display at /projects/EBP-affiliates
 
 - AGC - Amphibian Genomics Consortium (Bioproject TBD) - data not available
 
-- ARGP - Anopheles Reference Genomes Project (PRJEB51690) - affiliation in progress
+- ANOPHELES - Anopheles Reference Genomes Project (PRJEB51690)
 
 - [ASG - Aquatic Symbiosis Genomics Project (PRJEB43743)](/projects/ASG)
 
@@ -65,7 +65,7 @@ Content to display at /projects/EBP-affiliates
 
 - [EBPN - Earth Biogenome Project Norway (EBP-Nor; PRJEB65317)](/projects/EBPN)
 
-- [EIN - Euglena International Network] - data not available
+- EIN - Euglena International Network - data not available
 
 - [ENDEMIXIT - Italian Endemics (PRJNA712951)](/projects/ENDEMIXIT)
 
@@ -81,7 +81,7 @@ Content to display at /projects/EBP-affiliates
 
 - [ERGA-COM - ERGA Community Genomes (PRJEB66264)](/projects/ERGA-COM)
 
-- [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH) - affiliation in progress
+- [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
 
 - Fish 10,000 Genomes (Fish10K) - data not available
 
@@ -89,13 +89,15 @@ Content to display at /projects/EBP-affiliates
 
 - [GAGA - Global Ant Genomics Alliance (Bioproject TBD)](/projects/GAGA)
 
-- GBB - Genomics of the Brazilian Biodiversity (PRJNA1180976) - data not available
+- GBB - Genomics of the Brazilian Biodiversity (PRJNA1180976) - data ingestion in progress
 
 - [GIGA - Global Invertebrate Genome Alliance (PRJNA649812)](/projects/GIGA)
 
 - [i5K - 5,000 Insect Genomes (PRJNA163993)](/projects/i5K)
 
 - [ILEBP - Illinois EBP Pilot (PRJNA844590)](/projects/ILEBP)
+
+- KAZUSA - Kazusa Genome Project (Bioproject TBD) - data not available
 
 - [LMGP - Lilioid Monocots Core Group Genome Project (PRJNA948806)](/projects/LMGP)
 
@@ -118,6 +120,8 @@ Content to display at /projects/EBP-affiliates
 - [PRGP - Primate Genomes Project (Bioproject TBD)](/projects/PRGP)
 
 - [PSYCHE - Project Psyche (PRJEB71705)](/projects/PSYCHE)
+
+- R2K - Rodent 2K (Bioproject TBD) - data ingestion in progress
 
 - [SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans (PRJNA707598)](/projects/SQUALOMIX)
 
