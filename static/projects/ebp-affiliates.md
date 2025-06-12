@@ -13,7 +13,7 @@ Content to display at /projects/EBP-affiliates
 
 - 25GP - 25 Genomes Project (PRJEB33226) - data ingestion in progress
 
-- AEGIS - Ancient Environmental Genomics Initiative for Sustainability (PRJEB80366) - affiliation planned
+- AEGIS - Ancient Environmental Genomics Initiative for Sustainability (PRJEB80366)
 
 - [AFRICABP - African BioGenome Project (AfricaBP - PRJNA811786)](/projects/AFRICABP)
 
@@ -21,7 +21,7 @@ Content to display at /projects/EBP-affiliates
 
 - AGC - Amphibian Genomics Consortium (Bioproject TBD) - data not available
 
-- ANOPHELES - Anopheles Reference Genomes Project (PRJEB51690) - affiliation planned
+- ANOPHELES - Anopheles Reference Genomes Project (PRJEB51690)
 
 - [ASG - Aquatic Symbiosis Genomics Project (PRJEB43743)](/projects/ASG)
 
@@ -81,7 +81,7 @@ Content to display at /projects/EBP-affiliates
 
 - [ERGA-COM - ERGA Community Genomes (PRJEB66264)](/projects/ERGA-COM)
 
-- [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH) - affiliation planned
+- [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
 
 - Fish 10,000 Genomes (Fish10K) - data not available
 
@@ -89,7 +89,7 @@ Content to display at /projects/EBP-affiliates
 
 - [GAGA - Global Ant Genomics Alliance (Bioproject TBD)](/projects/GAGA)
 
-- GBB - Genomics of the Brazilian Biodiversity (PRJNA1180976) - data not available
+- GBB - Genomics of the Brazilian Biodiversity (PRJNA1180976) - data ingestion in progress
 
 - [GIGA - Global Invertebrate Genome Alliance (PRJNA649812)](/projects/GIGA)
 
@@ -97,7 +97,7 @@ Content to display at /projects/EBP-affiliates
 
 - [ILEBP - Illinois EBP Pilot (PRJNA844590)](/projects/ILEBP)
 
-- KAZUZA - Kazusa Genome Project (Bioproject TBD) - data not available
+- KAZUSA - Kazusa Genome Project (Bioproject TBD) - data not available
 
 - [LMGP - Lilioid Monocots Core Group Genome Project (PRJNA948806)](/projects/LMGP)
 

@@ -12,7 +12,7 @@ Content to display at /projects
 
 - [Human Pangenome Reference Consortium (HPRC)](/projects/HPRC)
 
-- DNA Zoo (EBP Associated Project) - (data ingestion in progress)
+- DNA Zoo (EBP Associated Project - PRJNA512907) - (data ingestion in progress)
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
