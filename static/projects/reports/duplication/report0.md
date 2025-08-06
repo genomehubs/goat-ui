@@ -6,5 +6,5 @@ rank: species
 includeEstimates: true
 result: taxon
 taxonomy: ncbi
-caption: "**Target-species with overlaps**"
+caption: "**Shared potential target species**(*)"
 ```
