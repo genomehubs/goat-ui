@@ -9,7 +9,7 @@ assert:
       success: true
     report:
       xPerRank:
-        - rank: domain
+        - rank: domains
           x:
             jsonSchema:
               minimum: 1
