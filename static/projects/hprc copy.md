@@ -137,7 +137,7 @@ https://goat.genomehubs.org/search?query=chromosome_count%20AND%20bioproject%3DP
 
 ## HPRC Contribution to Human Reference Genome Sequencing
 
-**Progress of HPRC in 2024**
+**Progress of HPRC**
 
 
 **Publications:**
