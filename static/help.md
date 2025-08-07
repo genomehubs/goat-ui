@@ -1,5 +1,9 @@
 ::breadcrumbs[Help]
 
+Explore the different help sections for use examples and templates.
+You can start below to learn about GoaT **color-codes** and see a list of **all attributes**.
+
+
 :::grid{container direction="row" toggle expand title="Getting started" spacing="1"}
 
 ::include{pageId=help/searchTips.md size=12 .unpadded}
@@ -15,7 +19,18 @@
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## Tutorials
+## Tutorials and Resources
+
+In addition to our help sections, GoaT FAQs and tutorials can be found in dedicated Wiki and YouTube sites. Users can request tutorials that are not yet available, via our [Tutorial Request Form](https://github.com/genomehubs/goat-data/issues/new?template=tutorial_request.yaml) on GitHub (preferred) or on [Google forms](https://docs.google.com/forms/d/e/1FAIpQLSdbG7Gud8LOXTa447vcsI67SXkRE2VfWuWeJLF67cdtBQSmRg/viewform?usp=sharing&ouid=113947694299719323675). 
+
+
+### GoaT Wiki
+[GoaT data Wiki](https://github.com/genomehubs/goat-data/wiki)
+
+### GoaT YouTube Channel
+- Explore our video tutorials and talks at the [genomesonatree](https://www.youtube.com/@genomesonatree) YouTube channel
+
+### Tutorial Slides
 
 - Querying genome metadata and sequencing projects using GoaT[Slides](https://docs.google.com/presentation/d/1S4deT4LbYH1KesFjVVfTQUPCKxLFDqyNf2w47PdxRjE/edit#slide=id.g2c55f560361_0_2244)
 - BGA23 [Workshop Slides](https://bga23.org/goat/).
@@ -24,17 +39,17 @@
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## User manual
+## Search attributes
+::include{pageId=help/attributevalues.md size=12 .inline}
 
-Soon available [GoaT data Wiki](https://github.com/genomehubs/goat-data/wiki)
-Explore the different help sections for use examples and templates
-you can start [here](https://goat.genomehubs.org/help) to learn about GoaT **color-codes** and see a list of **all attributes**.
+:::grid{container direction="row" spacing="1" class="padded"}
+::include{pageId=attribute_glossary.md size=12 .inline}
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-## GoaT YouTube Channel
-- Explore our video tutorials and talks at the [genomesonatree](https://www.youtube.com/@genomesonatree) YouTube channel
+:::grid{container direction="row" spacing="1" class="padded"}
+::include{pageId=ncbi.md size=12 .inline}
 
 <!-- ## GoaT Reports
 
@@ -49,14 +64,3 @@ GoaT reports from search results can be edited following three main steps:
 :::grid{container direction="row" spacing="1" class="padded"}
 ::: -->
 
-## Search attributes
-::include{pageId=help/attributevalues.md size=12 .inline}
-
-:::grid{container direction="row" spacing="1" class="padded"}
-::include{pageId=attribute_glossary.md size=12 .inline}
-
-:::grid{container direction="row" spacing="1" class="padded"}
-:::
-
-:::grid{container direction="row" spacing="1" class="padded"}
-::include{pageId=ncbi.md size=12 .inline}
