@@ -1,10 +1,10 @@
 ```report
 report: arc
-x: "long_list={{project}} AND ebp_metric_date AND bioproject!={{bioproject}}"
+x: "long_list={{project}} AND ebp_standard_date AND bioproject!={{bioproject}}"
 y: "long_list={{project}}"
 rank: species
 includeEstimates: true
 result: taxon
 taxonomy: ncbi
-caption: "**Already Sequenced**"
+caption: "{{project}} targets already sequenced by others(*)"
 ```
