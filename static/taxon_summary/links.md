@@ -1,6 +1,6 @@
 ::phylopic{}
 
-::recordlink{result=taxon rank=species url="https://portal.darwintreeoflife.org/data/root/details/{scientific_name}" condition="attributes.bioproject=PRJEB40665" label="Darwin portal" color=#8fbc45 description="Click to view in the Darwin Tree of Life Data Portal"}
+::recordlink{result=taxon rank=species url="https://portal.darwintreeoflife.org/data/{scientific_name}" condition="attributes.bioproject=PRJEB40665" label="Darwin portal" color=#8fbc45 description="Click to view in the Darwin Tree of Life Data Portal"}
 
 ::recordlink{result=assembly url="https://portal.darwintreeoflife.org/data/organism/details/{attributes.biosample.value}" condition="attributes.bioproject=PRJEB40665" label="Darwin portal" color=#8fbc45 description="Click to view in the Darwin Tree of Life Data Portal"}
 
@@ -17,7 +17,9 @@
 ::recordlink{result=assembly,sample url="https://boat.genomehubs.org/record?recordId={assembly.identifiers[class:boat_id].identifier}&result=assembly" condition="assembly.identifiers[class:boat_id]" label="BoaT" color=#31323f description="Click to view in BoaT" icon="/boat-icon.png"}
 
 <!-- ensembl metazoa -->
+
 ::recordlink{result=assembly,feature url="https://metazoa.ensembl.org/{assembly.identifiers[class:ensembl_metazoa_id].identifier}/Info/Index" condition="assembly.identifiers[class:ensembl_metazoa_id]" label="Ensembl Metazoa" color=#015365 description="Click to view assembly {assemblyId} in the Ensembl Metazoa Genome Browser"}
 
 <!-- ensembl rapid -->
+
 ::recordlink{result=assembly,feature url="https://rapid.ensembl.org/{assembly.identifiers[class:ensembl_rapid_id].identifier}/Info/Index" condition="assembly.identifiers[class:ensembl_rapid_id]" label="Ensembl Rapid" color=#2378a9 description="Click to view assembly {assemblyId} in the Ensembl Rapid Genome Browser"}
