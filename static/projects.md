@@ -10,6 +10,8 @@ GoaT hosts dedicated pages for the [Earth Biogenome Project](https://www.earthbi
 
 ::include{pageId=/projects/projects_other.md size=12 .inline}
 
+::include{pageId=/projects/data_freezes.md size=12 .inline}
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

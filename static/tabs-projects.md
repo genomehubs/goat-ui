@@ -2,3 +2,4 @@
 - EBP-affiliates
 - all_projects
 - /regions
+- data_freezes
