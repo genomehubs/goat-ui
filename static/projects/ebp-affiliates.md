@@ -13,6 +13,8 @@ Content to display at /projects/EBP-affiliates
 
 - 25GP - 25 Genomes Project (PRJEB33226) - data ingestion in progress
 
+- [959NG -  The 959 Nematode Genomes Project (959NG - PRJEB81973)](/projects/959NG)
+
 - AEGIS - Ancient Environmental Genomics Initiative for Sustainability (PRJEB80366)
 
 - [AFRICABP - African BioGenome Project (AfricaBP - PRJNA811786)](/projects/AFRICABP)
