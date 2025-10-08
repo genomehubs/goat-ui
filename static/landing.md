@@ -21,7 +21,7 @@ All search results in GoaT can be viewed in a table or as a set of interactive r
 
 :::grid{container direction="row" spacing="1" class="padded"}
 
-::report{report="xInY" x="assembly_span" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Taxa with assemblies out of all INSDC Eukaryotic taxa" size=6}
+::report{report="arc" x="assembly_span" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Taxa with assemblies out of all INSDC Eukaryotic taxa" size=6}
 
 ::divider
 
@@ -31,7 +31,7 @@ All search results in GoaT can be viewed in a table or as a set of interactive r
 
 :::grid{container direction="row" spacing="1" class="padded"}
 
-::report{report="xInY" x="chromosome_number" rank="Family" includeEstimates excludeAncestral="chromosome_number" excludeMissing="chromosome_number" caption="Total number of families with direct values of chromosome number" size=4}
+::report{report="arc" x="chromosome_number" rank="Family" includeEstimates excludeAncestral="chromosome_number" excludeMissing="chromosome_number" caption="Total number of families with direct values of chromosome number" size=4}
 
 ::divider
 
@@ -41,7 +41,7 @@ All search results in GoaT can be viewed in a table or as a set of interactive r
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_level=chromosome" y="assembly_span" includeEstimates = "false" rank="species" excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Contribution of chromosome-level assemblies to the total of species with available assemblies on INSDC" size=4}
+::report{report="arc" x="assembly_level=chromosome" y="assembly_level" includeEstimates rank="species" excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="Contribution of chromosome-level assemblies to the total of species with available assemblies on INSDC" size=4}
 
 ::divider
 

@@ -33,7 +33,7 @@
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_span AND bioproject=PRJEB43510" rank="phylum,class,order,family,genus,species" y="bioproject=!null" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of ERGA:** Genome assemblies under Bioproject ID PRJEB43510 out of all eukaryote assemblies on INSDC, at different taxonomic ranks" size=6}
+::report{report="arc" x="assembly_level AND bioproject=PRJEB43510" rank="phylum,class,order,family,genus,species" y="assembly_level" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of ERGA:** Genome assemblies under Bioproject ID PRJEB43510 out of all eukaryote assemblies on INSDC, at different taxonomic ranks" size=6}
 
 ::report{report="xPerRank" x="bioproject=PRJEB43510" includeEstimates=true caption="**Counts of taxa sequenced by ERGA**: All summary reports on GoaT are based on these counts" size=6}
 :::

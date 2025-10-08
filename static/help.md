@@ -59,7 +59,7 @@ GoaT reports from search results can be edited following three main steps:
 - [2] use the edit (pencil) icon to change attributes and values
 - [3] click on the update icon to implement the changes
 
-- Practice using this [example report from landing page](https://goat.genomehubs.org/report?report=xInY&x=assembly_level%3Dchromosome&y=assembly_span&rank=species&includeEstimates=true&excludeAncestral%5B0%5D=assembly_span&excludeMissing%5B0%5D=assembly_span&caption=Contribution%20of%20chromosome-level%20assemblies%20to%20the%20total%20of%20species%20with%20available%20assemblies%20on%20INSDC&taxonomy=ncbi&result=taxon) or choose a report to practice [here](https://goat.genomehubs.org).
+- Practice using this [example report from landing page](https://goat.genomehubs.org/report?report=arc&x=assembly_level%3Dchromosome&y=assembly_level&rank=species&includeEstimates=false&excludeAncestral%5B0%5D=assembly_level&excludeMissing%5B0%5D=assembly_level&caption=Contribution%20of%20chromosome-level%20assemblies%20to%20the%20total%20of%20species%20with%20available%20assemblies%20on%20INSDC&taxonomy=ncbi&result=taxon) or choose a report to practice [here](https://goat.genomehubs.org).
 
 :::grid{container direction="row" spacing="1" class="padded"}
 ::: -->

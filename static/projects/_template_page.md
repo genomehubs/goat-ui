@@ -6,7 +6,7 @@
 
 **GoaT Search Term:** {{project}}
 
-# Scope: 
+**Scope:** _High-quality reference genome sequencing_
 
 ::grid[**{{project}}** short description For more information reach the contact info below.]{size=8}
 

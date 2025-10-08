@@ -86,7 +86,7 @@ GIGA long_list correspond to the subset of species declared as targets by the pr
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_span AND sequencing_status_giga>=insdc_open" rank="phylum,class,order,family,genus,species" y="long_list=GIGA" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of GIGA taxa:** Genome assemblies belonging to the GIGA umbrella, at different taxonomic ranks" size=6}
+::report{report="arc" x="assembly_span AND sequencing_status_giga>=insdc_open" rank="phylum,class,order,family,genus,species" y="long_list=GIGA" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of GIGA taxa:** Genome assemblies belonging to the GIGA umbrella, at different taxonomic ranks" size=6}
 
 ::report{report="xPerRank" x="long_list=GIGA" rank="kingdom,phylum,class,order,family,genus,species,subspecies" includeEstimates=true caption="**Counts of taxa under the GIGA Project**: All summary reports on GoaT are based on these counts" size=6}
 
