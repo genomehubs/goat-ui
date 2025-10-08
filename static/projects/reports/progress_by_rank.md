@@ -3,7 +3,7 @@
 :::grid{container direction="row" spacing="1"}
 
 ```report
-report: xInY
+report: arc
 x: "assembly_span AND bioproject={{bioproject}}"
 rank: "phylum,class,order,family,genus,species"
 y: "long_list={{project}}"

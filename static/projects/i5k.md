@@ -77,7 +77,7 @@ i5K long_list correspond to the subset of species declared as targets by the pro
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_span AND bioproject=PRJNA163993" rank="phylum,class,order,family,genus,species" y="tax_tree(6656[Arthropoda])" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Contribution of i5k to arthropod Genome sequencing :** Genome assemblies under Bioproject ID PRJNA163993 out of all arthropod assemblies on INSDC, at different taxonomic ranks" size=6}
+::report{report="arc" x="bioproject=PRJNA163993" rank="phylum,class,order,family,genus,species" y="assembly_level AND tax_tree(6656[Arthropoda])" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Contribution of i5k to arthropod Genome sequencing :** Genome assemblies under Bioproject ID PRJNA163993 out of all arthropod assemblies on INSDC, at different taxonomic ranks" size=6}
 
 ::report{report="xPerRank" x=" bioproject=PRJNA163993" includeEstimates=true caption="**Counts of taxa sequenced by the i5k project**: All summary reports on GoaT are based on these counts" size=6}
 

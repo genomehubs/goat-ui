@@ -1,9 +1,9 @@
-### Sequencing Status of {{project}} Species
+### Sequencing Status Milestones Reached for {{project}} Species
 
 :::grid{container direction="row" spacing="1"}
 
 ```report
-report: xInY
+report: arc
 x: "sample_collected={{project}}"
 y: "long_list={{project}}"
 rank: species
@@ -15,7 +15,7 @@ size: 4
 ```
 
 ```report
-report: xInY
+report: arc
 x: "sample_acquired={{project}}"
 y: "long_list={{project}}"
 rank: species
@@ -27,14 +27,14 @@ size: 4
 ```
 
 ```report
-report: xInY
+report: arc
 x: "in_progress={{project}}"
 y: "long_list={{project}}"
 rank: species
 includeEstimates: true
 excludeAncestral: in_progress
 excludeMissing: in_progress
-caption: "Total of {{project}} target species with genome sequencing currently in progress"
+caption: "Total of {{project}} target species that reached the status in progress"
 size: 4
 ```
 

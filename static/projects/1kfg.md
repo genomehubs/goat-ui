@@ -2,6 +2,8 @@
 
 # 1,000 Fungal Genomes Project (1KFG)
 
+**Disclaimer**: This page and 1KFG data on GoaT are not receiving updates. Last updated: Sept 2024
+
 **GoaT Search Term:** 1KFG
 
 ::grid[**1KFG** is an effort to sample the genomic diversity of the fungal kingdom focusing on phylogenetic diversity. One phase of the project supported by a Community Sequencing Project at the Joint Genome Institute. For more information, access 1KFG project page at https://1000.fungalgenomes.org/.]{size=8}
@@ -46,7 +48,7 @@ Click on report to see and download individually.
 
 :::grid{container direction="row" spacing="1" size=12}
 
-::report{report="xInY" x="bioproject=1KFG" taxonomy="ncbi" rank="phylum,class,order,family,genus,species" y="long_list=1KFG" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" size=6 caption="**1KFG Contribution to Genome Assemblies Available in INSDC** - Sequencing progress of 1KFG target taxa under 1KFG umbrella (Bioproject placeholder 1KFG) at different taxonomic ranks."}
+::report{report="arc" x="bioproject=1KFG" taxonomy="ncbi" rank="phylum,class,order,family,genus,species" y="long_list=1KFG" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" size=6 caption="**1KFG Contribution to Genome Assemblies Available in INSDC** - Sequencing progress of 1KFG target taxa under 1KFG umbrella (Bioproject placeholder 1KFG) at different taxonomic ranks."}
 
 ::report{report="xPerRank" x="long_list=1KFG" includeEstimates=true caption="**Counts of taxa targeted by 1KFG**: All summary reports on GoaT are based on these counts" size=6}
 :::

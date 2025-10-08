@@ -18,9 +18,9 @@
 
 :::grid{container direction="row" spacing="1" size=12}
 
-::report{report="xInY" x="assembly_span" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**All INSDC taxa** - Taxa with assemblies out of all Eukaryotic taxa in INSDC" size=4}
+::report{report="arc" x="assembly_span" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**All INSDC taxa** - Taxa with assemblies out of all Eukaryotic taxa in INSDC" size=4}
 
-::report{report="xInY" x="assembly_span AND bioproject=PRJNA533106" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="**EBP Umbrella** - EBP taxa with assemblies out of all Eukaryotic taxa in INSDC" size=4}
+::report{report="arc" x="assembly_span AND bioproject=PRJNA533106" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="**EBP Umbrella** - EBP taxa with assemblies out of all Eukaryotic taxa in INSDC" size=4}
 
 ::divider
 
@@ -110,15 +110,15 @@ Click on report to see and download individually.
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
-### Contribution of EBP to Genome Assemblies Meeting EBP-Standard Metrics (contig n50 >= 1MB; scaffold n50 >= 10MB)
+### Contribution of EBP to Genome Assemblies Meeting [EBP-Standard Criteria](https://github.com/genomehubs/goat-data/wiki/5.1-Earth-Biogenome-Project-(EBP)-FAQs#how-are-ebp-standard-criteria-and-dates-calculated)
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="contig_n50>=1000000 AND scaffold_n50>=10000000 AND bioproject=PRJNA533106" y="contig_n50>=1000000 AND scaffold_n50>=10000000" rank="species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **species** with assemblies meeting EBP metrics" size=4}
+::report{report="arc" x="ebp_standard_criteria AND bioproject=PRJNA533106" y="ebp_standard_criteria" rank="species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **species** with assemblies meeting EBP metrics" size=4}
 
-::report{report="xInY" x="contig_n50>=1000000 AND scaffold_n50>=10000000 AND bioproject=PRJNA533106" y="contig_n50>=1000000 AND scaffold_n50>=10000000" rank="genus" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **genera** with assemblies meeting EBP metrics" size=4}
+::report{report="arc" x="ebp_standard_criteria AND bioproject=PRJNA533106" y="ebp_standard_criteria" rank="genus" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **genera** with assemblies meeting EBP metrics" size=4}
 
-::report{report="xInY" x="contig_n50>=1000000 AND scaffold_n50>=10000000 AND bioproject=PRJNA533106" y="contig_n50>=1000000 AND scaffold_n50>=10000000" rank="family" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **families** with assemblies meeting EBP metrics" size=4}
+::report{report="arc" x="ebp_standard_criteria AND bioproject=PRJNA533106" y="ebp_standard_criteria" rank="family" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="Contribution of EBP to total of **families** with assemblies meeting EBP metrics" size=4}
 
 :::
 :::grid{container direction="row" spacing="1" class="padded"}

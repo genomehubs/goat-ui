@@ -37,7 +37,7 @@
 
 :::grid{container direction="row" spacing="1"}
 
-::report{report="xInY" x="assembly_span AND bioproject=PRJNA1075696" rank="phylum,class,order,family,genus,species" y="bioproject=!null" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of BIOPLATFORMS:** Genome assemblies under Bioproject ID PRJNA1075696 out of all eukaryote assemblies on INSDC, at different taxonomic ranks" size=6}
+::report{report="arc" x="assembly_level AND bioproject=PRJNA1075696" rank="phylum,class,order,family,genus,species" y="assembly_level" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**Genome Sequencing of BIOPLATFORMS:** Genome assemblies under Bioproject ID PRJNA1075696 out of all eukaryote assemblies on INSDC, at different taxonomic ranks" size=6}
 
 ::report{report="xPerRank" x="bioproject=PRJNA1075696" includeEstimates=true caption="**Counts of taxa sequenced by BIOPLATFORMS**: All summary reports on GoaT are based on these counts" size=6}
 :::
