@@ -9,7 +9,7 @@ Content to display at /projects/EBP-affiliates
 
 - 10KP - 10,000 Plant Genomes (Bioproject TBD) - data not available
 
-- [1000GCH - 1,000 Chilean Genomes (Bioproject TBD)](/projects/1000GCH)
+- [1000GCH - 1,000 Chilean Genomes (PRJNA1245457)](/projects/1000GCH)
 
 - 25GP - 25 Genomes Project (PRJEB33226) - data ingestion in progress
 
@@ -91,7 +91,7 @@ Content to display at /projects/EBP-affiliates
 
 - [GAGA - Global Ant Genomics Alliance (Bioproject TBD)](/projects/GAGA)
 
-- GBB - Genomics of the Brazilian Biodiversity (PRJNA1180976) - data ingestion in progress
+- [GBB - Genomics of the Brazilian Biodiversity (PRJNA1180976)](/projects/GBB)
 
 - [GIGA - Global Invertebrate Genome Alliance (PRJNA649812)](/projects/GIGA)
 
@@ -135,7 +135,7 @@ Content to display at /projects/EBP-affiliates
 
 - [VGP - Vertebrate Genomes Project (PRJNA489243)](/projects/VGP)
 
-- [WA - Wise Ancestors (Bioproject TBD)](/projects/WA) - page in progress
+- [WA - Wise Ancestors (PRJEB96280)](/projects/WA)
 
 - [YGG - Yggdrasil (PRJNA955268)](/projects/YGG)
 

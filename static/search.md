@@ -8,7 +8,7 @@ Content to display at /search
 
 These options modify the search query and affect the number of results returned. Visit the [help page](/help) for tutorials and more information.
 
-:::grid{container direction="row" toggle title="Color key" spacing="1"}
+:::grid{container direction="row" toggle expand title="Color key" spacing="1"}
 
 ::include{pageId=help/colorKey.md size=12 .paragraph}
 
