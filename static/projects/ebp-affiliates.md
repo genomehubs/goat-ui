@@ -15,7 +15,7 @@ Content to display at /projects/EBP-affiliates
 
 - [959NG -  The 959 Nematode Genomes Project (959NG - PRJEB81973)](/projects/959NG)
 
-- AEGIS - Ancient Environmental Genomics Initiative for Sustainability (PRJEB80366)
+- [AEGIS - Ancient Environmental Genomics Initiative for Sustainability (PRJEB80366)](/projects/AEGIS)
 
 - [AFRICABP - African BioGenome Project (AfricaBP - PRJNA811786)](/projects/AFRICABP)
 
@@ -61,7 +61,7 @@ Content to display at /projects/EBP-affiliates
 
 - [DTOL - Darwin Tree of Life (PRJEB40665)](/projects/DTOL)
 
-- [EBP-COL - Earth Biogenome Project Colombia] - data not available
+- EBP-COL - Earth Biogenome Project Colombia - data not available
 
 - [EBPHK - Hong Kong EBP (Bioproject TBD)](/projects/EBPHK) - page in progress
 
@@ -85,7 +85,7 @@ Content to display at /projects/EBP-affiliates
 
 - [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
 
-- Fish 10,000 Genomes (Fish10K) - data not available
+- Fish 10,000 Genomes (Fish10K) - data ingestion in progress
 
 - [G10K - Genome 10K Organization] - Page in progress. See flagship project data [VGP](/projects/VGP)
 
