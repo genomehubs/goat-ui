@@ -17,7 +17,7 @@ Request GoaT tutorials [here](https://github.com/genomehubs/goat-data/issues/new
 
 ## Data summary
 
-All search results in GoaT can be viewed in a table or as a set of interactive reports. The reports below present a live summary of the latest GoaT data. Click on a report to explore further.
+All search results in GoaT can be viewed in a table or as a set of interactive reports. The reports below present a live summary of the latest GoaT data. Click on a report to explore further, or click the icon in the top-right expand the report.
 
 :::grid{container direction="row" spacing="1" class="padded"}
 
