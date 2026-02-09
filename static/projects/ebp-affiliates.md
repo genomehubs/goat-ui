@@ -3,6 +3,7 @@ Content to display at /projects/EBP-affiliates
 -->
 
 ::grid[![GoaT](/static/images/EBP-Logo.png)]{size=0.8}
+
 - [EBP - Earth Biogenome Project (Bioproject PRJNA533106)](/projects/EBP)
 
 ## Earth Biogenome Project Network
@@ -13,7 +14,7 @@ Content to display at /projects/EBP-affiliates
 
 - 25GP - 25 Genomes Project (PRJEB33226) - data ingestion in progress
 
-- [959NG -  The 959 Nematode Genomes Project (959NG - PRJEB81973)](/projects/959NG)
+- [959NG - The 959 Nematode Genomes Project (959NG - PRJEB81973)](/projects/959NG)
 
 - [AEGIS - Ancient Environmental Genomics Initiative for Sustainability (PRJEB80366)](/projects/AEGIS)
 
@@ -123,7 +124,7 @@ Content to display at /projects/EBP-affiliates
 
 - [PSYCHE - Project Psyche (PRJEB71705)](/projects/PSYCHE)
 
-- R2K - Rodent 2K (Bioproject TBD) - data ingestion in progress
+- [R2K - Rodent 2K (PRJNA1399476)](/projects/r2k)
 
 - [SQUALOMIX - Genome Sequencing and Assembly of Chondrichthyans (PRJNA707598)](/projects/SQUALOMIX)
 
