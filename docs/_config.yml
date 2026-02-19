@@ -1,0 +1,25 @@
+title: GoaT
+description: Genomes on a Tree Documentation
+theme: jekyll-theme-minimal
+url: https://genomehubs.github.io/goat-docs
+logo: /assets/img/logo.png
+
+nav:
+  - title: Home
+    url: /
+  - title: Introduction to GoaT
+    url: /introduction/
+
+# Navigation
+nav_order: 1
+
+# Exclude from processing
+exclude:
+  - node_modules/
+  - vendor/
+  - .git/
+
+# Collections
+collections:
+  docs:
+    output: true
