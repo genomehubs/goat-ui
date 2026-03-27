@@ -3,6 +3,7 @@ id: scatterPlot
 title: Scatter plot
 description: |
   Plot relationships between attribute values for a taxon
+img: /assets/images/carousel/ai_ebp_umbrella_rain.png
 valueA_example: genome_size
 valueA_label: X axis variable
 valueA_description: |
