@@ -11,7 +11,7 @@
 
 **Bioproject ID** PRJEB66264
 
-**Main Contact**: ERGA Management - contact@erga-biodiversity.eu 
+**Main Contact**: ERGA Management - secretariat@erga-biodiversity.org
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
