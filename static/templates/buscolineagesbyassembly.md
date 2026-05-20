@@ -3,6 +3,7 @@ id: buscoLineagesByAssembly
 title: BUSCO lineages by assembly accession
 description: |
   List all relevant BUSCO lineages for an assembly accession
+img: /assets/images/carousel/ai_ebp_umbrella_fresco.png
 valueA_example: GCA_001883655.1
 valueA_label: Assembly accession
 valueA_description: Assembly GCA accession

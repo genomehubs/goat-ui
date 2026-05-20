@@ -6,10 +6,10 @@ Content to display at /search/templates
 
 Use the templates below to explore some of the search options available in :hub
 
-:::grid{container direction="row"}
+:::wall{size=12 cols=2}
 
-::include{pageId=templates/buscoLineagesByAssembly.md size=6}
-::include{pageId=templates/scatterPlot.md size=6}
-::include{pageId=templates/duplicationchecker.md size=6}
+::include{pageId=templates/buscoLineagesByAssembly.md imageItem="true"}
+::include{pageId=templates/duplicationchecker.md imageItem="true"}
+::include{pageId=templates/scatterPlot.md imageItem="true"}
 
 :::

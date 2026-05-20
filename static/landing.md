@@ -2,6 +2,8 @@
 Content to display below the search box on the landing page
 -->
 
+::include{pageId=carousel.md size=12 .inline}
+
 ## GoaT on YouTube
 
 :::grid{container size=12 spacing=2}
