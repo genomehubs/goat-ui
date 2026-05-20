@@ -44,5 +44,5 @@ jobs:
             GH_TAXONOMY=ncbi
           tags: |
             genomehubs/goat:${{ steps.genomehubs.outputs.release }}
-            genomehubs/goat:develop
+            genomehubs/goat:latest
           labels: ${{ steps.meta.outputs.labels }}
