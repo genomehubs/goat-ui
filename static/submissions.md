@@ -21,6 +21,11 @@ The [sources page](/sources) provides a summary of the current sources indexed b
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
+## Gene Annotations
+
+Gene annotation metadata can be submitted to GoaT following a [**standardised template**](https://docs.google.com/spreadsheets/d/1T6T69-BYvc5IQdw7tA18TccIAwscB0YNxqJDmdhwf2E/edit?gid=0#gid=0) covering annotation provenance, summary statistics by biotype, quality assessments (BUSCO, OMArk), and methodological details. The template tries to balance a minimum number of required fields, while also allowing extensive additional metadata where available.
+
+
 ## Submissions FAQs:
 
 :::grid{container direction="row" toggle title="My lab is currently sequencing only a few genomes. Can I submit intent and progress to GoaT?" spacing="1"}

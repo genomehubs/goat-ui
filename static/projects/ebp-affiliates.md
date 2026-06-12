@@ -88,13 +88,15 @@ Content to display at /projects/EBP-affiliates
 
 - Fish 10,000 Genomes (Fish10K) - data ingestion in progress
 
-- [G10K - Genome 10K Organization] - Page in progress. See flagship project data [VGP](/projects/VGP)
+- G10K - Genome 10K Organization - See flagship project data [VGP](/projects/VGP)
 
 - [GAGA - Global Ant Genomics Alliance (Bioproject TBD)](/projects/GAGA)
 
 - [GBB - Genomics of the Brazilian Biodiversity (PRJNA1180976)](/projects/GBB)
 
 - [GIGA - Global Invertebrate Genome Alliance (PRJNA649812)](/projects/GIGA)
+
+- [HUNTOMICS - Genomics of Huntable Species in France (PRJEB86906)](/projects/HUNTOMICS)
 
 - [i5K - 5,000 Insect Genomes (PRJNA163993)](/projects/i5K)
 
