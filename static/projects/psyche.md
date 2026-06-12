@@ -12,6 +12,9 @@
 
 **Main Contact**: [Charlotte Wright](charlotte.wright@sanger.ac.uk), Wellcome Sanger Institute, UK
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

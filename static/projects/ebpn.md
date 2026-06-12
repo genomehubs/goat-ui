@@ -10,6 +10,9 @@
 
 **Main Contact**: [Kjetill Sigurd Jakobsen](https://www.mn.uio.no/cees/english/people/chair/kjetillj/) or via ebpnor-post@ibv.uio.no
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

@@ -24,7 +24,7 @@ Content to display at /projects/EBP-affiliates
 
 - AGC - Amphibian Genomics Consortium (Bioproject TBD) - data not available
 
-- ANOPHELES - Anopheles Reference Genomes Project (PRJEB51690)
+- ANOPHELES - Anopheles Reference Genomes Project (PRJEB51690) - data not available
 
 - [ASG - Aquatic Symbiosis Genomics Project (PRJEB43743)](/projects/ASG)
 
@@ -36,9 +36,11 @@ Content to display at /projects/EBP-affiliates
 
 - [BEENOME100 - The Beenome100 project (PRJNA923301)](/projects/BEENOME100)
 
+- BioINSPR - data not available
+
 - Butterfly Genome Project - data not available
 
-- CAL-EBP - University of California Consortium (PRJNA707235) - data ingestion in progress
+- CAL-EBP - University of California Consortium (PRJNA707235) - data not available
 
 - [CANBP - Canadian Biogenome Project (CBP - PRJNA813333)](/projects/CANBP)
 
@@ -56,7 +58,7 @@ Content to display at /projects/EBP-affiliates
 
 - Deep-Ocean Genomes Project (DOG) - data not available
 
-- [Diversity Initiative for the Southern California Ocean (DISCO)](https://research.nhm.org/disco/)
+- [Diversity Initiative for the Southern California Ocean (DISCO)](https://research.nhm.org/disco/) - not actively sequencing genomes
 
 - Dresden HQ Genomes Project - data not available. See linked project data [EUROFISH](/projects/EUROFISH)
 
@@ -86,7 +88,7 @@ Content to display at /projects/EBP-affiliates
 
 - [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
 
-- Fish 10,000 Genomes (Fish10K) - data ingestion in progress
+- Fish 10,000 Genomes (Fish10K) - data not available
 
 - G10K - Genome 10K Organization - See flagship project data [VGP](/projects/VGP)
 
@@ -102,7 +104,7 @@ Content to display at /projects/EBP-affiliates
 
 - [ILEBP - Illinois EBP Pilot (PRJNA844590)](/projects/ILEBP)
 
-- KAZUSA - Kazusa Genome Project (Bioproject TBD) - data not available
+- KAZUSA - Kazusa Genome Project (PRJDB20515) - data not available
 
 - [LMGP - Lilioid Monocots Core Group Genome Project (PRJNA948806)](/projects/LMGP)
 
@@ -123,6 +125,8 @@ Content to display at /projects/EBP-affiliates
 - Plant Garden - data not available
 
 - [PRGP - Primate Genomes Project (Bioproject TBD)](/projects/PRGP)
+
+- P10K - Protist 10,000 Genomes Project (PRJNA1056319) - - data not available
 
 - [PSYCHE - Project Psyche (PRJEB71705)](/projects/PSYCHE)
 

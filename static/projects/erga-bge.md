@@ -15,6 +15,9 @@
 
 **Main Contact**: info(at)biodiversitygenomics.eu
 
+**Project Status** Completed
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

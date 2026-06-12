@@ -11,6 +11,9 @@
 
 **Main Contact**: [Joe Lopez](joslo@nova.edu) or [GIGA Governing Board](http://www.gigacos.org/index.php/contact/)
 
+**Project Status** Active Umbrella
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

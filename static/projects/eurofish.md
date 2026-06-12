@@ -10,6 +10,8 @@
 
 **Main Contact**: [Sylke Winkler](winkler@mpi-cbg.de)
 
+**Project Status** Completed
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

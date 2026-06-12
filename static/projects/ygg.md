@@ -12,6 +12,9 @@
 
 **Main Contact**: Sergei Kliver - sergei.kliver(at)sund.ku.dk
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

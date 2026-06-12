@@ -15,6 +15,9 @@ The [Wise Ancestors platform](https://www.wiseancestors.org/) interweaves genomi
 
 **Main Contact**: https://www.wiseancestors.org/contact
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

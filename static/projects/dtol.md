@@ -10,6 +10,9 @@
 
 **Main Contact**: Darwin Tree of Life Project Management - contact@darwintreeoflife.org
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

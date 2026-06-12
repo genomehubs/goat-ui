@@ -12,6 +12,9 @@
 
 **Main Contact**: tbg-info@senckenberg.de
 
+**Project Status** Project Completed - Future updates as Senckenberg Biodiversity Genomics
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

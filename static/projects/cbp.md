@@ -12,6 +12,9 @@
 
 **Main Contact**: catbiogenoma@correu.iec.cat
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

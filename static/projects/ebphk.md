@@ -15,6 +15,8 @@
 
 **Main Contact**: [Prof. HUI Ho Lam, Jerome and collaborators](http://biodiversity.sls.cuhk.edu.hk/ebphk/?page_id=22)
 
+**Project Status** Active
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

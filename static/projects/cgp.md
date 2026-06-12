@@ -149,15 +149,15 @@ size: 6
 
 ```report
 report: histogram
-x: qv_score and tax_tree(Cetacea) AND tax_rank(species)
+x: assembly_span and assembly_type=!alternate-pseudohaplotype and tax_tree(Cetacea) AND tax_rank(species)
 cat: family[10]+
 includeEstimates: false
-xOpts: 20,80,10
+xOpts:
 stacked: true
 pointSize: 20
 result: assembly
 taxonomy: ncbi
-caption: "Distribution of QV scores by family"
+caption: "Distribution of assembly span by family, excluding alternate pseudohaplotypes"
 size: 6
 ```
 

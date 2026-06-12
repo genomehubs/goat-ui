@@ -12,6 +12,9 @@
 
 **Main Contact**: [Miklos Bálint](miklos.balint@senckenberg.de)
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

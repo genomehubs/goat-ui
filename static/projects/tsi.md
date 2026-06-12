@@ -14,6 +14,9 @@ For more information access TSI's project page at https://threatenedspeciesiniti
 
 Bioplatforms is enabled by the Commonwealth Government National Collaborative Research Infrastructure Strategy (NCRIS).
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
