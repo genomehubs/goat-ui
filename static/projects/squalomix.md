@@ -10,6 +10,9 @@
 
 **Main Contact**: [Shigehiro Kuraku](skuraku@nig.ac.jp), National Institute of Genetics, in Mishima, Japan
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

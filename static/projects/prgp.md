@@ -10,6 +10,9 @@
 
 **Main Contact**: Guojie Zhang: guojie.zhang (at) bio.ku.dk
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

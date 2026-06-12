@@ -10,6 +10,9 @@
 
 **Main Contact**: Dr Sophie Mazard, Bioplatforms Australia - smazard(at)bioplatforms.com
 
+**Project Status** Legacy EBP Project (No Updates Available)
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

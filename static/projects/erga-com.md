@@ -13,6 +13,9 @@
 
 **Main Contact**: ERGA Management - secretariat@erga-biodiversity.org
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

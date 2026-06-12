@@ -19,6 +19,8 @@
 
 **Main Contact**:  [Lora Downes](ld24@sanger.ac.uk) and [Rebecca O’Brien](ro8@sanger.ac.uk)
 
+**Project Status** Active
+
 **Relevant links**:
 
 - [AEGIS](https://globe.ku.dk/research/ancient-environmental-genomics-initiative-for-sustainability/) – University of Copenhagen

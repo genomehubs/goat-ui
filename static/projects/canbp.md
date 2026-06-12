@@ -10,6 +10,9 @@
 
 **Main Contact**: canadianbiogenome@bcgsc.ca
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

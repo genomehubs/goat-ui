@@ -12,6 +12,8 @@
 
 **Main Contact**: [Endemixit Project Management](https://endemixit.com/contact-2/)
 
+**Project Status** Completed
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

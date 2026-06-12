@@ -10,6 +10,8 @@
 
 **Main Contact**: asg_admin@sanger.ac.uk
 
+**Project Status** Comcpleted
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

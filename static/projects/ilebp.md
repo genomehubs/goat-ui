@@ -12,6 +12,8 @@
 
 **Main Contact**: [Christopher Dietrich](https://experts.illinois.edu/en/persons/christopher-h-dietrich), University of Illinois at Urbana Champaign, USA
 
+**Project Status** Completed
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

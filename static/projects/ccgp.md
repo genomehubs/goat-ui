@@ -8,7 +8,9 @@
 
 **Bioproject ID** PRJNA720569
 
-**Main Contact:** [Courtney A. Miller](https://www.ccgproject.org/contact), CCGP Fund and Project Manager;
+**Main Contact:** [Courtney A. Miller](https://www.ccgproject.org/contact), CCGP Fund and Project Manager
+
+**Project Status** Completed
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

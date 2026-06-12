@@ -14,7 +14,10 @@ China National GeneBank (CNGB) is owned by the government and operated independe
 
 **Bioproject ID** CNGB has not a Bioproject ID on GoaT
 
-**Main Contact**: 
+**Main Contact**:
+
+**Project Status** Not Applicable
+
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

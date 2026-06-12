@@ -16,6 +16,8 @@ PHYLOALPS **will NOT** produce reference genome assemblies
 
 **Main Contact**: info@phyloalps.org
 
+**Project Status** Completed
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

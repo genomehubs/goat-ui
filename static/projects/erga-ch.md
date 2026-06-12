@@ -12,6 +12,8 @@
 
 **Main Contact**: switzerland(at)erga-biodiversity.eu
 
+**Project Status** Active
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

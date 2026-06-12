@@ -10,6 +10,8 @@
 
 **Main Contact**: ERGA Management - contact@erga-biodiversity.eu
 
+**Project Status** Completed
+
 ::grid[ ]{size=4}
 
 :::grid{container direction="row" spacing="1" class="padded"}

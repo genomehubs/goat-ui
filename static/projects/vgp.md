@@ -10,6 +10,9 @@
 
 **Main Contact**: Erich Jarvis, Rockefeller University, New York City via [VGP contact page](https://vertebrategenomesproject.org/contact-1)
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

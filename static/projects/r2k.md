@@ -17,6 +17,9 @@
 - Michael Wilson (michael.wilson@sickkids.ca) (R2K Chair)
 - Cadia Chang (cadia.chan@sickkids.ca) (R2K Project Coordinator)
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

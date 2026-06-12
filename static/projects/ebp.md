@@ -18,16 +18,25 @@
 
 :::grid{container direction="row" spacing="1" size=12}
 
-::report{report="arc" x="assembly_span AND assembly_level" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**All INSDC taxa** - Taxa with assemblies out of all Eukaryotic taxa in INSDC" size=4}
+::report{report="arc" x="assembly_span AND assembly_level" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="assembly_span" excludeMissing="assembly_span" caption="**All INSDC taxa** - Taxa with assemblies out of all Eukaryotic taxa in INSDC" size=5}
 
-::report{report="arc" x="assembly_span AND assembly_level AND bioproject=PRJNA533106" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="**EBP Umbrella** - EBP taxa with assemblies out of all Eukaryotic taxa in INSDC" size=4}
+::report{report="arc" x="assembly_span AND assembly_level AND bioproject=PRJNA533106" rank="phylum,class,order,family,genus,species" includeEstimates excludeAncestral="bioproject" excludeMissing="bioproject" caption="**EBP Umbrella** - EBP taxa with assemblies out of all Eukaryotic taxa in INSDC" size=5}
+Click on report to see and download individually.
+
+
+:::
+
+### Counts of taxa sequenced under the EBP Umbrella: total vs. meeting EBP standards
+:::grid{container direction="row" spacing="1" size=12}
+
+::report{report="xPerRank" x="bioproject=PRJNA533106" includeEstimates=true caption="**Total Counts of taxa sequenced under the EBP Umbrella.** Contribution of Affiliated Projects under EBP Umbrella Bioproject Id PRJNA533106" size=4}
 
 ::divider
 
-::report{report="xPerRank" x="bioproject=PRJNA533106" includeEstimates=true caption="**Counts of taxa sequenced under the EBP Umbrella.** Contribution of Affiliated Projects under EBP Umbrella Bioproject Id PRJNA533106" size=4}
+::report{report="xPerRank" x="bioproject=PRJNA533106 AND ebp_standard_criteria" includeEstimates=true caption="**Counts of taxa sequenced under the EBP Umbrella meeting EBP standards.** Contribution of Affiliated Projects under EBP Umbrella Bioproject Id PRJNA533106 that meet EBP quality criteria" size=4}
 
 :::
-Click on report to see and download individually.
+
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::

@@ -12,6 +12,9 @@
 
 **Main Contact**: 1KFG Project Management - https://1000.fungalgenomes.org/contact/
 
+**Project Status** Legacy EBP (No Updates Available)
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

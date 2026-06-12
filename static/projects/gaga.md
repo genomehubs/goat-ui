@@ -10,6 +10,8 @@
 
 **Main Contact**: Guojie Zhang: guojie.zhang(at)bio.ku.dk
 
+**Project Status** Legacy EBP Project
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

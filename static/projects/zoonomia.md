@@ -10,6 +10,9 @@
 
 **Main Contact**: wordpress@zoonomiaproject.org
 
+
+**Project Status** Completed
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

@@ -17,6 +17,8 @@
 
 **Main Contact**: ATLASea management - contact(at)atlasea.fr
 
+**Project Status** Active
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 

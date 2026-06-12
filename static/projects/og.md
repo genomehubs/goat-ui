@@ -12,6 +12,9 @@
 
 **Main Contact**: oceangenomes@uwa.edu.au
 
+**Project Status** Active
+
+
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
 
