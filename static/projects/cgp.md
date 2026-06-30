@@ -1,16 +1,16 @@
 :::grid{container direction="row" spacing="1"}
-::grid[![GoaT](/static/images/CGP.png)]{size=3}
+::grid[![GoaT](/static/images/CPG_NEWlogo.png)]{size=3}
 :::
 
 # Cetacean Genomes Project (CGP)
 
 **GoaT Search Term:** CGP
 
-::grid[**Cetacean Genomes Project** aim is to facilitate generation of reference genomes of all cetacean species. For more information reach the contact info below or access CGP [main project page](https://www.fisheries.noaa.gov/international/science-data/cetacean-genomes-project).]{size=8}
+::grid[**Cetacean Genomes Project** aim is to facilitate generation of reference genomes of all cetacean species. For more information reach the contact info below or access CGP [main project page](https://www.cetaceangenomesproject.org/).]{size=8}
 
 **Bioproject ID** PRJNA1020146
 
-**Main Contact**: [Phil Morin](phillip.morin@noaa.gov), Southwest Fisheries Science Center (NOAA Federal), USA
+**Main Contact**: [Sebastian Alvarez-Costes](sebas.alco@gmail.com), University of Auckland, University of Otago, New Zealand
 
 :::grid{container direction="row" spacing="1" class="padded"}
 :::
