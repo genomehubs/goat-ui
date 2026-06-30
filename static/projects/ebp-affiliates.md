@@ -86,7 +86,7 @@ Content to display at /projects/EBP-affiliates
 
 - [ERGA-COM - ERGA Community Genomes (PRJEB66264)](/projects/ERGA-COM)
 
-- [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA393850)](/projects/EUROFISH)
+- [EUROFISH - The Euro-Fish Project at the MPI CBG (PRJNA768423)](/projects/EUROFISH)
 
 - Fish 10,000 Genomes (Fish10K) - data not available
 
