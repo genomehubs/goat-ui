@@ -23,7 +23,7 @@ The [sources page](/sources) provides a summary of the current sources indexed b
 
 ## Gene Annotations
 
-Gene annotation metadata can be submitted to GoaT following a [**standardised template**](https://docs.google.com/spreadsheets/d/1T6T69-BYvc5IQdw7tA18TccIAwscB0YNxqJDmdhwf2E/edit?gid=0#gid=0) covering annotation provenance, summary statistics by biotype, quality assessments (BUSCO, OMArk), and methodological details. The template tries to balance a minimum number of required fields, while also allowing extensive additional metadata where available.
+Gene annotation metadata can be submitted to GoaT following a [**standardised template**](https://docs.google.com/spreadsheets/d/1FVErdNrvMTOgQ6vk4PbUaAOZ9ztPKdKRKMfsU2jjSuQ/edit?gid=887111263#gid=887111263&range=A2) covering annotation provenance, summary statistics by biotype, quality assessments (BUSCO, OMArk), and methodological details. The template tries to balance a minimum number of required fields, while also allowing extensive additional metadata where available. Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRU9XsOcMKOFKzOgThIcGiyAFEaSXk7mYGfhD68m_4wHqfRUMK3Gx6LsM8Zag-rDgUBSRKZl55gdKuJ/pub?gid=887111263&single=true&output=tsv) to download as tsv.
 
 
 ## Submissions FAQs:
