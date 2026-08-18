@@ -26,6 +26,11 @@ The [sources page](/sources) provides a summary of the current sources indexed b
 Gene annotation metadata can be submitted to GoaT following a [**standardised template**](https://docs.google.com/spreadsheets/d/1FVErdNrvMTOgQ6vk4PbUaAOZ9ztPKdKRKMfsU2jjSuQ/edit?gid=887111263#gid=887111263&range=A2) covering annotation provenance, summary statistics by biotype, quality assessments (BUSCO, OMArk), and methodological details. The template tries to balance a minimum number of required fields, while also allowing extensive additional metadata where available. Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRU9XsOcMKOFKzOgThIcGiyAFEaSXk7mYGfhD68m_4wHqfRUMK3Gx6LsM8Zag-rDgUBSRKZl55gdKuJ/pub?gid=887111263&single=true&output=tsv) to download as tsv.
 
 
+## Data Freezes
+
+GoaT Data Freezes provide a platform to declare and retrieve frozen lists of assemblies associated with project milestones and publications. Sequencing Projects contributing lists to GoaT can submit Data Freeze lists to GoaT following the guidelines in our [**standardised template**](https://docs.google.com/spreadsheets/d/1LYiVIAEbSfR1o1SCgxKlrRdQEj_qGut8Y2Az52xTQWQ/edit?gid=0#gid=0). Click [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTb3hWpURYgeJIYHyyurvDcaczV9Q9lF-bFh58-V1XD726GiwK4R0FLLM30a59bBBxqQ4P8FNmFoLF8/pub?gid=0&single=true&output=tsv) to download as tsv.
+
+
 ## Submissions FAQs:
 
 :::grid{container direction="row" toggle title="My lab is currently sequencing only a few genomes. Can I submit intent and progress to GoaT?" spacing="1"}
