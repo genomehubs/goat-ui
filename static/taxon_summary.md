@@ -12,15 +12,15 @@ Content to display in a panel on each taxon record page.
 
 ::recordlabel{result=taxon,assembly condition="attributes.sample_collected&&attributes.ebp_standard_date!" label="collected" color=#0033FF description="At least one project has sample collected status" icon="catch"}
 
-::recordlabel{result=taxon,assembly condition="attributes.first_metric_in_ranks=phylum" label="1st in phylum" color=1/6 description="first {{result}} in its phylum to meet the EPB assembly standard" icon="prize"}
+::recordlabel{result=taxon,assembly condition="attributes.first_ebp_standard_in_ranks=phylum" label="1st in phylum" color=1/6 description="first {{result}} in its phylum to meet the EPB assembly standard" icon="prize"}
 
-::recordlabel{result=taxon,assembly condition="attributes.first_metric_in_ranks=class" label="1st in class" color=2/6 description="first {{result}} in its class to meet the EPB assembly standard" icon="prize"}
+::recordlabel{result=taxon,assembly condition="attributes.first_ebp_standard_in_ranks=class" label="1st in class" color=2/6 description="first {{result}} in its class to meet the EPB assembly standard" icon="prize"}
 
-::recordlabel{result=taxon,assembly condition="attributes.first_metric_in_ranks=order" label="1st in order" color=3/6 description="first {{result}} in its order to meet the EPB assembly standard" icon="prize"}
+::recordlabel{result=taxon,assembly condition="attributes.first_ebp_standard_in_ranks=order" label="1st in order" color=3/6 description="first {{result}} in its order to meet the EPB assembly standard" icon="prize"}
 
-::recordlabel{result=taxon,assembly condition="attributes.first_metric_in_ranks=family" label="1st in family" color=4/6 description="first {{result}} in its family to meet the EPB assembly standard" icon="prize"}
+::recordlabel{result=taxon,assembly condition="attributes.first_ebp_standard_in_ranks=family" label="1st in family" color=4/6 description="first {{result}} in its family to meet the EPB assembly standard" icon="prize"}
 
-::recordlabel{result=taxon,assembly condition="attributes.first_metric_in_ranks=genus" label="1st in genus" color=5/6 description="first {{result}} in its genus to meet the EPB assembly standard" icon="prize"}
+::recordlabel{result=taxon,assembly condition="attributes.first_ebp_standard_in_ranks=genus" label="1st in genus" color=5/6 description="first {{result}} in its genus to meet the EPB assembly standard" icon="prize"}
 
 :::
 
